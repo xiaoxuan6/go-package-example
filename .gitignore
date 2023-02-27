@@ -2,3 +2,4 @@
 package-example.*
 go.sum
 swagger.zip
+sql.db
