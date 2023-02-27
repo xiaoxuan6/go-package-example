@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/astaxie/beego"
+	"package-example/common"
 	"package-example/controllers"
 	_ "package-example/routers"
-
-	"github.com/astaxie/beego"
 )
 
 func main() {
@@ -14,5 +14,7 @@ func main() {
 		beego.BConfig.WebConfig.StaticDir["/swagger"] = "swagger"
 	}
 	beego.ErrorController(&controllers.ErrorController{})
+	// 初始化数据库
+	common.Init()
 	beego.Run()
 }

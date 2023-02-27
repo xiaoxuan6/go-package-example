@@ -22,6 +22,8 @@ func init() {
 		//	),
 		//),
 		beego.NSRouter("/user/index", &controllers.UserController{}, "get:GetAll"),
+		beego.NSRouter("/address/index", &controllers.AddressController{}, "get:Index"),
+		beego.NSRouter("/address/create", &controllers.AddressController{}, "get:Create"),
 	)
 	beego.AddNamespace(ns)
 }
