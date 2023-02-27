@@ -24,6 +24,11 @@ func init() {
 		beego.NSRouter("/user/index", &controllers.UserController{}, "get:GetAll"),
 		beego.NSRouter("/address/index", &controllers.AddressController{}, "get:Index"),
 		beego.NSRouter("/address/create", &controllers.AddressController{}, "get:Create"),
+		beego.NSRouter("/address/update", &controllers.AddressController{}, "get:Update"),
+		beego.NSRouter("/address/delete", &controllers.AddressController{}, "get:DeleteAll"),
+		// 无效
+		beego.NSRouter("/address/delete/:id", &controllers.AddressController{}, "get:DeleteById"),
+		beego.NSRouter("/address/search", &controllers.AddressController{}, "get:Search"),
 	)
 	beego.AddNamespace(ns)
 }
