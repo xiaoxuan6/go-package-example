@@ -15,16 +15,13 @@ import (
 
 func init() {
 	ns := beego.NewNamespace("/v1",
-		beego.NSNamespace("/object",
-			beego.NSInclude(
-				&controllers.ObjectController{},
-			),
-		),
-		beego.NSNamespace("/user",
-			beego.NSInclude(
-				&controllers.UserController{},
-			),
-		),
+		// 下面的必须放在 gopath 下面的 src 目录中才会有效，否则无法生成 commentsRouter_controllers.go
+		//beego.NSNamespace("/user",
+		//	beego.NSInclude(
+		//		&controllers.UserController{},
+		//	),
+		//),
+		beego.NSRouter("/user/index", &controllers.UserController{}, "get:GetAll"),
 	)
 	beego.AddNamespace(ns)
 }
