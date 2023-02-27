@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/astaxie/beego"
+	"package-example/common"
 	"package-example/controllers"
 	_ "package-example/routers"
-
-	"github.com/astaxie/beego"
 )
 
 func main() {
@@ -13,6 +13,8 @@ func main() {
 		beego.BConfig.WebConfig.DirectoryIndex = true
 		beego.BConfig.WebConfig.StaticDir["/swagger"] = "swagger"
 	}
+	// 初始化 cache
+	common.Init()
 	beego.ErrorController(&controllers.ErrorController{})
 	beego.Run()
 }

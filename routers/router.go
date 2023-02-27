@@ -22,6 +22,9 @@ func init() {
 		//	),
 		//),
 		beego.NSRouter("/user/index", &controllers.UserController{}, "get:GetAll"),
+		beego.NSRouter("/cache/get", &controllers.CacheController{}, "get:Get"),
+		beego.NSRouter("/cache/set", &controllers.CacheController{}, "get:Set"),
+		beego.NSRouter("/cache/del", &controllers.CacheController{}, "get:Del"),
 	)
 	beego.AddNamespace(ns)
 }
