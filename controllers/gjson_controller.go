@@ -23,6 +23,7 @@ func (c GjsonController) Index() {
 
 	var response = ""
 
+	// 基础请求
 	_ = gout.GET("http://aseests.quhuitu.com/shengxiaoshuju.json").BindBody(&response).Do()
 
 	// 取数组中第一个集合中的 pingshu 字段
@@ -40,4 +41,19 @@ func (c GjsonController) Index() {
 	/***************** 结果相同 *************************/
 
 	c.Output(item)
+}
+
+func (c GjsonController) Header()  {
+	var response = ""
+
+	// 携带 header
+	_ = gout.
+		GET("http://aseests.quhuitu.com/shengxiaoshuju.json").
+		SetHeader(gout.H{
+			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+		}).
+		BindBody(&response).
+		Do()
+
+	c.Output(gjson.Get(response, "1.pingshu").String())
 }
