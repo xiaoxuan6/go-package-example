@@ -22,6 +22,7 @@ func init() {
 		//	),
 		//),
 		beego.NSRouter("/user/index", &controllers.UserController{}, "get:GetAll"),
+		beego.NSRouter("/gjson/index", &controllers.GjsonController{}, "get:Index"),
 	)
 	beego.AddNamespace(ns)
 }
