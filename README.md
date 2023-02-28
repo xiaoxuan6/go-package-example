@@ -10,4 +10,6 @@
 ||github.com/go-ozzo/ozzo-validation/v4|表单验证|
 ||github.com/go-resty/resty/v2|http 请求封装|
 ||github.com/sirupsen/logrus|打印日志|
-||https://github.com/qax-os/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|
+||github.com/qax-os/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|
+||github.com/playwright-community/playwright-go|Playwright for Go 是一个浏览器自动化库，可通过单个 API 控制 Chromium、Firefox 和 WebKit。(下载文件、截图等)|
+||github.com/tuotoo/qrcode|qrcode scanner ( decoder ) by golang 二维码扫描识别|
