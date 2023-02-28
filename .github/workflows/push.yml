@@ -1,0 +1,33 @@
+name: Update README.md
+
+on:
+  repository_dispatch:
+    types:
+      - push
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: "run"
+        run: |
+          python -m pip install --upgrade pip
+          python main.py "${{ github.event.client_payload.url }}" "${{ github.event.client_payload.description }}"
+      - name: "Commit files"
+        run: |
+          git config --local user.email "1527736751@qq.com"
+          git config --local user.name "xiaoxuan6"
+          git add -A
+          git commit -m "fix: Update README.md" || exit 0
+      - name: "Push changes"
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
