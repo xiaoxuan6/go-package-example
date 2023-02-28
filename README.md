@@ -15,3 +15,4 @@
 ||github.com/tuotoo/qrcode|qrcode scanner ( decoder ) by golang 二维码扫描识别|
 ||github.com/thoas/go-funk|一个现代的 Go 实用程序库，它提供帮助程序（映射、查找、包含、过滤器......） 类似于 laravel 中的 collect|
 ||github.com/appleboy/gin-jwt/v2|JWT Middleware for Gin framework|<br>
+||github.com/buger/jsonparser|One of the fastest alternative JSON parser for Go that does not require schema|<br>
