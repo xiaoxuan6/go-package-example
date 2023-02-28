@@ -6,3 +6,4 @@
 |cache|github.com/patrickmn/go-cache|基于内存缓存，程序终止缓存清除|
 |gjson|github.com/tidwall/gjson|解析json数据|
 |gjson|github.com/guonaihong/gout|http 请求封装|
+||github.com/PuerkitoBio/goquery|根据 css 节点爬取数据|
