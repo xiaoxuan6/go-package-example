@@ -1,4 +1,4 @@
-# Go 开源第三方包使用示例
+# Go 开源第三方包收集和使用示例
 
 |分支名|包名|描述|
 |:---|:---|:---|
@@ -10,3 +10,4 @@
 ||github.com/go-ozzo/ozzo-validation/v4|表单验证|
 ||github.com/go-resty/resty/v2|http 请求封装|
 ||github.com/sirupsen/logrus|打印日志|
+||https://github.com/qax-os/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|
