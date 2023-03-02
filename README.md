@@ -18,3 +18,4 @@
 ||github.com/buger/jsonparser|One of the fastest alternative JSON parser for Go that does not require schema|<br>
 ||github.com/spf13/cobra|A Commander for modern Go CLI interactions|<br>
 ||github.com/go-redis/redis/v8|Type-safe Redis client for Golang|<br>
+||github.com/gookit/goutil|Go 常用的一些工具函数：数字，字符串，数组，Map，结构体，反射，文本，文件，错误，时间日期，特殊处理，格式化，常用信息获取等等|<br>
