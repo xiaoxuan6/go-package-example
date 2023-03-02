@@ -19,3 +19,4 @@
 ||github.com/spf13/cobra|A Commander for modern Go CLI interactions|<br>
 ||github.com/go-redis/redis/v8|Type-safe Redis client for Golang|<br>
 ||github.com/gookit/goutil|Go 常用的一些工具函数：数字，字符串，数组，Map，结构体，反射，文本，文件，错误，时间日期，特殊处理，格式化，常用信息获取等等|<br>
+||github.com/thinkeridea/go-extend|go语言扩展包，收集一些常用的操作函数，辅助更快的完成开发工作，并减少重复代码（字符串、字节）|<br>
