@@ -23,3 +23,4 @@
 ||github.com/gocolly/colly|优雅的 Golang 爬虫框架|<br>
 ||github.com/go-rod/rod|用于 Web 自动化和抓取的 Devtools 驱动程序|<br>
 ||github.com/go-ego/gpy|Go 语言汉字转拼音工具|<br>
+||github.com/google/uuid|Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services.|<br>
