@@ -22,3 +22,4 @@
 ||github.com/thinkeridea/go-extend|go语言扩展包，收集一些常用的操作函数，辅助更快的完成开发工作，并减少重复代码（字符串、字节）|<br>
 ||github.com/gocolly/colly|优雅的 Golang 爬虫框架|<br>
 ||github.com/go-rod/rod|用于 Web 自动化和抓取的 Devtools 驱动程序|<br>
+||github.com/go-ego/gpy|Go 语言汉字转拼音工具|<br>
