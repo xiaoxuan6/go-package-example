@@ -17,3 +17,4 @@
 ||github.com/appleboy/gin-jwt/v2|JWT Middleware for Gin framework|<br>
 ||github.com/buger/jsonparser|One of the fastest alternative JSON parser for Go that does not require schema|<br>
 ||github.com/spf13/cobra|A Commander for modern Go CLI interactions|<br>
+||github.com/go-redis/redis/v8|Type-safe Redis client for Golang|<br>
