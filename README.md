@@ -26,3 +26,4 @@
 ||github.com/google/uuid|Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services.|<br>
 ||github.com/julienschmidt/httprouter|A high performance HTTP request router that scales well|<br>
 ||github.com/mattn/go-colorable|Colorable writer for windows.|<br>
+||github.com/syndtr/goleveldb|LevelDB key/value database in Go.|<br>
