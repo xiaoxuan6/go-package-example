@@ -29,3 +29,4 @@
 ||github.com/syndtr/goleveldb|LevelDB key/value database in Go.|<br>
 ||github.com/gin-contrib/gzip|Gin middleware to enable GZIP support.|<br>
 ||github.com/urfave/cli/v2|A simple, fast, and fun package for building command line apps in Go|<br>
+||github.com/schollz/progressbar|A really basic thread-safe progress bar for Golang applications(进度条)|<br>
