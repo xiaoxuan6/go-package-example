@@ -28,3 +28,4 @@
 ||github.com/mattn/go-colorable|Colorable writer for windows.|<br>
 ||github.com/syndtr/goleveldb|LevelDB key/value database in Go.|<br>
 ||github.com/gin-contrib/gzip|Gin middleware to enable GZIP support.|<br>
+||github.com/urfave/cli/v2|A simple, fast, and fun package for building command line apps in Go|<br>
