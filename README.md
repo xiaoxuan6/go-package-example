@@ -32,3 +32,4 @@
 ||github.com/schollz/progressbar|A really basic thread-safe progress bar for Golang applications(进度条)|<br>
 ||github.com/dchest/captcha|Go package captcha implements generation and verification of image and audio CAPTCHAs.|<br>
 ||github.com/jaytaylor/html2text|Golang HTML to plaintext conversion library|<br>
+||github.com/olekukonko/tablewriter|通过 cli 打印表格|<br>
