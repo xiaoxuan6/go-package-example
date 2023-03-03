@@ -25,3 +25,4 @@
 ||github.com/go-ego/gpy|Go 语言汉字转拼音工具|<br>
 ||github.com/google/uuid|Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services.|<br>
 ||github.com/julienschmidt/httprouter|A high performance HTTP request router that scales well|<br>
+||github.com/mattn/go-colorable|Colorable writer for windows.|<br>
