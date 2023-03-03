@@ -27,3 +27,4 @@
 ||github.com/julienschmidt/httprouter|A high performance HTTP request router that scales well|<br>
 ||github.com/mattn/go-colorable|Colorable writer for windows.|<br>
 ||github.com/syndtr/goleveldb|LevelDB key/value database in Go.|<br>
+||github.com/gin-contrib/gzip|Gin middleware to enable GZIP support.|<br>
