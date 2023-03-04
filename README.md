@@ -33,3 +33,4 @@
 ||github.com/dchest/captcha|Go package captcha implements generation and verification of image and audio CAPTCHAs.|<br>
 ||github.com/jaytaylor/html2text|Golang HTML to plaintext conversion library|<br>
 ||github.com/olekukonko/tablewriter|通过 cli 打印表格|<br>
+||github.com/google/go-github|Go library for accessing the GitHub v3 API|<br>
