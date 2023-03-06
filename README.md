@@ -35,3 +35,4 @@
 ||github.com/olekukonko/tablewriter|通过 cli 打印表格|<br>
 ||github.com/google/go-github|Go library for accessing the GitHub v3 API|<br>
 ||github.com/fatih/color|Color package for Go (golang)|<br>
+||github.com/disintegration/imaging|Imaging is a simple image processing package for Go|<br>
