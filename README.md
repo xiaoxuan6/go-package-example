@@ -36,3 +36,4 @@
 ||github.com/google/go-github|Go library for accessing the GitHub v3 API|<br>
 ||github.com/fatih/color|Color package for Go (golang)|<br>
 ||github.com/disintegration/imaging|Imaging is a simple image processing package for Go|<br>
+||github.com/spf13/cast|safe and easy casting from one type to another in Go【字段类型转换】|<br>
