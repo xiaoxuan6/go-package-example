@@ -38,3 +38,4 @@
 ||github.com/disintegration/imaging|Imaging is a simple image processing package for Go|<br>
 ||github.com/spf13/cast|safe and easy casting from one type to another in Go【字段类型转换】|<br>
 ||github.com/google/go-querystring/query|go-querystring is Go library for encoding structs into URL query strings.|<br>
+||github.com/ilyakaznacheev/cleanenv|sparklesClean and minimalistic environment configuration reader for Golang|<br>
