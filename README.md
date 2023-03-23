@@ -42,3 +42,4 @@
 ||github.com/antchfx/xmlquery|xmlquery is Golang XPath package for XML query.|<br>
 ||github.com/skip2/go-qrcode|QR Code encoder (Go)|<br>
 ||github.com/aliyun/aliyun-oss-go-sdk|阿里云 oss|<br>
+||github.com/ouqiang/delay-queue|延迟队列|<br>
