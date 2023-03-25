@@ -43,3 +43,4 @@
 ||github.com/skip2/go-qrcode|QR Code encoder (Go)|<br>
 ||github.com/aliyun/aliyun-oss-go-sdk|阿里云 oss|<br>
 ||github.com/ouqiang/delay-queue|延迟队列|<br>
+||github.com/coocood/freecache|A cache library for Go with zero GC overhead.|<br>
