@@ -46,3 +46,4 @@
 ||github.com/coocood/freecache|A cache library for Go with zero GC overhead.|<br>
 ||github.com/ohler55/ojg|Optimized JSON for Go(json 运算取值)|<br>
 ||github.com/charmbracelet/glamour|Stylesheet-based markdown rendering for your CLI apps(cli 输出给文字添加样式)|<br>
+||github.com/common-nighthawk/go-figure|Prints ASCII art from text.|<br>
