@@ -47,3 +47,4 @@
 ||github.com/ohler55/ojg|Optimized JSON for Go(json 运算取值)|<br>
 ||github.com/charmbracelet/glamour|Stylesheet-based markdown rendering for your CLI apps(cli 输出给文字添加样式)|<br>
 ||github.com/common-nighthawk/go-figure|Prints ASCII art from text.|<br>
+||github.com/issue9/watermark|简单的图片水印功能，支持 GIF|<br>
