@@ -51,3 +51,4 @@
 ||github.com/disintegration/gift|Go Image Filtering Toolkit (Go 图像过滤工具包)|<br>
 ||github.com/beevik/etree|parse and generate XML easily in go|<br>
 ||github.com/aquasecurity/table|Tables for terminals, in Go.|<br>
+||github.com/nullrocks/identicon|Open source avatar generator inspired by GitHub avatars.|<br>
