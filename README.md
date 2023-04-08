@@ -48,3 +48,4 @@
 ||github.com/charmbracelet/glamour|Stylesheet-based markdown rendering for your CLI apps(cli 输出给文字添加样式)|<br>
 ||github.com/common-nighthawk/go-figure|Prints ASCII art from text.|<br>
 ||github.com/issue9/watermark|简单的图片水印功能，支持 GIF|<br>
+||github.com/disintegration/gift|Go Image Filtering Toolkit (Go 图像过滤工具包)|<br>
