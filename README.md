@@ -52,3 +52,4 @@
 ||github.com/beevik/etree|parse and generate XML easily in go|<br>
 ||github.com/aquasecurity/table|Tables for terminals, in Go.|<br>
 ||github.com/nullrocks/identicon|Open source avatar generator inspired by GitHub avatars.|<br>
+||github.com/bitly/go-simplejson|a Go package to interact with arbitrary JSON|<br>
