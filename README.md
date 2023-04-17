@@ -53,3 +53,4 @@
 ||github.com/aquasecurity/table|Tables for terminals, in Go.|<br>
 ||github.com/nullrocks/identicon|Open source avatar generator inspired by GitHub avatars.|<br>
 ||github.com/bitly/go-simplejson|a Go package to interact with arbitrary JSON|<br>
+||github.com/tencentyun/cos-go-sdk-v5|腾讯云 COS GO SDK（XML API）|<br>
