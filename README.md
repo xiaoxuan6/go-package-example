@@ -55,3 +55,4 @@
 ||github.com/bitly/go-simplejson|a Go package to interact with arbitrary JSON|<br>
 ||github.com/tencentyun/cos-go-sdk-v5|腾讯云 COS GO SDK（XML API）|<br>
 ||github.com/huandu/xstrings|Implements string functions widely used in other languages but absent in Go.|<br>
+||github.com/muesli/reflow|A collection of (ANSI-sequence aware) text reflow operations & algorithms(文本回流操作和算法的集合)|<br>
