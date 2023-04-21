@@ -57,3 +57,4 @@
 ||github.com/huandu/xstrings|Implements string functions widely used in other languages but absent in Go.|<br>
 ||github.com/muesli/reflow|A collection of (ANSI-sequence aware) text reflow operations & algorithms(文本回流操作和算法的集合)|<br>
 ||github.com/yeqown/go-qrcode|帮助 gophers 生成具有自定义样式的 QR 码，例如颜色、块大小、块形状和图标。|<br>
+||github.com/rickonono3/m2obj|一个类JSON的、动态的、可持久化的 Golang|<br>
