@@ -60,3 +60,4 @@
 ||github.com/rickonono3/m2obj|一个类JSON的、动态的、可持久化的 Golang|<br>
 ||github.com/360EntSecGroup-Skylar/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|<br>
 ||github.com/stoewer/go-strcase|Convert snake case, camel case and kebap case strings|<br>
+||github.com/divan/txqr/cmd/txqr-gif|生成动态二维码|<br>
