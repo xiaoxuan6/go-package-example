@@ -61,3 +61,4 @@
 ||github.com/360EntSecGroup-Skylar/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|<br>
 ||github.com/stoewer/go-strcase|Convert snake case, camel case and kebap case strings|<br>
 ||github.com/divan/txqr/cmd/txqr-gif|生成动态二维码|<br>
+||github.com/allegro/bigcache|Efficient cache for gigabytes of data written in Go. |<br>
