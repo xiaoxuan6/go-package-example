@@ -18,25 +18,33 @@ def writer(url, desc):
                 fin.write(newContent)
 
 
+def check_url(param):
+    if str(param).startswith("http"):
+        url = param
+    else:
+        url = "https://" + param
+
+    response = requests.get(url=url).text.encode('utf-8')
+    tree = etree.HTML(response)
+    title = tree.xpath('//*[@id="responsive-meta-container"]/div/p/text()')
+
+    url = str(param).replace('https://', '').replace('http://', '')
+    desc = str(title[0]).strip()
+
+    return url, desc
+
+
 if __name__ == '__main__':
     url = ''
     desc = ''
     if len(sys.argv) == 3:
-        url = str(sys.argv[1]).replace('https://', '').replace('http://', '')
-        desc = sys.argv[2]
-    elif len(sys.argv) == 2:
-        param = sys.argv[1]
-        if str(param).startswith("http"):
-            url = param
+        if len(sys.argv[2]) > 0:
+            url = str(sys.argv[1]).replace('https://', '').replace('http://', '')
+            desc = sys.argv[2]
         else:
-            url = "https://" + param
-
-        response = requests.get(url=url).text.encode('utf-8')
-        tree = etree.HTML(response)
-        title = tree.xpath('//*[@id="responsive-meta-container"]/div/p/text()')
-
-        url = str(param).replace('https://', '').replace('http://', '')
-        desc = str(title[0]).strip()
+            url, desc = check_url(sys.argv[1])
+    elif len(sys.argv) == 2:
+        url, desc = check_url(sys.argv[1])
     else:
         sys.exit(0)
 
