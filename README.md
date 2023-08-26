@@ -65,3 +65,4 @@
 ||github.com/JohannesKaufmann/html-to-markdown|将 HTML 转换为 Markdown。|<br>
 ||github.com/o1egl/govatar|GO语言头像生成库|<br>
 ||github.com/Rican7/retry|重试|<br>
+||github.com/qianlnk/pgbar|progress bar|<br>
