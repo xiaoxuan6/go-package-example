@@ -70,3 +70,4 @@
 ||github.com/xuri/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|<br>
 ||github.com/fangbinwei/aliyun-oss-go-sdk|Aliyun OSS SDK for Go|<br>
 ||github.com/joho/godotenv|A Go port of Ruby's dotenv library (Loads environment variables from .env files)|<br>
+||github.com/axgle/mahonia|character-set conversion library implemented in Go|<br>
