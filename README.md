@@ -68,3 +68,4 @@
 ||github.com/qianlnk/pgbar|progress bar|<br>
 ||github.com/pibigstar/termcolor|print text in terminal with color|<br>
 ||github.com/xuri/excelize|Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets|<br>
+||github.com/fangbinwei/aliyun-oss-go-sdk|Aliyun OSS SDK for Go|<br>
