@@ -12,7 +12,7 @@ def writer(url, desc, demoUrl):
 
         if r"{}".format(oldContent).find(url) == -1:
 
-            if demoUrl is not None:
+            if len(demoUrl) > 1:
                 demo = f"[demo]({demoUrl})"
                 item = r"|{}|{}|{}|".format(demo, url, desc)
             else:
@@ -39,13 +39,13 @@ if __name__ == '__main__':
 
     parse = argparse.ArgumentParser()
     parse.add_argument('--url', type=str)
-    parse.add_argument('--description', type=str, default=None)
-    parse.add_argument('--demo_url', type=str, default=None)
+    parse.add_argument('--description', type=str, default='')
+    parse.add_argument('--demo_url', type=str, default='')
     args = parse.parse_args()
 
     url = args.url
     desc = args.description
-    if desc is None:
+    if len(desc) < 1:
         desc = check_url(url)
 
     url = str(url).replace('https://', '').replace('http://', '')
