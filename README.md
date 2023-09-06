@@ -73,4 +73,4 @@
 ||github.com/axgle/mahonia|character-set conversion library implemented in Go|<br>
 ||github.com/qeesung/image2ascii|🌁 Convert image to ASCII|<br>
 ||github.com/muesli/cache2go|Concurrency-safe Go caching library with expiration capabilities and access counters|<br>
-||github.com/antlinker/go-dirtyfilter|Golang基于DFA算法实现的敏感词过滤|<br>
+|[demo](https://github.com/sunshinev/go-space-chat/blob/master/component/text_safe.go)|github.com/antlinker/go-dirtyfilter|Golang基于DFA算法实现的敏感词过滤|<br>
