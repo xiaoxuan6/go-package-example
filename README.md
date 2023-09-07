@@ -5,7 +5,7 @@
 |sqlite|github.com/glebarez/sqlite|本地文件数据库|
 |cache|github.com/patrickmn/go-cache|基于内存缓存，程序终止缓存清除|
 |gjson|github.com/tidwall/gjson|解析json数据|
-|gjson|github.com/guonaihong/gout|http 请求封装|
+|gout|github.com/guonaihong/gout|http 请求封装|
 ||github.com/PuerkitoBio/goquery|根据 css 节点爬取数据|
 ||github.com/go-ozzo/ozzo-validation/v4|表单验证|
 ||github.com/go-resty/resty/v2|http 请求封装|
@@ -74,3 +74,4 @@
 ||github.com/qeesung/image2ascii|🌁 Convert image to ASCII|<br>
 ||github.com/muesli/cache2go|Concurrency-safe Go caching library with expiration capabilities and access counters|<br>
 |[demo](https://github.com/sunshinev/go-space-chat/blob/master/component/text_safe.go)|github.com/antlinker/go-dirtyfilter|Golang基于DFA算法实现的敏感词过滤|<br>
+|image2ascii|github.com/zyxar/image2ascii|Convert an image to ASCII art|<br>
