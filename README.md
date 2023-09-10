@@ -77,3 +77,4 @@
 |image2ascii|github.com/zyxar/image2ascii|Convert an image to ASCII art|<br>
 ||github.com/tidwall/sjson|Set JSON values very quickly in Go|<br>
 ||github.com/golang-module/carbon|A simple, semantic and developer-friendly golang package for datetime|<br>
+||github.com/mmcdole/gofeed|Parse RSS, Atom and JSON feeds in Go|<br>
