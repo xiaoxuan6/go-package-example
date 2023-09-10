@@ -78,3 +78,4 @@
 ||github.com/tidwall/sjson|Set JSON values very quickly in Go|<br>
 ||github.com/golang-module/carbon|A simple, semantic and developer-friendly golang package for datetime|<br>
 ||github.com/mmcdole/gofeed|Parse RSS, Atom and JSON feeds in Go|<br>
+|[demo](https://github.com/srcrs/rss-reader/blob/main/main.go#L107-L143)|github.com/gorilla/websocket|Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.|<br>
