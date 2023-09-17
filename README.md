@@ -83,3 +83,4 @@
 ||github.com/basgys/goxml2json|XML to JSON converter written in Go (no schema, no structs)|<br>
 ||github.com/cch123/elasticsql|convert sql to elasticsearch DSL in golang(go)|<br>
 ||github.com/gorilla/feeds|Package gorilla/feeds is a golang rss/atom generator library|<br>
+||github.com/go-ego/riot|搜索引擎|<br>
