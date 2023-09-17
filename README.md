@@ -82,3 +82,4 @@
 ||github.com/gorilla/schema|Package gorilla/schema fills a struct with form values.|<br>
 ||github.com/basgys/goxml2json|XML to JSON converter written in Go (no schema, no structs)|<br>
 ||github.com/cch123/elasticsql|convert sql to elasticsearch DSL in golang(go)|<br>
+||github.com/gorilla/feeds|Package gorilla/feeds is a golang rss/atom generator library|<br>
