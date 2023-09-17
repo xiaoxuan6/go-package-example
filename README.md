@@ -84,3 +84,4 @@
 ||github.com/cch123/elasticsql|convert sql to elasticsearch DSL in golang(go)|<br>
 ||github.com/gorilla/feeds|Package gorilla/feeds is a golang rss/atom generator library|<br>
 ||github.com/go-ego/riot|搜索引擎|<br>
+|[demo](https://github.com/JabinGP/test-vercel-go/blob/master/api/search.go)|github.com/blevesearch/bleve|A modern text indexing library for go|<br>
