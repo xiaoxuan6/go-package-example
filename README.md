@@ -87,3 +87,4 @@
 |[demo](https://github.com/JabinGP/test-vercel-go/blob/master/api/search.go)|github.com/blevesearch/bleve|A modern text indexing library for go|<br>
 ||github.com/huichen/wukong|高度可定制的全文搜索引擎|<br>
 ||github.com/huichen/sego|Go中文分词|<br>
+||github.com/wcharczuk/go-chart|go chart is a basic charting library in go.|<br>
