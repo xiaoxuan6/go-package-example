@@ -88,3 +88,4 @@
 ||github.com/huichen/wukong|高度可定制的全文搜索引擎|<br>
 ||github.com/huichen/sego|Go中文分词|<br>
 ||github.com/wcharczuk/go-chart|go chart is a basic charting library in go.|<br>
+||github.com/h2non/filetype|Fast, dependency-free Go package to infer binary file types based on the magic numbers header signature|<br>
