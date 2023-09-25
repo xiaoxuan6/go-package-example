@@ -91,3 +91,4 @@
 ||github.com/h2non/filetype|Fast, dependency-free Go package to infer binary file types based on the magic numbers header signature|<br>
 ||github.com/cheggaaa/pb|Console progress bar for Golang|<br>
 ||github.com/boombuler/barcode|golang 的条形码|<br>
+||github.com/gin-contrib/static|gin 同时部署前后端分离项目中间件|<br>
