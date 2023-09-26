@@ -94,3 +94,4 @@
 ||github.com/gin-contrib/static|gin 同时部署前后端分离项目中间件|<br>
 ||github.com/grokify/html-strip-tags-go|export stripTags from html/template as strip.StripTags|<br>
 ||github.com/nwidger/jsoncolor|Go 的彩色 JSON 输出|<br>
+||github.com/gizak/termui|Golang terminal dashboard|<br>
