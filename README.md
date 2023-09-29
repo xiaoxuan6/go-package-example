@@ -95,3 +95,4 @@
 ||github.com/grokify/html-strip-tags-go|export stripTags from html/template as strip.StripTags|<br>
 ||github.com/nwidger/jsoncolor|Go 的彩色 JSON 输出|<br>
 ||github.com/gizak/termui|Golang terminal dashboard|<br>
+||github.com/liushuochen/gotable|cli 表单|<br>
