@@ -98,3 +98,4 @@
 ||github.com/liushuochen/gotable|cli 表单|<br>
 ||github.com/jordan-wright/email|Robust and flexible email library for Go|<br>
 ||github.com/gookit/color|GO CLI 控制台颜色渲染工具库，支持16色，256色，RGB色彩渲染输出，使用类似于 Print/Sprintf，兼容并支持 Windows 环境的色彩渲染|<br>
+||github.com/gofrs/uuid|A UUID package originally forked from github.com/satori/go.uuid|<br>
