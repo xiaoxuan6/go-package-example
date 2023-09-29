@@ -96,3 +96,4 @@
 ||github.com/nwidger/jsoncolor|Go 的彩色 JSON 输出|<br>
 ||github.com/gizak/termui|Golang terminal dashboard|<br>
 ||github.com/liushuochen/gotable|cli 表单|<br>
+||github.com/jordan-wright/email|Robust and flexible email library for Go|<br>
