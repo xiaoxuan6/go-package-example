@@ -102,3 +102,4 @@
 ||github.com/mssola/useragent|HTTP User Agent parser for the Go programming language.|<br>
 ||github.com/antchfx/htmlquery|htmlquery is golang XPath package for HTML query.|<br>
 ||github.com/docopt/docopt.go|A command-line arguments parser that will make you smile.|<br>
+||github.com/iancoleman/strcase|A golang package for converting to snake_case or CamelCase|<br>
