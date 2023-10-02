@@ -105,3 +105,4 @@
 ||github.com/iancoleman/strcase|A golang package for converting to snake_case or CamelCase|<br>
 ||github.com/mcnijman/go-emailaddress|Golang library for finding, parsing and validating email addresses|<br>
 ||gitlab.com/abhimanyusharma003/go-ordered-json|保留键顺序的 JSON 对象解析|<br>
+||github.com/gosuri/uiprogress|A go library to render progress bars in terminal applications|<br>
