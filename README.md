@@ -107,3 +107,4 @@
 ||gitlab.com/abhimanyusharma003/go-ordered-json|保留键顺序的 JSON 对象解析|<br>
 ||github.com/gosuri/uiprogress|A go library to render progress bars in terminal applications|<br>
 ||github.com/rodaine/table|Go CLI Table Generator|<br>
+||github.com/atotto/clipboard|剪切板读取、写入操作|<br>
