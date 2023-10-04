@@ -110,3 +110,4 @@
 ||github.com/atotto/clipboard|剪切板读取、写入操作|<br>
 ||github.com/AlecAivazis/survey|一个 golang 库，用于构建交互式且可访问的提示，完全支持 Windows 和 posix 终端。|<br>
 ||github.com/cli/safeexec|exec 执行前过滤，避免命令带来的 Windows 安全风险|<br>
+||github.com/pkg/browser|Package browser provides helpers to open files, readers, and urls in a browser window.|<br>
