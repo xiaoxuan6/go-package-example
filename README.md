@@ -108,3 +108,4 @@
 ||github.com/gosuri/uiprogress|A go library to render progress bars in terminal applications|<br>
 ||github.com/rodaine/table|Go CLI Table Generator|<br>
 ||github.com/atotto/clipboard|剪切板读取、写入操作|<br>
+||github.com/AlecAivazis/survey|一个 golang 库，用于构建交互式且可访问的提示，完全支持 Windows 和 posix 终端。|<br>
