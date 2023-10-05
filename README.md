@@ -114,3 +114,4 @@
 |[demo](https://github.com/rivo/uniseg/blob/master/examples_test.go)|github.com/rivo/uniseg|Unicode Text Segmentation, Word Wrapping, and String Width Calculation in Go(Go 中的 Unicode 文本分割、自动换行和字符串宽度计算)|<br>
 |[demo](https://github.com/rivo/tview/wiki)|github.com/rivo/tview|具有丰富的交互式小部件的终端 UI 库 — 用 Golang 编写|<br>
 ||github.com/kballard/go-shellquote|字符串和切片字符串之间转换|<br>
+|[demo](https://github.com/xiaoxuan6/go-package-example/issues/2)|github.com/google/shlex|Automatically exported from code.google.com/p/go-shlex|<br>
