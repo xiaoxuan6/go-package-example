@@ -112,3 +112,4 @@
 ||github.com/cli/safeexec|exec 执行前过滤，避免命令带来的 Windows 安全风险|<br>
 ||github.com/pkg/browser|Package browser provides helpers to open files, readers, and urls in a browser window.|<br>
 |[demo](https://github.com/rivo/uniseg/blob/master/examples_test.go)|github.com/rivo/uniseg|Unicode Text Segmentation, Word Wrapping, and String Width Calculation in Go|<br>
+||github.com/rivo/tview|具有丰富的交互式小部件的终端 UI 库 — 用 Golang 编写|<br>
