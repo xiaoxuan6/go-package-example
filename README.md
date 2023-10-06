@@ -116,3 +116,4 @@
 ||github.com/kballard/go-shellquote|字符串和切片字符串之间转换|<br>
 |[demo](https://github.com/xiaoxuan6/go-package-example/issues/2)|github.com/google/shlex|Automatically exported from code.google.com/p/go-shlex (字符串词法分析器，支持 shell 风格的引用、注释和转义)|<br>
 ||github.com/abiosoft/ishell|用于创建交互式 cli 应用程序的库。|<br>
+||github.com/asaskevich/EventBus|具有 Go 异步兼容性的轻量级 eventbus (类似 PHP 中的 event 事件)|<br>
