@@ -118,3 +118,4 @@
 ||github.com/abiosoft/ishell|用于创建交互式 cli 应用程序的库。|<br>
 ||github.com/asaskevich/EventBus|具有 Go 异步兼容性的轻量级 eventbus (类似 PHP 中的 event 事件)|<br>
 ||github.com/caarlos0/env|一个简单的零依赖库，用于将 env 环境变量解析为结构|<br>
+||github.com/elastic/go-elasticsearch|The official Go client for Elasticsearch|<br>
