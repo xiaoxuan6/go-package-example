@@ -121,3 +121,4 @@
 ||github.com/elastic/go-elasticsearch|The official Go client for Elasticsearch|<br>
 ||github.com/jung-kurt/gofpdf/tree/master|A PDF document generator with high level support for text, drawing and images|<br>
 ||github.com/dghubble/sling|用于创建和发送 API 请求的 Go HTTP 客户端库|<br>
+||github.com/vmihailenco/msgpack|msgpack.org[Go] MessagePack encoding for Golang|<br>
