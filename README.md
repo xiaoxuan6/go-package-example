@@ -123,3 +123,4 @@
 ||github.com/dghubble/sling|用于创建和发送 API 请求的 Go HTTP 客户端库|<br>
 ||github.com/vmihailenco/msgpack|msgpack.org[Go] MessagePack encoding for Golang|<br>
 |[demo](https://github.com/barrypt/go-study/blob/main/rabbitMq/main.go)|github.com/streadway/amqp|Go client for AMQP 0.9.1|<br>
+||github.com/bwmarrin/snowflake|一个简单易用的 Go (golang) 包来生成或解析 Twitter 雪花 ID|<br>
