@@ -78,7 +78,7 @@
 ||github.com/tidwall/sjson|Set JSON values very quickly in Go|<br>
 ||github.com/golang-module/carbon|A simple, semantic and developer-friendly golang package for datetime|<br>
 ||github.com/mmcdole/gofeed|Parse RSS, Atom and JSON feeds in Go|<br>
-|[demo](https://github.com/srcrs/rss-reader/blob/main/main.go#L107-L143)|github.com/gorilla/websocket|Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.|<br>
+|[demo](https://github.com/srcrs/rss-reader/blob/main/main.go#L107-L143) [聊天框](https://github.com/barrypt/go-study/blob/main/ws/main.go#L33)|github.com/gorilla/websocket|Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.|<br>
 ||github.com/gorilla/schema|Package gorilla/schema fills a struct with form values.|<br>
 ||github.com/basgys/goxml2json|XML to JSON converter written in Go (no schema, no structs)|<br>
 ||github.com/cch123/elasticsql|convert sql to elasticsearch DSL in golang(go)|<br>
@@ -119,7 +119,7 @@
 ||github.com/asaskevich/EventBus|具有 Go 异步兼容性的轻量级 eventbus (类似 PHP 中的 event 事件)|<br>
 ||github.com/caarlos0/env|一个简单的零依赖库，用于将 env 环境变量解析为结构|<br>
 ||github.com/elastic/go-elasticsearch|The official Go client for Elasticsearch|<br>
-||github.com/jung-kurt/gofpdf/tree/master|A PDF document generator with high level support for text, drawing and images|<br>
+||github.com/jung-kurt/gofpdf|A PDF document generator with high level support for text, drawing and images|<br>
 ||github.com/dghubble/sling|用于创建和发送 API 请求的 Go HTTP 客户端库|<br>
 ||github.com/vmihailenco/msgpack|msgpack.org[Go] MessagePack encoding for Golang|<br>
 |[demo](https://github.com/barrypt/go-study/blob/main/rabbitMq/main.go)|github.com/streadway/amqp|Go client for AMQP 0.9.1|<br>
