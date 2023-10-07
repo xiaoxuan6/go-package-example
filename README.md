@@ -125,3 +125,4 @@
 |[demo](https://github.com/barrypt/go-study/blob/main/rabbitMq/main.go)|github.com/streadway/amqp|Go client for AMQP 0.9.1|<br>
 ||github.com/bwmarrin/snowflake|一个简单易用的 Go (golang) 包来生成或解析 Twitter 雪花 ID|<br>
 ||github.com/avast/retry-go|用于重试机制的简单 golang 库|<br>
+||github.com/gosimple/slug|URL 友好的 slugify，支持多种语言|<br>
