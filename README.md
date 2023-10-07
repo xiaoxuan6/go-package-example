@@ -120,3 +120,4 @@
 ||github.com/caarlos0/env|一个简单的零依赖库，用于将 env 环境变量解析为结构|<br>
 ||github.com/elastic/go-elasticsearch|The official Go client for Elasticsearch|<br>
 ||github.com/jung-kurt/gofpdf/tree/master|A PDF document generator with high level support for text, drawing and images|<br>
+||github.com/dghubble/sling|用于创建和发送 API 请求的 Go HTTP 客户端库|<br>
