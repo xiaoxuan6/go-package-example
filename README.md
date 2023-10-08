@@ -129,3 +129,4 @@
 ||github.com/rs/xid|xid 是一个全球唯一的网络 ID 生成器|<br>
 ||github.com/hashicorp/go-retryablehttp|Go 中的可重试 HTTP 客户端|<br>
 ||github.com/jszwec/csvutil|csvutil 提供 CSV 和 Go (golang) 值之间的快速且惯用的映射|<br>
+||github.com/ledongthuc/pdf|PDF reader|<br>
