@@ -126,3 +126,4 @@
 ||github.com/bwmarrin/snowflake|一个简单易用的 Go (golang) 包来生成或解析 Twitter 雪花 ID|<br>
 ||github.com/avast/retry-go|用于重试机制的简单 golang 库|<br>
 ||github.com/gosimple/slug|URL 友好的 slugify，支持多种语言|<br>
+||github.com/rs/xid|xid 是一个全球唯一的网络 ID 生成器|<br>
