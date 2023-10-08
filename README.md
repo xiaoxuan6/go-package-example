@@ -127,3 +127,4 @@
 ||github.com/avast/retry-go|用于重试机制的简单 golang 库|<br>
 ||github.com/gosimple/slug|URL 友好的 slugify，支持多种语言|<br>
 ||github.com/rs/xid|xid 是一个全球唯一的网络 ID 生成器|<br>
+||github.com/hashicorp/go-retryablehttp|Go 中的可重试 HTTP 客户端|<br>
