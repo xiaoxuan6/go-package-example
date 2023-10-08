@@ -133,3 +133,4 @@
 ||github.com/vito/go-interact/interact|golang CLI交互库|<br>
 |[demo](https://github.com/gyuho/learn/blob/main/doc/go_interface/code/08_ioprogress.go)|github.com/mitchellh/ioprogress|Go (golang) package for progress bars around io.Reader/Writers.|<br>
 ||github.com/adrg/xdg|XDG 基本目录规范和 XDG 用户目录的 Go 实现|<br>
+||github.com/kyokomi/emoji|🍣 emoji terminal output for golang|<br>
