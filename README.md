@@ -131,3 +131,4 @@
 ||github.com/jszwec/csvutil|csvutil 提供 CSV 和 Go (golang) 值之间的快速且惯用的映射|<br>
 ||github.com/ledongthuc/pdf|PDF reader|<br>
 ||github.com/vito/go-interact/interact|golang CLI交互库|<br>
+|[demo](https://github.com/gyuho/learn/blob/main/doc/go_interface/code/08_ioprogress.go)|github.com/mitchellh/ioprogress|Go (golang) package for progress bars around io.Reader/Writers.|<br>
