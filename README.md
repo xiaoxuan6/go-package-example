@@ -135,3 +135,4 @@
 ||github.com/adrg/xdg|XDG 基本目录规范和 XDG 用户目录的 Go 实现|<br>
 ||github.com/kyokomi/emoji|🍣 emoji terminal output for golang|<br>
 ||github.com/mgutz/str|str 包是一个字符串库，可以构建更多 Go 功能|<br>
+||github.com/sahilm/fuzzy|代码符号优化的模糊字符串匹配|<br>
