@@ -138,3 +138,4 @@
 ||github.com/sahilm/fuzzy|代码符号优化的模糊字符串匹配|<br>
 |[demo](https://github.com/sahilm/fuzzy/blob/master/_example/main.go)|github.com/jroimartin/gocui|创建控制台用户界面|<br>
 ||github.com/alexflint/go-arg|Go 中 cli 基于结构的参数解析|<br>
+||github.com/makenowjust/heredoc|保持字符串格式打印输出|<br>
