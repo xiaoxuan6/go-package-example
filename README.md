@@ -146,3 +146,4 @@
 ||github.com/alexeyco/simpletable|Simple tables in terminal with Go|<br>
 ||github.com/hjson/hjson-go|类似 json ，但是该 hjson 支持注释|<br>
 ||github.com/xlab/treeprint|Package treeprint provides a simple ASCII tree composing tool.|<br>
+||github.com/creasty/defaults|使用默认值初始化结构体|<br>
