@@ -140,3 +140,4 @@
 ||github.com/alexflint/go-arg|Go 中 cli 基于结构的参数解析|<br>
 ||github.com/makenowjust/heredoc|保持字符串格式打印输出|<br>
 ||github.com/dustin/go-humanize|将单位格式化为人类友好的尺寸（size、time、钱千位号、小数点、切片字符串拼接等）|<br>
+||github.com/iancoleman/orderedmap|orderedmap is a golang map where the keys keep the order that they're added. It can be de/serialized from/to JSON. It's based closely on the python collections.OrderedDict.|<br>
