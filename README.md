@@ -143,3 +143,4 @@
 ||github.com/iancoleman/orderedmap|orderedmap is a golang map where the keys keep the order that they're added. It can be de/serialized from/to JSON. It's based closely on the python collections.OrderedDict.|<br>
 ||github.com/jwalton/gchalk|终端字符串样式|<br>
 ||github.com/acarl005/stripansi|一个用于从字符串中删除 ANSI 颜色转义码的 Go 小包。|<br>
+||github.com/alexeyco/simpletable|Simple tables in terminal with Go|<br>
