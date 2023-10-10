@@ -148,3 +148,4 @@
 ||github.com/xlab/treeprint|Package treeprint provides a simple ASCII tree composing tool.|<br>
 ||github.com/creasty/defaults|使用默认值初始化结构体|<br>
 ||github.com/moby/term|获取终端宽、高|<br>
+||github.com/tcnksm/go-latest|从 Golang 的各种来源检查版本是否最新的简单方法|<br>
