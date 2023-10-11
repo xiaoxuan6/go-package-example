@@ -152,3 +152,4 @@
 ||github.com/sergi/go-diff|Go 中的差异、匹配和补丁文本|<br>
 ||github.com/MercuryEngineering/CookieMonster|用于解析 Netscape HTTP cookie 格式文件的 Go 库|<br>
 |[demo](https://github.com/kkdai/youtube/blob/master/example_test.go)|github.com/kkdai/youtube|在 Golang 中下载 Youtube 视频|<br>
+||github.com/barasher/go-exiftool|从文件（图片、pdf、办公文档等）中提取尽可能多的元数据|<br>
