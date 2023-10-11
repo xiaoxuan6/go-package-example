@@ -154,3 +154,4 @@
 |[demo](https://github.com/kkdai/youtube/blob/master/example_test.go)|github.com/kkdai/youtube|在 Golang 中下载 Youtube 视频|<br>
 ||github.com/barasher/go-exiftool|从文件（图片、pdf、办公文档等）中提取尽可能多的元数据|<br>
 ||github.com/anaskhan96/soup|爬虫，类似于 BeautifulSoup|<br>
+||github.com/simonhege/timeago|根据当前时间进行时间格式化的 Go 软件包（例如：“3 小时前”）|<br>
