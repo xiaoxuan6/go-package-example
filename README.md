@@ -157,3 +157,4 @@
 ||github.com/simonhege/timeago|根据当前时间进行时间格式化的 Go 软件包（例如：“3 小时前”）|<br>
 ||github.com/mitchellh/go-homedir|Go library for detecting and expanding the user's home directory without cgo.|<br>
 ||github.com/mattn/go-isatty|判断当前程序执行是否在终端|<br>
+||github.com/Knetic/govaluate|golang 的任意表达式求值|<br>
