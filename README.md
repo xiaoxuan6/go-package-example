@@ -161,3 +161,4 @@
 ||github.com/antchfx/jsonquery|JSON xpath query for Go. Golang XPath query for JSON query.|<br>
 ||github.com/otiai10/copy|递归地复制目录|<br>
 ||github.com/gobwas/glob|Go glob|<br>
+||github.com/corpix/uarand|Random user-agent generator for Go|<br>
