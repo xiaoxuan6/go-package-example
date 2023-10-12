@@ -164,3 +164,4 @@
 ||github.com/corpix/uarand|Random user-agent generator for Go|<br>
 ||github.com/thanhpk/randstr|Generate random strings in golang|<br>
 ||github.com/jmespath/go-jmespath|将 json 解析成 interfacce 进行搜索|<br>
+||github.com/Chain-Zhang/pinyin|golang实现中文汉字转拼音|<br>
