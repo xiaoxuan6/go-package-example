@@ -162,3 +162,4 @@
 ||github.com/otiai10/copy|递归地复制目录|<br>
 ||github.com/gobwas/glob|Go glob|<br>
 ||github.com/corpix/uarand|Random user-agent generator for Go|<br>
+||github.com/thanhpk/randstr|Generate random strings in golang|<br>
