@@ -167,3 +167,4 @@
 ||github.com/Chain-Zhang/pinyin|golang实现中文汉字转拼音|<br>
 ||github.com/Machiel/slugify|为字符串创建 slugs 的极小库|<br>
 ||github.com/jlaffaye/ftp|FTP client package for Go|<br>
+||github.com/samber/lo| 基于 Go 1.18+ 泛型的 Lodash 风格 Go 库（映射、过滤器、包含、查找...）|<br>
