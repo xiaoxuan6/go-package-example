@@ -169,3 +169,4 @@
 ||github.com/jlaffaye/ftp|FTP client package for Go|<br>
 ||github.com/samber/lo| 基于 Go 1.18+ 泛型的 Lodash 风格 Go 库（映射、过滤器、包含、查找...）|<br>
 ||github.com/simonnilsson/ask|一个 Go 包，提供了一种访问映射和切片中嵌套属性的简单方法|<br>
+||github.com/robotn/gohook|GoHook，Go全局键盘鼠标监听钩子|<br>
