@@ -171,3 +171,4 @@
 ||github.com/simonnilsson/ask|一个 Go 包，提供了一种访问映射和切片中嵌套属性的简单方法|<br>
 ||github.com/robotn/gohook|GoHook，Go全局键盘鼠标监听钩子|<br>
 ||github.com/OwO-Network/gdeeplx|A Go library used for unlimited DeepL translation|<br>
+||github.com/go-gomail/gomail|The best way to send emails in Go.|<br>
