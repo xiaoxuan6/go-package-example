@@ -173,3 +173,4 @@
 ||github.com/OwO-Network/gdeeplx|A Go library used for unlimited DeepL translation|<br>
 ||github.com/go-gomail/gomail|The best way to send emails in Go.|<br>
 ||github.com/go-pay/gopay|微信、支付宝、通联支付、拉卡拉、PayPal、Apple 的Go版本SDK。【极简、易用的聚合支付SDK】|<br>
+||github.com/bcicen/jstream|Streaming JSON parser for Go|<br>
