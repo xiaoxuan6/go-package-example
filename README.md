@@ -181,3 +181,4 @@
 ||github.com/lithammer/shortuuid|🍄 A generator library for concise, unambiguous and URL-safe UUIDs|<br>
 |[demo](https://github.com/chromedp/examples)|github.com/chromedp/chromedp|一种更快、更简单的方式来驱动支持 Chrome DevTools 协议的浏览器|<br>
 ||github.com/toqueteos/webbrowser|Go 中的 Python 网络浏览器库。用于在默认浏览器上打开网页的简单 API|<br>
+||github.com/Jeffail/gabs|用于在 Go 中解析、创建和编辑未知或动态 JSON|<br>
