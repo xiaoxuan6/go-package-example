@@ -183,3 +183,4 @@
 ||github.com/toqueteos/webbrowser|Go 中的 Python 网络浏览器库。用于在默认浏览器上打开网页的简单 API|<br>
 ||github.com/Jeffail/gabs|用于在 Go 中解析、创建和编辑未知或动态 JSON|<br>
 ||github.com/xluohome/phonedata|手机号码归属地信息库、手机号归属地查询 phone.dat|<br>
+||github.com/otiai10/gosseract|使用 Tesseract C++ 库进行 OCR（光学字符识别）的 Go 包|<br>
