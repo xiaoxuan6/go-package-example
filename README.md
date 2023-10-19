@@ -178,3 +178,4 @@
 ||github.com/go-toast/toast|用于 Windows 10 toast 通知的 go 包|<br>
 ||github.com/gomarkdown/markdown|markdown parser and HTML renderer for Go|<br>
 ||github.com/elliotchance/orderedmap|Go 中的有序映射，Set、Get、Delete 和 Len 的分摊 O(1)。|<br>
+||github.com/lithammer/shortuuid|🍄 A generator library for concise, unambiguous and URL-safe UUIDs|<br>
