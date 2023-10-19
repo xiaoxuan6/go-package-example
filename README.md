@@ -186,3 +186,4 @@
 ||github.com/otiai10/gosseract|使用 Tesseract C++ 库进行 OCR（光学字符识别）的 Go 包|<br>
 |[demo](https://github.com/vcaesar/imgo/blob/master/img_test.go)|github.com/vcaesar/imgo|处理图像并获取图像信息|<br>
 ||github.com/lifei6671/gocaptcha|A captcha library written in golang|<br>
+||github.com/wwaayyaa/go-collection|Generic-based collection tools|<br>
