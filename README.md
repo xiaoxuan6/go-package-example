@@ -179,3 +179,4 @@
 ||github.com/gomarkdown/markdown|markdown parser and HTML renderer for Go|<br>
 ||github.com/elliotchance/orderedmap|Go 中的有序映射，Set、Get、Delete 和 Len 的分摊 O(1)。|<br>
 ||github.com/lithammer/shortuuid|🍄 A generator library for concise, unambiguous and URL-safe UUIDs|<br>
+|[demo](https://github.com/chromedp/examples)|github.com/chromedp/chromedp|一种更快、更简单的方式来驱动支持 Chrome DevTools 协议的浏览器|<br>
