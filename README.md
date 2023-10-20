@@ -190,3 +190,4 @@
 ||github.com/Pallinder/go-randomdata|golang 的一个小型随机数据生成器，也称为 faker|<br>
 ||github.com/yanyiwu/gojieba|"结巴"中文分词的Golang版本|<br>
 ||github.com/struCoder/Go-pinyin|汉字转拼音|<br>
+||github.com/pemistahl/lingua-go|最准确的Go自然语言检测库，长短文本均适用|<br>
