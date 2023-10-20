@@ -191,3 +191,4 @@
 ||github.com/yanyiwu/gojieba|"结巴"中文分词的Golang版本|<br>
 ||github.com/struCoder/Go-pinyin|汉字转拼音|<br>
 ||github.com/pemistahl/lingua-go|最准确的Go自然语言检测库，长短文本均适用|<br>
+||github.com/enescakir/emoji|A minimalistic emoji package for Go (golang)|<br>
