@@ -193,3 +193,4 @@
 ||github.com/pemistahl/lingua-go|最准确的Go自然语言检测库，长短文本均适用|<br>
 ||github.com/enescakir/emoji|A minimalistic emoji package for Go (golang)|<br>
 ||github.com/resendlabs/resend-go|Resend's Go SDK|<br>
+||github.com/jedib0t/go-pretty|Table-writer and more in golang!|<br>
