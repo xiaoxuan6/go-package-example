@@ -191,7 +191,7 @@
 ||github.com/yanyiwu/gojieba|"结巴"中文分词的Golang版本|<br>
 ||github.com/struCoder/Go-pinyin|汉字转拼音|<br>
 ||github.com/pemistahl/lingua-go|最准确的Go自然语言检测库，长短文本均适用|<br>
-||github.com/enescakir/emoji|A minimalistic emoji package for Go (golang)|<br>
+||github.com/enescakir/emoji|Go 的简约表情符号包 (golang)|<br>
 ||github.com/resendlabs/resend-go|Resend's Go SDK|<br>
-||github.com/jedib0t/go-pretty|Table-writer and more in golang!|<br>
-||github.com/inancgumus/prettyslice|Pretty prints slices to any io.Writer: I created this package to teach slices in my Go course.|<br>
+||github.com/jedib0t/go-pretty|golang 中的表格编写器等！|<br>
+||github.com/inancgumus/prettyslice|漂亮地将切片打印到任何 io.Writer：我创建了这个包来在我的 Go 课程中教授切片。|<br>
