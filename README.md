@@ -194,3 +194,4 @@
 ||github.com/enescakir/emoji|A minimalistic emoji package for Go (golang)|<br>
 ||github.com/resendlabs/resend-go|Resend's Go SDK|<br>
 ||github.com/jedib0t/go-pretty|Table-writer and more in golang!|<br>
+||github.com/inancgumus/prettyslice|Pretty prints slices to any io.Writer: I created this package to teach slices in my Go course.|<br>
