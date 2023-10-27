@@ -198,3 +198,4 @@
 ||github.com/abadojack/whatlanggo|Natural language detection library for Go(Go 的自然语言检测库)|<br>
 ||github.com/ryanuber/columnize|Easy column formatted output for golang(golang 的简单列格式输出)|<br>
 ||github.com/manifoldco/promptui|Interactive prompt for command-line applications(用于命令行应用程序的交互式提示)|<br>
+||github.com/gabriel-vasile/mimetype|一个基于幻数的快速 Golang 库，用于媒体类型和文件扩展名检测|<br>
