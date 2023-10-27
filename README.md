@@ -196,5 +196,5 @@
 ||github.com/jedib0t/go-pretty|golang 中的表格编写器等！|<br>
 ||github.com/inancgumus/prettyslice|漂亮地将切片打印到任何 io.Writer：我创建了这个包来在我的 Go 课程中教授切片。|<br>
 ||github.com/abadojack/whatlanggo|Natural language detection library for Go(Go 的自然语言检测库)|<br>
-||github.com/ryanuber/columnize/tree/master|Easy column formatted output for golang|<br>
-||github.com/manifoldco/promptui/tree/master|Interactive prompt for command-line applications(用于命令行应用程序的交互式提示)|<br>
+||github.com/ryanuber/columnize|Easy column formatted output for golang(golang 的简单列格式输出)|<br>
+||github.com/manifoldco/promptui|Interactive prompt for command-line applications(用于命令行应用程序的交互式提示)|<br>
