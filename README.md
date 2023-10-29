@@ -207,3 +207,4 @@
 ||github.com/eiannone/keyboard|Simple library to listen for keystrokes from the keyboard(监听键盘按键的简单程序库)|<br>
 ||github.com/upyun/go-sdk|UPYUN Go SDK(UPYUN Go SDK)|<br>
 ||github.com/distatus/battery|cross-platform, normalized battery information library(跨平台、规范化的电池信息库)|<br>
+||github.com/mgechev/dots|Implements the wildcard file matching in Go used by golint, go test etc.(在 Go 中实现通配符文件匹配，如 golint、go test 等。)|<br>
