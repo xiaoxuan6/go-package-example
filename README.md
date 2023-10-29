@@ -205,3 +205,4 @@
 ||github.com/mdp/qrterminal|QR Codes in your terminal(终端中的 QR 码)|<br>
 ||github.com/icrowley/fake|Go (Golang) 的假数据生成器(Go (Golang) 的假数据生成器)|<br>
 ||github.com/eiannone/keyboard|Simple library to listen for keystrokes from the keyboard(监听键盘按键的简单程序库)|<br>
+||github.com/upyun/go-sdk|UPYUN Go SDK(UPYUN Go SDK)|<br>
