@@ -203,3 +203,4 @@
 ||github.com/mingrammer/commonregex|🍫 A collection of common regular expressions for Go(🍫 Go 的常用正则表达式集)|<br>
 ||github.com/gosuri/uilive|uilive is a go library for updating terminal output in realtime(uilive 是一个用于实时更新终端输出的 go 库)|<br>
 ||github.com/mdp/qrterminal|QR Codes in your terminal(终端中的 QR 码)|<br>
+||github.com/icrowley/fake|Go (Golang) 的假数据生成器(Go (Golang) 的假数据生成器)|<br>
