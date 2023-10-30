@@ -223,3 +223,4 @@
 ||github.com/JoshuaDoes/gofuckyourself|一个基于清理的Go脏话过滤器。|<br>
 ||github.com/mvdan/xurls|从文本中提取网址|<br>
 ||github.com/codemodus/kace|常见的大小写转换涵盖常见的缩写。|<br>
+||github.com/AfterShip/email-verifier|✅ 一个用于电子邮件验证的 Go 库，无需发送任何电子邮件。|<br>
