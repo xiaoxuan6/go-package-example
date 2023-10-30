@@ -213,3 +213,4 @@
 ||github.com/hackebrot/turtle|Emojis for Go 😄🐢🚀(围棋表情符号 😄🐢🚀)|<br>
 ||github.com/rylans/getlang|纯 Go 中的自然语言检测包|<br>
 ||github.com/endeveit/guesslanguage|Guess the natural language of a text in Go(用 Go 猜测文本的自然语言)|<br>
+||github.com/xujiajun/gotokenizer|基于 Go 字典和 Biggram 语言模型的分词器。（目前仅支持中文分词）|<br>
