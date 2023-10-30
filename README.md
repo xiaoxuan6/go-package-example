@@ -212,3 +212,4 @@
 ||github.com/artonge/go-csv-tag|Read csv file from go using tags(使用标签从 go 读取 csv 文件)|<br>
 ||github.com/hackebrot/turtle|Emojis for Go 😄🐢🚀(围棋表情符号 😄🐢🚀)|<br>
 ||github.com/rylans/getlang|纯 Go 中的自然语言检测包|<br>
+||github.com/endeveit/guesslanguage|Guess the natural language of a text in Go(用 Go 猜测文本的自然语言)|<br>
