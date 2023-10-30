@@ -222,3 +222,4 @@
 ||github.com/cgxxv/xj2go|Convert xml and json to go struct(将 xml 和 json 转换为 go 结构)|<br>
 ||github.com/JoshuaDoes/gofuckyourself|一个基于清理的Go脏话过滤器。|<br>
 ||github.com/mvdan/xurls|从文本中提取网址|<br>
+||github.com/codemodus/kace|常见的大小写转换涵盖常见的缩写。|<br>
