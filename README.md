@@ -217,3 +217,4 @@
 ||github.com/bndr/gotabulate|Gotabulate - Easily pretty-print your tabular data with Go(Gotabulate - 使用 Go 轻松漂亮打印表格数据)|<br>
 ||github.com/shopspring/decimal|go中的任意精度定点十进制数|<br>
 ||github.com/drewstinnett/gout|以标准格式输出go对象，例如YAML、JSON等|<br>
+||github.com/pelletier/go-toml|Go library for the TOML file format(用于 TOML 文件格式的 Go 库)|<br>
