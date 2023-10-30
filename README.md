@@ -224,3 +224,4 @@
 ||github.com/mvdan/xurls|从文本中提取网址|<br>
 ||github.com/codemodus/kace|常见的大小写转换涵盖常见的缩写。|<br>
 ||github.com/AfterShip/email-verifier|✅ 一个用于电子邮件验证的 Go 库，无需发送任何电子邮件。|<br>
+||github.com/andygrunwald/go-trending|Go library for accessing trending repositories and developers at Github.(Go 库，用于访问 Github 上的趋势软件源和开发人员。)|<br>
