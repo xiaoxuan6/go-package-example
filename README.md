@@ -211,3 +211,4 @@
 ||github.com/avelino/slugify|A Go slugify application that handles string(处理字符串的 Go slugify 应用程序)|<br>
 ||github.com/artonge/go-csv-tag|Read csv file from go using tags(使用标签从 go 读取 csv 文件)|<br>
 ||github.com/hackebrot/turtle|Emojis for Go 😄🐢🚀(围棋表情符号 😄🐢🚀)|<br>
+||github.com/rylans/getlang|纯 Go 中的自然语言检测包|<br>
