@@ -219,3 +219,4 @@
 ||github.com/drewstinnett/gout|以标准格式输出go对象，例如YAML、JSON等|<br>
 ||github.com/pelletier/go-toml|Go library for the TOML file format(用于 TOML 文件格式的 Go 库)|<br>
 ||github.com/nikolaydubina/htmlyaml|🐹 在 Go 中将 YAML 渲染为 HTML(🐹 在 Go 中将 YAML 渲染为 HTML)|<br>
+||github.com/cgxxv/xj2go|Convert xml and json to go struct(将 xml 和 json 转换为 go 结构)|<br>
