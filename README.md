@@ -215,3 +215,4 @@
 ||github.com/endeveit/guesslanguage|Guess the natural language of a text in Go(用 Go 猜测文本的自然语言)|<br>
 ||github.com/xujiajun/gotokenizer|基于 Go 字典和 Biggram 语言模型的分词器。（目前仅支持中文分词）|<br>
 ||github.com/bndr/gotabulate|Gotabulate - Easily pretty-print your tabular data with Go(Gotabulate - 使用 Go 轻松漂亮打印表格数据)|<br>
+||github.com/shopspring/decimal|go中的任意精度定点十进制数|<br>
