@@ -231,3 +231,4 @@
 ||github.com/gookit/filter|⏳ Provide filtering, sanitizing, and conversion of Golang data. 提供对Golang数据的过滤，净化，转换。(⏳ 提供对 Golang 数据的过滤、净化、转换。提供对 Golang 数据的过滤、净化、转换。)|<br>
 ||github.com/subosito/gotenv|Load environment variables from  or  in Go.(在 Go 中从  或  加载环境变量。)|<br>
 ||github.com/guumaster/tablewriter|ASCII table in golang(golang 中的 ASCII 表格)|<br>
+|[demo](https://github.com/shurcooL/sanitized_anchor_name/blob/master/main_test.go)|github.com/shurcooL/sanitized_anchor_name|字符串 slug|<br>
