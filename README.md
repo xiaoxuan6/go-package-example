@@ -226,3 +226,4 @@
 ||github.com/AfterShip/email-verifier|✅ 一个用于电子邮件验证的 Go 库，无需发送任何电子邮件。|<br>
 ||github.com/andygrunwald/go-trending|Go library for accessing trending repositories and developers at Github.(Go 库，用于访问 Github 上的趋势软件源和开发人员。)|<br>
 ||github.com/c4milo/unpackit|Go package to natively decompress and unarchive tar.gz, tar.bzip2, tar.xz, zip and tar files.(Go 软件包可解压和解压缩 tar.gz、tar.bzip2、tar.xz、zip 和 tar 文件。)|<br>
+||github.com/sendgrid/rest|SendGrid 的 Golang HTTP 客户端，用于调用 API(SendGrid 的 Golang HTTP 客户端，用于调用 API)|<br>
