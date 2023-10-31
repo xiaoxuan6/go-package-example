@@ -228,3 +228,4 @@
 ||github.com/c4milo/unpackit|Go package to natively decompress and unarchive tar.gz, tar.bzip2, tar.xz, zip and tar files.(Go 软件包可解压和解压缩 tar.gz、tar.bzip2、tar.xz、zip 和 tar 文件。)|<br>
 ||github.com/sendgrid/rest|SendGrid 的 Golang HTTP 客户端，用于调用 API(SendGrid 的 Golang HTTP 客户端，用于调用 API)|<br>
 ||github.com/skratchdot/open-golang|Open a file, directory, or URI using the OS's default application for that object type. Optionally, you can specify an application to use.(使用操作系统针对该对象类型的默认应用程序打开文件、目录或 URI。您还可以指定要使用的应用程序。)|<br>
+||github.com/gookit/filter|⏳ Provide filtering, sanitizing, and conversion of Golang data. 提供对Golang数据的过滤，净化，转换。(⏳ 提供对 Golang 数据的过滤、净化、转换。提供对 Golang 数据的过滤、净化、转换。)|<br>
