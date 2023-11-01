@@ -232,3 +232,4 @@
 ||github.com/subosito/gotenv|Load environment variables from  or  in Go.(在 Go 中从  或  加载环境变量。)|<br>
 ||github.com/guumaster/tablewriter|ASCII table in golang(golang 中的 ASCII 表格)|<br>
 |[demo](https://github.com/shurcooL/sanitized_anchor_name/blob/master/main_test.go)|github.com/shurcooL/sanitized_anchor_name|字符串 slug|<br>
+||github.com/bregydoc/gtranslate|Google Translate API 可实现无限制且免费的翻译，gtranslate 会生成免费使用 Google Translate API 所需的令牌(Google Translate API 可实现无限制且免费的翻译，gtranslate 会生成免费使用 Google Translate API 所需的令牌)|<br>
