@@ -236,3 +236,4 @@
 ||github.com/sqweek/dialog|go-lang 的简单跨平台对话框 API(go-lang 的简单跨平台对话框 API)|<br>
 ||github.com/bwmarrin/go-alone|A simple to use, high-performance, Go (golang) MAC signer.(一个简单易用、高性能的 Go (golang) MAC 签名器。)|<br>
 ||github.com/golang-design/clipboard|📋 cross-platform clipboard package that supports accessing text and image in Go (macOS/Linux/Windows/Android/iOS)(支持在 Go 中访问文本和图像的跨平台剪贴板软件包（macOS/Linux/Windows/Android/iOS）)|<br>
+||github.com/faiface/beep|A little package that brings sound to any Go application. Suitable for playback and audio-processing.(一个能为任何 Go 应用程序带来声音的小软件包。适用于播放和音频处理。)|<br>
