@@ -240,3 +240,4 @@
 ||github.com/forPelevin/gomoji|Helpful functions to work with emoji in Golang(在 Golang 中使用表情符号的实用功能)|<br>
 ||github.com/qwqcode/go-aliyun-email|aliyun email service golang sdk(阿里云电子邮件服务 Golang Sdk)|<br>
 ||github.com/tcnksm/go-gitconfig|Use gitconfig values in Golang.(在 Golang 中使用 gitconfig 值。)|<br>
+||github.com/ulikunitz/xz|Pure golang package for reading and writing xz-compressed files(读写 xz 压缩文件的纯 golang 软件包)|<br>
