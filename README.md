@@ -243,3 +243,4 @@
 ||github.com/ulikunitz/xz|Pure golang package for reading and writing xz-compressed files(读写 xz 压缩文件的纯 golang 软件包)|<br>
 ||github.com/OpenPeeDeeP/xdg|A cross platform package that follows the XDG Standard(遵循 XDG 标准的跨平台软件包)|<br>
 ||github.com/mitchellh/go-ps/tree/master|Find, list, and inspect processes from Go (golang).(从 Go (golang) 中查找、列出和检查进程。)|<br>
+||github.com/joeshaw/envdecode|Go package for populating structs from environment variables using struct tags(使用结构标记从环境变量中填充结构的 Go 软件包)|<br>
