@@ -242,3 +242,4 @@
 ||github.com/tcnksm/go-gitconfig|Use gitconfig values in Golang.(在 Golang 中使用 gitconfig 值。)|<br>
 ||github.com/ulikunitz/xz|Pure golang package for reading and writing xz-compressed files(读写 xz 压缩文件的纯 golang 软件包)|<br>
 ||github.com/OpenPeeDeeP/xdg|A cross platform package that follows the XDG Standard(遵循 XDG 标准的跨平台软件包)|<br>
+||github.com/mitchellh/go-ps/tree/master|Find, list, and inspect processes from Go (golang).(从 Go (golang) 中查找、列出和检查进程。)|<br>
