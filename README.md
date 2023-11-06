@@ -241,3 +241,4 @@
 ||github.com/qwqcode/go-aliyun-email|aliyun email service golang sdk(阿里云电子邮件服务 Golang Sdk)|<br>
 ||github.com/tcnksm/go-gitconfig|Use gitconfig values in Golang.(在 Golang 中使用 gitconfig 值。)|<br>
 ||github.com/ulikunitz/xz|Pure golang package for reading and writing xz-compressed files(读写 xz 压缩文件的纯 golang 软件包)|<br>
+||github.com/OpenPeeDeeP/xdg|A cross platform package that follows the XDG Standard(遵循 XDG 标准的跨平台软件包)|<br>
