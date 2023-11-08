@@ -251,3 +251,4 @@
 ||github.com/sethvargo/go-password|A Golang library for generating high-entropy random passwords similar to 1Password or LastPass.(用于生成高熵随机密码的 Golang 库，类似于 1Password 或 LastPass。)|<br>
 ||github.com/lunixbochs/vtclean|strips terminal escapes from text, can preserve color(删除文本中的转义字符，可保留颜色)|<br>
 ||github.com/mozillazg/go-pinyin|汉字转拼音|<br>
+||github.com/rubenv/sql-migrate|SQL schema migration tool for Go.(用于 Go 的 SQL 模式迁移工具。)|<br>
