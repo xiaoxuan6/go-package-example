@@ -49,4 +49,5 @@ jobs:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_NAME: ${{ secrets.DB_NAME }}
         run: |
+          go mod tidy
           go run cmd/main.go --url="${{ github.event.client_payload.url }}" --name="${{ github.event.client_payload.description }}"
