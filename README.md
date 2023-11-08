@@ -246,3 +246,4 @@
 ||github.com/joeshaw/envdecode|Go package for populating structs from environment variables using struct tags(使用结构标记从环境变量中填充结构的 Go 软件包)|<br>
 ||github.com/mileusna/useragent|Go/Golang parser for user agent strings(用户代理字符串的 Go/Golang 解析器)|<br>
 ||github.com/UserExistsError/conpty|Windows Pseudo Console (ConPTY) for Golang(适用于 Golang 的 Windows 伪控制台 (ConPTY))|<br>
+||github.com/ncruces/zenity|Zenity dialogs for Golang, Windows, macOS(适用于 Golang、Windows 和 macOS 的 Zenity 对话框)|<br>
