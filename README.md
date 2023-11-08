@@ -245,3 +245,4 @@
 ||github.com/mitchellh/go-ps/tree/master|Find, list, and inspect processes from Go (golang).(从 Go (golang) 中查找、列出和检查进程。)|<br>
 ||github.com/joeshaw/envdecode|Go package for populating structs from environment variables using struct tags(使用结构标记从环境变量中填充结构的 Go 软件包)|<br>
 ||github.com/mileusna/useragent|Go/Golang parser for user agent strings(用户代理字符串的 Go/Golang 解析器)|<br>
+||github.com/UserExistsError/conpty|Windows Pseudo Console (ConPTY) for Golang(适用于 Golang 的 Windows 伪控制台 (ConPTY))|<br>
