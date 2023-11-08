@@ -247,3 +247,4 @@
 ||github.com/mileusna/useragent|Go/Golang parser for user agent strings(用户代理字符串的 Go/Golang 解析器)|<br>
 ||github.com/UserExistsError/conpty|Windows Pseudo Console (ConPTY) for Golang(适用于 Golang 的 Windows 伪控制台 (ConPTY))|<br>
 ||github.com/ncruces/zenity|Zenity dialogs for Golang, Windows, macOS(适用于 Golang、Windows 和 macOS 的 Zenity 对话框)|<br>
+||github.com/anyproto/html-to-markdown|⚙️ Convert Html to Markdown. Even works with whole websites.(⚙️ 将 Html 转换为 Markdown。甚至可用于整个网站。)|<br>
