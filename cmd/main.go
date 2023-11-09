@@ -3,8 +3,12 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/OwO-Network/gdeeplx"
+	"github.com/abadojack/whatlanggo"
+	"github.com/antchfx/htmlquery"
 	db "github.com/xiaoxuan6/go-package-db"
 	"os"
+	"strings"
 )
 
 var (
@@ -17,11 +21,36 @@ func main() {
 	flag.StringVar(&name, "name", "", "第三方包名")
 	flag.Parse()
 
-	if url == "" || name == "" {
+	if url == "" {
 		fmt.Println("参数错误")
 		return
 	}
 
+	if name == "" {
+		if strings.HasPrefix(url, "https://") == false {
+			url = "https://" + url
+		}
+		doc, err := htmlquery.LoadURL(url)
+		if err == nil {
+			a := htmlquery.FindOne(doc, "//*[@id=\"responsive-meta-container\"]/div/p")
+			name = strings.TrimSpace(htmlquery.InnerText(a))
+		} else {
+			fmt.Println("加载 github 失败！")
+		}
+	}
+
+	info := whatlanggo.Detect(name)
+	lang := info.Lang.String()
+	if lang != "" && lang != "Mandarin" {
+		result, err := gdeeplx.Translate(name, "", "zh", 0)
+		if err == nil {
+			res := result.(map[string]interface{})
+			name = fmt.Sprintf("%s(%s)", name, strings.TrimSpace(res["data"].(string)))
+		}
+	}
+
+	// 本地测试调用
+	//_ = godotenv.Load()
 	db.Init(
 		os.Getenv("DB_HOST"),
 		os.Getenv("DB_PORT"),
@@ -32,18 +61,10 @@ func main() {
 	defer db.Close()
 	db.AutoMigrate()
 
-	_, err := db.FindByUrl(url)
-	if err != nil {
-		if err = db.Insert(db.Collect{
-			Name: name,
-			Url:  url,
-		}); err != nil {
-			fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
-		}
-
-		fmt.Println("插入数据成功")
-		return
+	url = strings.ReplaceAll(url, "https://", "")
+	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: name}).FirstOrCreate(&db.Collect{}).Error; err != nil {
+		fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
 	}
 
-	fmt.Println("数据已存在")
+	fmt.Println("插入成功！")
 }
