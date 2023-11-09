@@ -253,3 +253,4 @@
 ||github.com/mozillazg/go-pinyin|汉字转拼音|<br>
 ||github.com/rubenv/sql-migrate|SQL schema migration tool for Go.(用于 Go 的 SQL 模式迁移工具。)|<br>
 ||github.com/6tail/lunar-go|日历、公历(阳历)、农历(阴历、老黄历)、道历、佛历，支持节假日、星座、儒略日、干支、生肖、节气、节日、彭祖百忌、每日宜忌、吉神宜趋凶煞宜忌、吉神(喜神/福神/财神/阳贵神/阴贵神)方位、胎神方位、冲煞、纳音、星宿、八字、五行、十神、建除十二值星、青龙名堂等十二神、黄道黑道日及吉凶等。lunar is a calendar library for Solar and Chinese Lunar.|<br>
+||github.com/deckarep/golang-set|A simple, battle-tested and generic set type for the Go language. Trusted by Docker, 1Password, Ethereum and Hashicorp.(适用于 Go 语言的简单、经过实战检验的通用集合类型。受到 Docker、1Password、以太坊和 Hashicorp 的信任。)|<br>
