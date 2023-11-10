@@ -242,7 +242,7 @@
 ||github.com/tcnksm/go-gitconfig|Use gitconfig values in Golang.(在 Golang 中使用 gitconfig 值。)|<br>
 ||github.com/ulikunitz/xz|Pure golang package for reading and writing xz-compressed files(读写 xz 压缩文件的纯 golang 软件包)|<br>
 ||github.com/OpenPeeDeeP/xdg|A cross platform package that follows the XDG Standard(遵循 XDG 标准的跨平台软件包)|<br>
-||github.com/mitchellh/go-ps/tree/master|Find, list, and inspect processes from Go (golang).(从 Go (golang) 中查找、列出和检查进程。)|<br>
+||github.com/mitchellh/go-ps|Find, list, and inspect processes from Go (golang).(从 Go (golang) 中查找、列出和检查进程。)|<br>
 ||github.com/joeshaw/envdecode|Go package for populating structs from environment variables using struct tags(使用结构标记从环境变量中填充结构的 Go 软件包)|<br>
 ||github.com/mileusna/useragent|Go/Golang parser for user agent strings(用户代理字符串的 Go/Golang 解析器)|<br>
 ||github.com/UserExistsError/conpty|Windows Pseudo Console (ConPTY) for Golang(适用于 Golang 的 Windows 伪控制台 (ConPTY))|<br>
@@ -254,5 +254,5 @@
 ||github.com/rubenv/sql-migrate|SQL schema migration tool for Go.(用于 Go 的 SQL 模式迁移工具。)|<br>
 ||github.com/6tail/lunar-go|日历、公历(阳历)、农历(阴历、老黄历)、道历、佛历，支持节假日、星座、儒略日、干支、生肖、节气、节日、彭祖百忌、每日宜忌、吉神宜趋凶煞宜忌、吉神(喜神/福神/财神/阳贵神/阴贵神)方位、胎神方位、冲煞、纳音、星宿、八字、五行、十神、建除十二值星、青龙名堂等十二神、黄道黑道日及吉凶等。lunar is a calendar library for Solar and Chinese Lunar.|<br>
 ||github.com/deckarep/golang-set|A simple, battle-tested and generic set type for the Go language. Trusted by Docker, 1Password, Ethereum and Hashicorp.(适用于 Go 语言的简单、经过实战检验的通用集合类型。受到 Docker、1Password、以太坊和 Hashicorp 的信任。)|<br>
-||github.com/djherbis/times/tree/master|#golang file times (atime, mtime, ctime, btime)(#golang 文件时间（atime、mtime、ctime、btime）)|<br>
+||github.com/djherbis/times|#golang file times (atime, mtime, ctime, btime)(#golang 文件时间（atime、mtime、ctime、btime）)|<br>
 ||github.com/objcoding/wxpay|🔥微信支付(WeChat Pay) SDK for Golang(🔥微信支付(WeChat Pay) SDK for Golang)|<br>
