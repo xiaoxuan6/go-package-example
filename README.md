@@ -256,3 +256,4 @@
 ||github.com/deckarep/golang-set|A simple, battle-tested and generic set type for the Go language. Trusted by Docker, 1Password, Ethereum and Hashicorp.(适用于 Go 语言的简单、经过实战检验的通用集合类型。受到 Docker、1Password、以太坊和 Hashicorp 的信任。)|<br>
 ||github.com/djherbis/times|#golang file times (atime, mtime, ctime, btime)(#golang 文件时间（atime、mtime、ctime、btime）)|<br>
 ||github.com/objcoding/wxpay|🔥微信支付(WeChat Pay) SDK for Golang(🔥微信支付(WeChat Pay) SDK for Golang)|<br>
+||github.com/unknwon/goconfig|Package goconfig is a fully functional and comments-support configuration file (.ini) parser.(软件包 goconfig 是一个功能齐全、支持注释的配置文件（.ini）解析器。)|<br>
