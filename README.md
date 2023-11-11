@@ -257,3 +257,4 @@
 ||github.com/djherbis/times|#golang file times (atime, mtime, ctime, btime)(#golang 文件时间（atime、mtime、ctime、btime）)|<br>
 ||github.com/objcoding/wxpay|🔥微信支付(WeChat Pay) SDK for Golang(🔥微信支付(WeChat Pay) SDK for Golang)|<br>
 ||github.com/unknwon/goconfig|Package goconfig is a fully functional and comments-support configuration file (.ini) parser.(软件包 goconfig 是一个功能齐全、支持注释的配置文件（.ini）解析器。)|<br>
+||github.com/tealeg/xlsx|Go library for reading and writing XLSX files.(用于读写 XLSX 文件的 Go 库。)|<br>
