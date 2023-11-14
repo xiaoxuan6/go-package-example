@@ -259,3 +259,4 @@
 ||github.com/unknwon/goconfig|Package goconfig is a fully functional and comments-support configuration file (.ini) parser.(软件包 goconfig 是一个功能齐全、支持注释的配置文件（.ini）解析器。)|<br>
 ||github.com/tealeg/xlsx|Go library for reading and writing XLSX files.(用于读写 XLSX 文件的 Go 库。)|<br>
 ||github.com/domodwyer/mailyak|An elegant MIME/SMTP email library with support for attachments(优雅的 MIME/SMTP 电子邮件库，支持附件)|<br>
+||github.com/OwO-Network/DeepLX|DeepL Free API (No TOKEN required)(DeepL 免费 API（无需 TOKEN）)|<br>
