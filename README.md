@@ -261,3 +261,4 @@
 ||github.com/domodwyer/mailyak|An elegant MIME/SMTP email library with support for attachments(优雅的 MIME/SMTP 电子邮件库，支持附件)|<br>
 ||github.com/OwO-Network/DeepLX|DeepL Free API (No TOKEN required)(DeepL 免费 API（无需 TOKEN）)|<br>
 ||github.com/mitchellh/hashstructure|Get hash values for arbitrary values in Go (golang).(获取 Go (golang) 中任意值的哈希值。)|<br>
+||github.com/gammazero/workerpool|Concurrency limiting goroutine pool(并发限制程序池)|<br>
