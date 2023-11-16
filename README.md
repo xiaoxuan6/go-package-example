@@ -263,3 +263,4 @@
 ||github.com/mitchellh/hashstructure|Get hash values for arbitrary values in Go (golang).(获取 Go (golang) 中任意值的哈希值。)|<br>
 ||github.com/gammazero/workerpool|Concurrency limiting goroutine pool(并发限制程序池)|<br>
 ||github.com/goware/urlx|Golang pkg for URL parsing and normalization(用于 URL 解析和规范化的 Golang pkg)|<br>
+||github.com/peterhellberg/link/tree/master|Parses Link headers used for pagination, as defined in RFC 5988(根据 RFC 5988 的定义，解析用于分页的链接标头)|<br>
