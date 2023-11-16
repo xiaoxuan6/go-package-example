@@ -262,3 +262,4 @@
 ||github.com/OwO-Network/DeepLX|DeepL Free API (No TOKEN required)(DeepL 免费 API（无需 TOKEN）)|<br>
 ||github.com/mitchellh/hashstructure|Get hash values for arbitrary values in Go (golang).(获取 Go (golang) 中任意值的哈希值。)|<br>
 ||github.com/gammazero/workerpool|Concurrency limiting goroutine pool(并发限制程序池)|<br>
+||github.com/goware/urlx|Golang pkg for URL parsing and normalization(用于 URL 解析和规范化的 Golang pkg)|<br>
