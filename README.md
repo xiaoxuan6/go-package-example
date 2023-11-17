@@ -265,3 +265,4 @@
 ||github.com/goware/urlx|Golang pkg for URL parsing and normalization(用于 URL 解析和规范化的 Golang pkg)|<br>
 ||github.com/peterhellberg/link/tree/master|Parses Link headers used for pagination, as defined in RFC 5988(根据 RFC 5988 的定义，解析用于分页的链接标头)|<br>
 ||github.com/tomnomnom/linkheader|Golang HTTP Link header parser(Golang HTTP 链接头解析器)|<br>
+||github.com/karlseguin/typed|A wrapper around map[string]interface{} to provide some strong typing(map[string]interface{}的包装器，提供一些强类型功能)|<br>
