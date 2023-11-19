@@ -12,13 +12,15 @@ import (
 )
 
 var (
-	url  string
-	name string
+	url      string
+	name     string
+	language string
 )
 
 func main() {
 	flag.StringVar(&url, "url", "", "第三方包地址")
 	flag.StringVar(&name, "name", "", "第三方包名")
+	flag.StringVar(&language, "language", "", "第三方包语言")
 	flag.Parse()
 
 	if url == "" {
@@ -62,7 +64,7 @@ func main() {
 	db.AutoMigrate()
 
 	url = strings.ReplaceAll(url, "https://", "")
-	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: name}).FirstOrCreate(&db.Collect{}).Error; err != nil {
+	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: name, Language: language}).FirstOrCreate(&db.Collect{}).Error; err != nil {
 		fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
 	}
 

@@ -1,9 +1,12 @@
 package main
 
 import (
+	"bufio"
+	"bytes"
 	"fmt"
 	"github.com/joho/godotenv"
 	db "github.com/xiaoxuan6/go-package-db"
+	"io"
 	"io/ioutil"
 	"os"
 	"regexp"
@@ -19,23 +22,28 @@ func main() {
 		return
 	}
 
-	newContent := string(b)
-	replacements := []string{"# Go 开源第三方包收集和使用示例", "|分支名|包名|描述|", "|:---|:---|:---|"}
-	for _, replaceOld := range replacements {
-		newContent = strings.ReplaceAll(newContent, replaceOld, ``)
-	}
-	newContent = strings.Trim(newContent, "\n")
-	contents := strings.Split(newContent, "\n")
-
 	var data []db.Collect
-	for _, val := range contents {
-		regexpStr := regexpContent(val)
-		if regexpStr != nil {
-			data = append(data, db.Collect{
-				Name: regexpStr[3],
-				Url:  regexpStr[2],
-			})
+	br := bufio.NewReader(bytes.NewReader(b))
+	for {
+		a, _, c := br.ReadLine()
+		if c == io.EOF {
+			break
 		}
+
+		re := regexpContent(string(a))
+		if len(re) < 1 {
+			continue
+		}
+
+		if strings.HasPrefix(re[2], "github.com") == false {
+			continue
+		}
+
+		data = append(data, db.Collect{
+			Name:     re[3],
+			Url:      re[2],
+			Language: "Go", // 默认 Go 语言
+		})
 	}
 
 	db.Init(
