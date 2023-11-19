@@ -56,7 +56,7 @@ func main() {
 	defer db.Close()
 	db.AutoMigrate()
 
-	_ = db.DeleteAll()
+	_ = db.DB.Where("language = ?", "Go").Delete(&db.Collect{})
 	if err = db.Insert(data...); err != nil {
 		fmt.Println("数据插入失败：" + err.Error())
 		return

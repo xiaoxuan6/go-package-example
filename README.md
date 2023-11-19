@@ -271,3 +271,4 @@
 ||github.com/forgoer/openssl|用于对称和非对称加密和解密的 OpenSSL 函数库的函数封装。|<br>
 ||github.com/klauspost/cpuid|围棋 CPU 功能识别|<br>
 ||github.com/sashabaranov/go-openai|OpenAI ChatGPT、GPT-3、GPT-4、DALL-E、Whisper API Go 封装器|<br>
+||github.com/mitchellh/mapstructure|Go 库，用于将通用映射值解码为本地 Go 结构，反之亦然。|<br>
