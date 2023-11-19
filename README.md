@@ -1,4 +1,5 @@
-# Go 开源第三方包收集和使用示例
+# ❤️ 收集喜欢的开源项目
+[RSS 订阅](https://rsshub.app/github/file/xiaoxuan6/go-package-example/main/README.md)
 
 |分支名|包名|描述|
 |:---|:---|:---|
