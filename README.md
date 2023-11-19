@@ -270,3 +270,4 @@
 ||github.com/hairyhenderson/go-which|which(1) 命令的跨平台 Go 实现，可作为 CLI 和库使用|<br>
 ||github.com/forgoer/openssl|用于对称和非对称加密和解密的 OpenSSL 函数库的函数封装。|<br>
 ||github.com/klauspost/cpuid|围棋 CPU 功能识别|<br>
+||github.com/sashabaranov/go-openai|OpenAI ChatGPT、GPT-3、GPT-4、DALL-E、Whisper API Go 封装器|<br>
