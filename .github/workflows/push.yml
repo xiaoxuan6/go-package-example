@@ -20,7 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r ./requirements.txt
-          python main.py --url="${{ github.event.client_payload.url }}" --description="${{ github.event.client_payload.description }}" --demo_url="${{ github.event.client_payload.demo_url }}"
+          python main.py --url="${{ github.event.client_payload.url }}" --description="${{ github.event.client_payload.description }}" --demo_url="${{ github.event.client_payload.demo_url }}" --language="${{ github.event.client_payload.language }}"
       - name: "Commit files"
         run: |
           git config --local user.email "1527736751@qq.com"
