@@ -268,3 +268,4 @@
 ||github.com/karlseguin/typed|map[string]interface{}的包装器，提供一些强类型功能|<br>
 ||github.com/xhit/go-str2duration|在 golang 中将字符串转换为持续时间|<br>
 ||github.com/hairyhenderson/go-which|which(1) 命令的跨平台 Go 实现，可作为 CLI 和库使用|<br>
+||github.com/forgoer/openssl|用于对称和非对称加密和解密的 OpenSSL 函数库的函数封装。|<br>
