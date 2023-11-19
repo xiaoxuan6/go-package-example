@@ -272,3 +272,4 @@
 ||github.com/klauspost/cpuid|围棋 CPU 功能识别|<br>
 ||github.com/sashabaranov/go-openai|OpenAI ChatGPT、GPT-3、GPT-4、DALL-E、Whisper API Go 封装器|<br>
 ||github.com/mitchellh/mapstructure|Go 库，用于将通用映射值解码为本地 Go 结构，反之亦然。|<br>
+||github.com/robfig/cron|go 的 cron 程序库|<br>
