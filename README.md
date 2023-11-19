@@ -195,75 +195,75 @@
 ||github.com/resendlabs/resend-go|Resend's Go SDK|<br>
 ||github.com/jedib0t/go-pretty|golang 中的表格编写器等！|<br>
 ||github.com/inancgumus/prettyslice|漂亮地将切片打印到任何 io.Writer：我创建了这个包来在我的 Go 课程中教授切片。|<br>
-||github.com/abadojack/whatlanggo|Natural language detection library for Go(Go 的自然语言检测库)|<br>
-||github.com/ryanuber/columnize|Easy column formatted output for golang(golang 的简单列格式输出)|<br>
-||github.com/manifoldco/promptui|Interactive prompt for command-line applications(用于命令行应用程序的交互式提示)|<br>
+||github.com/abadojack/whatlanggo|Go 的自然语言检测库|<br>
+||github.com/ryanuber/columnize|golang 的简单列格式输出|<br>
+||github.com/manifoldco/promptui|用于命令行应用程序的交互式提示|<br>
 ||github.com/gabriel-vasile/mimetype|一个基于幻数的快速 Golang 库，用于媒体类型和文件扩展名检测|<br>
 ||github.com/scylladb/termtables|处理表格形式数据的输出，还支持输出 HTML 和 Markdown 格式的表格。|<br>
-||github.com/mingrammer/commonregex|🍫 A collection of common regular expressions for Go(🍫 Go 的常用正则表达式集)|<br>
-||github.com/gosuri/uilive|uilive is a go library for updating terminal output in realtime(uilive 是一个用于实时更新终端输出的 go 库)|<br>
-||github.com/mdp/qrterminal|QR Codes in your terminal(终端中的 QR 码)|<br>
-||github.com/icrowley/fake|Go (Golang) 的假数据生成器(Go (Golang) 的假数据生成器)|<br>
-||github.com/eiannone/keyboard|Simple library to listen for keystrokes from the keyboard(监听键盘按键的简单程序库)|<br>
-||github.com/upyun/go-sdk|UPYUN Go SDK(UPYUN Go SDK)|<br>
-||github.com/distatus/battery|cross-platform, normalized battery information library(跨平台、规范化的电池信息库)|<br>
-||github.com/mgechev/dots|Implements the wildcard file matching in Go used by golint, go test etc.(在 Go 中实现通配符文件匹配，如 golint、go test 等。)|<br>
-||github.com/avelino/slugify|A Go slugify application that handles string(处理字符串的 Go slugify 应用程序)|<br>
-||github.com/artonge/go-csv-tag|Read csv file from go using tags(使用标签从 go 读取 csv 文件)|<br>
-||github.com/hackebrot/turtle|Emojis for Go 😄🐢🚀(围棋表情符号 😄🐢🚀)|<br>
+||github.com/mingrammer/commonregex|🍫 Go 的常用正则表达式集|<br>
+||github.com/gosuri/uilive|uilive 是一个用于实时更新终端输出的 go 库|<br>
+||github.com/mdp/qrterminal|终端中的 QR 码|<br>
+||github.com/icrowley/fake|Go (Golang) 的假数据生成器|<br>
+||github.com/eiannone/keyboard|监听键盘按键的简单程序库|<br>
+||github.com/upyun/go-sdk|UPYUN Go SDK|<br>
+||github.com/distatus/battery|跨平台、规范化的电池信息库|<br>
+||github.com/mgechev/dots|在 Go 中实现通配符文件匹配，如 golint、go test 等。|<br>
+||github.com/avelino/slugify|处理字符串的 Go slugify 应用程序|<br>
+||github.com/artonge/go-csv-tag|使用标签从 go 读取 csv 文件|<br>
+||github.com/hackebrot/turtle|围棋表情符号 😄🐢🚀|<br>
 ||github.com/rylans/getlang|纯 Go 中的自然语言检测包|<br>
-||github.com/endeveit/guesslanguage|Guess the natural language of a text in Go(用 Go 猜测文本的自然语言)|<br>
+||github.com/endeveit/guesslanguage|用 Go 猜测文本的自然语言|<br>
 ||github.com/xujiajun/gotokenizer|基于 Go 字典和 Biggram 语言模型的分词器。（目前仅支持中文分词）|<br>
-||github.com/bndr/gotabulate|Gotabulate - Easily pretty-print your tabular data with Go(Gotabulate - 使用 Go 轻松漂亮打印表格数据)|<br>
+||github.com/bndr/gotabulate|Gotabulate - 使用 Go 轻松漂亮打印表格数据|<br>
 ||github.com/shopspring/decimal|go中的任意精度定点十进制数|<br>
 ||github.com/drewstinnett/gout|以标准格式输出go对象，例如YAML、JSON等|<br>
-||github.com/pelletier/go-toml|Go library for the TOML file format(用于 TOML 文件格式的 Go 库)|<br>
-||github.com/nikolaydubina/htmlyaml|🐹 在 Go 中将 YAML 渲染为 HTML(🐹 在 Go 中将 YAML 渲染为 HTML)|<br>
-||github.com/cgxxv/xj2go|Convert xml and json to go struct(将 xml 和 json 转换为 go 结构)|<br>
+||github.com/pelletier/go-toml|用于 TOML 文件格式的 Go 库|<br>
+||github.com/nikolaydubina/htmlyaml|🐹 在 Go 中将 YAML 渲染为 HTML|<br>
+||github.com/cgxxv/xj2go|将 xml 和 json 转换为 go 结构|<br>
 ||github.com/JoshuaDoes/gofuckyourself|一个基于清理的Go脏话过滤器。|<br>
 ||github.com/mvdan/xurls|从文本中提取网址|<br>
 ||github.com/codemodus/kace|常见的大小写转换涵盖常见的缩写。|<br>
 ||github.com/AfterShip/email-verifier|✅ 一个用于电子邮件验证的 Go 库，无需发送任何电子邮件。|<br>
-||github.com/andygrunwald/go-trending|Go library for accessing trending repositories and developers at Github.(Go 库，用于访问 Github 上的趋势软件源和开发人员。)|<br>
-||github.com/c4milo/unpackit|Go package to natively decompress and unarchive tar.gz, tar.bzip2, tar.xz, zip and tar files.(Go 软件包可解压和解压缩 tar.gz、tar.bzip2、tar.xz、zip 和 tar 文件。)|<br>
-||github.com/sendgrid/rest|SendGrid 的 Golang HTTP 客户端，用于调用 API(SendGrid 的 Golang HTTP 客户端，用于调用 API)|<br>
-||github.com/skratchdot/open-golang|Open a file, directory, or URI using the OS's default application for that object type. Optionally, you can specify an application to use.(使用操作系统针对该对象类型的默认应用程序打开文件、目录或 URI。您还可以指定要使用的应用程序。)|<br>
-||github.com/gookit/filter|⏳ Provide filtering, sanitizing, and conversion of Golang data. 提供对Golang数据的过滤，净化，转换。(⏳ 提供对 Golang 数据的过滤、净化、转换。提供对 Golang 数据的过滤、净化、转换。)|<br>
-||github.com/subosito/gotenv|Load environment variables from  or  in Go.(在 Go 中从  或  加载环境变量。)|<br>
-||github.com/guumaster/tablewriter|ASCII table in golang(golang 中的 ASCII 表格)|<br>
+||github.com/andygrunwald/go-trending|Go 库，用于访问 Github 上的趋势软件源和开发人员。|<br>
+||github.com/c4milo/unpackit|Go 软件包可解压和解压缩 tar.gz、tar.bzip2、tar.xz、zip 和 tar 文件。|<br>
+||github.com/sendgrid/rest|SendGrid 的 Golang HTTP 客户端，用于调用 API|<br>
+||github.com/skratchdot/open-golang|使用操作系统针对该对象类型的默认应用程序打开文件、目录或 URI。您还可以指定要使用的应用程序。|<br>
+||github.com/gookit/filter|⏳ 提供对 Golang 数据的过滤、净化、转换。提供对 Golang 数据的过滤、净化、转换。|<br>
+||github.com/subosito/gotenv|在 Go 中从  或  加载环境变量。|<br>
+||github.com/guumaster/tablewriter|golang 中的 ASCII 表格|<br>
 |[demo](https://github.com/shurcooL/sanitized_anchor_name/blob/master/main_test.go)|github.com/shurcooL/sanitized_anchor_name|字符串 slug|<br>
-||github.com/bregydoc/gtranslate|Google Translate API 可实现无限制且免费的翻译，gtranslate 会生成免费使用 Google Translate API 所需的令牌(Google Translate API 可实现无限制且免费的翻译，gtranslate 会生成免费使用 Google Translate API 所需的令牌)|<br>
-||github.com/sqweek/dialog|go-lang 的简单跨平台对话框 API(go-lang 的简单跨平台对话框 API)|<br>
-||github.com/bwmarrin/go-alone|A simple to use, high-performance, Go (golang) MAC signer.(一个简单易用、高性能的 Go (golang) MAC 签名器。)|<br>
-||github.com/golang-design/clipboard|📋 cross-platform clipboard package that supports accessing text and image in Go (macOS/Linux/Windows/Android/iOS)(支持在 Go 中访问文本和图像的跨平台剪贴板软件包（macOS/Linux/Windows/Android/iOS）)|<br>
-||github.com/faiface/beep|A little package that brings sound to any Go application. Suitable for playback and audio-processing.(一个能为任何 Go 应用程序带来声音的小软件包。适用于播放和音频处理。)|<br>
-||github.com/forPelevin/gomoji|Helpful functions to work with emoji in Golang(在 Golang 中使用表情符号的实用功能)|<br>
-||github.com/qwqcode/go-aliyun-email|aliyun email service golang sdk(阿里云电子邮件服务 Golang Sdk)|<br>
-||github.com/tcnksm/go-gitconfig|Use gitconfig values in Golang.(在 Golang 中使用 gitconfig 值。)|<br>
-||github.com/ulikunitz/xz|Pure golang package for reading and writing xz-compressed files(读写 xz 压缩文件的纯 golang 软件包)|<br>
-||github.com/OpenPeeDeeP/xdg|A cross platform package that follows the XDG Standard(遵循 XDG 标准的跨平台软件包)|<br>
-||github.com/mitchellh/go-ps|Find, list, and inspect processes from Go (golang).(从 Go (golang) 中查找、列出和检查进程。)|<br>
-||github.com/joeshaw/envdecode|Go package for populating structs from environment variables using struct tags(使用结构标记从环境变量中填充结构的 Go 软件包)|<br>
-||github.com/mileusna/useragent|Go/Golang parser for user agent strings(用户代理字符串的 Go/Golang 解析器)|<br>
-||github.com/UserExistsError/conpty|Windows Pseudo Console (ConPTY) for Golang(适用于 Golang 的 Windows 伪控制台 (ConPTY))|<br>
-||github.com/ncruces/zenity|Zenity dialogs for Golang, Windows, macOS(适用于 Golang、Windows 和 macOS 的 Zenity 对话框)|<br>
-||github.com/anyproto/html-to-markdown|⚙️ Convert Html to Markdown. Even works with whole websites.(⚙️ 将 Html 转换为 Markdown。甚至可用于整个网站。)|<br>
-||github.com/sethvargo/go-password|A Golang library for generating high-entropy random passwords similar to 1Password or LastPass.(用于生成高熵随机密码的 Golang 库，类似于 1Password 或 LastPass。)|<br>
-||github.com/lunixbochs/vtclean|strips terminal escapes from text, can preserve color(删除文本中的转义字符，可保留颜色)|<br>
+||github.com/bregydoc/gtranslate|Google Translate API 可实现无限制且免费的翻译，gtranslate 会生成免费使用 Google Translate API 所需的令牌|<br>
+||github.com/sqweek/dialog|go-lang 的简单跨平台对话框 API|<br>
+||github.com/bwmarrin/go-alone|一个简单易用、高性能的 Go (golang) MAC 签名器。|<br>
+||github.com/golang-design/clipboard|支持在 Go 中访问文本和图像的跨平台剪贴板软件包（macOS/Linux/Windows/Android/iOS）|<br>
+||github.com/faiface/beep|一个能为任何 Go 应用程序带来声音的小软件包。适用于播放和音频处理。|<br>
+||github.com/forPelevin/gomoji|在 Golang 中使用表情符号的实用功能|<br>
+||github.com/qwqcode/go-aliyun-email|阿里云电子邮件服务 Golang Sdk|<br>
+||github.com/tcnksm/go-gitconfig|在 Golang 中使用 gitconfig 值。|<br>
+||github.com/ulikunitz/xz|读写 xz 压缩文件的纯 golang 软件包|<br>
+||github.com/OpenPeeDeeP/xdg|遵循 XDG 标准的跨平台软件包|<br>
+||github.com/mitchellh/go-ps|从 Go (golang) 中查找、列出和检查进程。|<br>
+||github.com/joeshaw/envdecode|使用结构标记从环境变量中填充结构的 Go 软件包|<br>
+||github.com/mileusna/useragent|用户代理字符串的 Go/Golang 解析器|<br>
+||github.com/UserExistsError/conpty|适用于 Golang 的 Windows 伪控制台 (ConPTY)|<br>
+||github.com/ncruces/zenity|适用于 Golang、Windows 和 macOS 的 Zenity 对话框|<br>
+||github.com/anyproto/html-to-markdown|⚙️ 将 Html 转换为 Markdown。甚至可用于整个网站。|<br>
+||github.com/sethvargo/go-password|用于生成高熵随机密码的 Golang 库，类似于 1Password 或 LastPass。|<br>
+||github.com/lunixbochs/vtclean|删除文本中的转义字符，可保留颜色|<br>
 ||github.com/mozillazg/go-pinyin|汉字转拼音|<br>
-||github.com/rubenv/sql-migrate|SQL schema migration tool for Go.(用于 Go 的 SQL 模式迁移工具。)|<br>
+||github.com/rubenv/sql-migrate|用于 Go 的 SQL 模式迁移工具。|<br>
 ||github.com/6tail/lunar-go|日历、公历(阳历)、农历(阴历、老黄历)、道历、佛历，支持节假日、星座、儒略日、干支、生肖、节气、节日、彭祖百忌、每日宜忌、吉神宜趋凶煞宜忌、吉神(喜神/福神/财神/阳贵神/阴贵神)方位、胎神方位、冲煞、纳音、星宿、八字、五行、十神、建除十二值星、青龙名堂等十二神、黄道黑道日及吉凶等。lunar is a calendar library for Solar and Chinese Lunar.|<br>
-||github.com/deckarep/golang-set|A simple, battle-tested and generic set type for the Go language. Trusted by Docker, 1Password, Ethereum and Hashicorp.(适用于 Go 语言的简单、经过实战检验的通用集合类型。受到 Docker、1Password、以太坊和 Hashicorp 的信任。)|<br>
-||github.com/djherbis/times|#golang file times (atime, mtime, ctime, btime)(#golang 文件时间（atime、mtime、ctime、btime）)|<br>
-||github.com/objcoding/wxpay|🔥微信支付(WeChat Pay) SDK for Golang(🔥微信支付(WeChat Pay) SDK for Golang)|<br>
-||github.com/unknwon/goconfig|Package goconfig is a fully functional and comments-support configuration file (.ini) parser.(软件包 goconfig 是一个功能齐全、支持注释的配置文件（.ini）解析器。)|<br>
-||github.com/tealeg/xlsx|Go library for reading and writing XLSX files.(用于读写 XLSX 文件的 Go 库。)|<br>
-||github.com/domodwyer/mailyak|An elegant MIME/SMTP email library with support for attachments(优雅的 MIME/SMTP 电子邮件库，支持附件)|<br>
-||github.com/OwO-Network/DeepLX|DeepL Free API (No TOKEN required)(DeepL 免费 API（无需 TOKEN）)|<br>
-||github.com/mitchellh/hashstructure|Get hash values for arbitrary values in Go (golang).(获取 Go (golang) 中任意值的哈希值。)|<br>
-||github.com/gammazero/workerpool|Concurrency limiting goroutine pool(并发限制程序池)|<br>
-||github.com/goware/urlx|Golang pkg for URL parsing and normalization(用于 URL 解析和规范化的 Golang pkg)|<br>
-||github.com/peterhellberg/link/tree/master|Parses Link headers used for pagination, as defined in RFC 5988(根据 RFC 5988 的定义，解析用于分页的链接标头)|<br>
-||github.com/tomnomnom/linkheader|Golang HTTP Link header parser(Golang HTTP 链接头解析器)|<br>
-||github.com/karlseguin/typed|A wrapper around map[string]interface{} to provide some strong typing(map[string]interface{}的包装器，提供一些强类型功能)|<br>
-||github.com/xhit/go-str2duration|Convert string to duration in golang(在 golang 中将字符串转换为持续时间)|<br>
+||github.com/deckarep/golang-set|适用于 Go 语言的简单、经过实战检验的通用集合类型。受到 Docker、1Password、以太坊和 Hashicorp 的信任。|<br>
+||github.com/djherbis/times|#golang 文件时间（atime、mtime、ctime、btime）|<br>
+||github.com/objcoding/wxpay|🔥微信支付(WeChat Pay) SDK for Golang|<br>
+||github.com/unknwon/goconfig|软件包 goconfig 是一个功能齐全、支持注释的配置文件（.ini）解析器。|<br>
+||github.com/tealeg/xlsx|用于读写 XLSX 文件的 Go 库。|<br>
+||github.com/domodwyer/mailyak|优雅的 MIME/SMTP 电子邮件库，支持附件|<br>
+||github.com/OwO-Network/DeepLX|DeepL 免费 API（无需 TOKEN）|<br>
+||github.com/mitchellh/hashstructure|获取 Go (golang) 中任意值的哈希值。|<br>
+||github.com/gammazero/workerpool|并发限制程序池|<br>
+||github.com/goware/urlx|用于 URL 解析和规范化的 Golang pkg|<br>
+||github.com/peterhellberg/link|根据 RFC 5988 的定义，解析用于分页的链接标头|<br>
+||github.com/tomnomnom/linkheader|Golang HTTP 链接头解析器|<br>
+||github.com/karlseguin/typed|map[string]interface{}的包装器，提供一些强类型功能|<br>
+||github.com/xhit/go-str2duration|在 golang 中将字符串转换为持续时间|<br>
