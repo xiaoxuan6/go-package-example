@@ -64,6 +64,9 @@ func main() {
 	db.AutoMigrate()
 
 	url = strings.ReplaceAll(url, "https://", "")
+	if len(language) == 0 {
+		language = "other"
+	}
 	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: name, Language: language}).FirstOrCreate(&db.Collect{}).Error; err != nil {
 		fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
 	}
