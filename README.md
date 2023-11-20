@@ -281,3 +281,4 @@
 ||github.com/shenbowei/switch-ssh-go|用于交换机（华为、H3C、思科）的 SSH 打包库|<br>
 ||github.com/abbot/go-http-auth|用于 golang http 的基本 HTTP 验证和摘要 HTTP 验证|<br>
 ||github.com/antonmedv/countdown|终端倒计时器|<br>
+||github.com/didip/tollbooth|用于限制 HTTP 请求速率的简单中间件。|<br>
