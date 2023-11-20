@@ -278,3 +278,4 @@
 ||github.com/sundowndev/phoneinfoga|电话号码信息收集框架|<br>
 ||github.com/sundowndev/dorkgen|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>
 ||github.com/leekchan/accounting|Golang 的货币和货币格式|<br>
+||github.com/shenbowei/switch-ssh-go|用于交换机（华为、H3C、思科）的 SSH 打包库|<br>
