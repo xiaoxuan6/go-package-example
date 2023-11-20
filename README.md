@@ -283,3 +283,4 @@
 ||github.com/antonmedv/countdown|终端倒计时器|<br>
 ||github.com/didip/tollbooth|用于限制 HTTP 请求速率的简单中间件。|<br>
 ||github.com/bobesa/go-domain-util|GOlang 软件包，用于检查 url 是否包含子域、子域是什么、url 中的顶级域是什么等。|<br>
+||github.com/wayneashleyberry/terminal-dimensions|端子尺寸是一个简单的围棋软件包，用于查找您的端子宽度。|<br>
