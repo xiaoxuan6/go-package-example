@@ -11,3 +11,4 @@
 |github.com/moonD4rk/notifier|notifier 是一个 Go 库，用于向其他应用程序发送通知。|<br>
 |github.com/wagslane/go-password-validator|在 Go 中验证密码强度|<br>
 |github.com/MichaelMure/go-term-text|终端文本格式算法集|<br>
+|github.com/go-shiori/go-readability|清理 HTML 页面以提高可读性的 Go 软件包。|<br>
