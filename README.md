@@ -282,3 +282,4 @@
 ||github.com/abbot/go-http-auth|用于 golang http 的基本 HTTP 验证和摘要 HTTP 验证|<br>
 ||github.com/antonmedv/countdown|终端倒计时器|<br>
 ||github.com/didip/tollbooth|用于限制 HTTP 请求速率的简单中间件。|<br>
+||github.com/bobesa/go-domain-util|GOlang 软件包，用于检查 url 是否包含子域、子域是什么、url 中的顶级域是什么等。|<br>
