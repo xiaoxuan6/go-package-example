@@ -275,3 +275,5 @@
 ||github.com/mitchellh/mapstructure|Go 库，用于将通用映射值解码为本地 Go 结构，反之亦然。|<br>
 ||github.com/robfig/cron|go 的 cron 程序库|<br>
 ||github.com/nyaruka/phonenumbers|谷歌 libphonenumber 库的 GoLang 移植|<br>
+||github.com/sundowndev/phoneinfoga|电话号码信息收集框架|<br>
+||github.com/sundowndev/dorkgen|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>

@@ -28,29 +28,6 @@ func main() {
 		return
 	}
 
-	if name == "" {
-		if strings.HasPrefix(url, "https://") == false {
-			url = "https://" + url
-		}
-		doc, err := htmlquery.LoadURL(url)
-		if err == nil {
-			a := htmlquery.FindOne(doc, "//*[@id=\"responsive-meta-container\"]/div/p")
-			name = strings.TrimSpace(htmlquery.InnerText(a))
-		} else {
-			fmt.Println("加载 github 失败！")
-		}
-	}
-
-	info := whatlanggo.Detect(name)
-	lang := info.Lang.String()
-	if lang != "" && lang != "Mandarin" {
-		result, err := gdeeplx.Translate(name, "", "zh", 0)
-		if err == nil {
-			res := result.(map[string]interface{})
-			name = fmt.Sprintf("%s(%s)", name, strings.TrimSpace(res["data"].(string)))
-		}
-	}
-
 	// 本地测试调用
 	//_ = godotenv.Load()
 	db.Init(
@@ -63,13 +40,36 @@ func main() {
 	defer db.Close()
 	db.AutoMigrate()
 
+	name = nameDo(url, name)
 	url = strings.ReplaceAll(url, "https://", "")
-	if len(language) == 0 {
-		language = "other"
-	}
 	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: name, Language: language}).FirstOrCreate(&db.Collect{}).Error; err != nil {
 		fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
 	}
 
 	fmt.Println("插入成功！")
+}
+
+func nameDo(url, name string) string {
+	if name == "" {
+		if strings.HasPrefix(url, "https://") == false {
+			url = "https://" + url
+		}
+		doc, err := htmlquery.LoadURL(url)
+		if err == nil {
+			a := htmlquery.FindOne(doc, "//*[@id=\"responsive-meta-container\"]/div/p")
+			name = strings.TrimSpace(htmlquery.InnerText(a))
+		}
+	}
+
+	info := whatlanggo.Detect(name)
+	lang := info.Lang.String()
+	if lang != "" && lang != "Mandarin" {
+		result, err := gdeeplx.Translate(name, "", "zh", 0)
+		if err == nil {
+			res := result.(map[string]interface{})
+			name = strings.TrimSpace(res["data"].(string))
+		}
+	}
+
+	return name
 }
