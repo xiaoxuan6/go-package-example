@@ -286,3 +286,4 @@
 ||github.com/wayneashleyberry/terminal-dimensions|端子尺寸是一个简单的围棋软件包，用于查找您的端子宽度。|<br>
 ||github.com/phayes/freeport|获取可随时使用的免费开放 tcp 端口|<br>
 ||github.com/miekg/dns|Go 中的 DNS 库|<br>
+||github.com/go-ini/ini|包 ini 在 Go 中提供 INI 文件读写功能|<br>
