@@ -288,3 +288,4 @@
 ||github.com/miekg/dns|Go 中的 DNS 库|<br>
 ||github.com/go-ini/ini|包 ini 在 Go 中提供 INI 文件读写功能|<br>
 ||github.com/Baozisoftware/qrcode-terminal-go|用于 golang 的 QRCode 终端。|<br>
+||github.com/fogleman/gg|Go Graphics - 使用简单的 API 在 Go 中进行 2D 渲染。|<br>
