@@ -14,3 +14,4 @@
 |github.com/go-shiori/go-readability|清理 HTML 页面以提高可读性的 Go 软件包。|<br>
 |github.com/5ime/API-Admin|API 网站内容管理系统 内置 20  API 接口|<br>
 |github.com/netcccyun/toolbox|彩虹工具箱，一个在线工具箱|<br>
+|github.com/uber-go/multierr|将一个或多个围棋错误合并在一起|<br>
