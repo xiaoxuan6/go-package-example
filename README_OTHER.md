@@ -17,3 +17,4 @@
 |github.com/uber-go/multierr|将一个或多个围棋错误合并在一起|<br>
 |github.com/douyasi/identity-card|Chinese Identity Card package （中国大陆）公民身份证类|<br>
 |github.com/lithammer/dedent|删除多行字符串中任何常见的前导空白|<br>
+|github.com/kopoli/go-terminal-size|在 Linux 和 Windows 上获取终端大小|<br>
