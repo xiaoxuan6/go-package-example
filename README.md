@@ -291,3 +291,4 @@
 ||github.com/fogleman/gg|Go Graphics - 使用简单的 API 在 Go 中进行 2D 渲染。|<br>
 ||github.com/lithammer/fuzzysearch|🐷 Go 中小巧而快速的模糊搜索|<br>
 ||github.com/kbinani/screenshot|转到库将桌面捕捉为图像|<br>
+||github.com/yosssi/gohtml|围棋的 HTML 格式|<br>
