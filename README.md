@@ -292,3 +292,4 @@
 ||github.com/lithammer/fuzzysearch|🐷 Go 中小巧而快速的模糊搜索|<br>
 ||github.com/kbinani/screenshot|转到库将桌面捕捉为图像|<br>
 ||github.com/yosssi/gohtml|围棋的 HTML 格式|<br>
+||github.com/zh-five/xdaemon|用于在 golang 中编写系统守护进程的库。|<br>
