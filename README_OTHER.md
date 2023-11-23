@@ -15,3 +15,4 @@
 |github.com/5ime/API-Admin|API 网站内容管理系统 内置 20  API 接口|<br>
 |github.com/netcccyun/toolbox|彩虹工具箱，一个在线工具箱|<br>
 |github.com/uber-go/multierr|将一个或多个围棋错误合并在一起|<br>
+|github.com/douyasi/identity-card|Chinese Identity Card package （中国大陆）公民身份证类|<br>
