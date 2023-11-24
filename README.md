@@ -296,3 +296,4 @@
 ||github.com/kelseyhightower/envconfig|从环境变量管理配置数据的 Golang 库|<br>
 ||github.com/likexian/host-stat-go|收集主机统计数据的 Go 模块|<br>
 ||github.com/88250/lute|🎼 一款结构化的 Markdown 引擎，支持 Go 和 JavaScript。|<br>
+||github.com/brianvoe/gofakeit|用 go 编写的随机假数据生成器|<br>
