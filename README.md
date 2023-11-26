@@ -300,3 +300,4 @@
 ||github.com/wangbin/jiebago/tree/master|Jieba 分词 Go 语言版|<br>
 ||github.com/nikoksr/notify|一个非常简单的 Go 库，用于向各种消息服务发送通知。|<br>
 ||github.com/go-telegram-bot-api/telegram-bot-api|Telegram 机器人应用程序接口的 Golang 绑定|<br>
+||github.com/go-sql-driver/mysql|Go MySQL 驱动程序是 Go (golang) 数据库/sql 软件包的 MySQL 驱动程序。|<br>
