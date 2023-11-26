@@ -302,3 +302,4 @@
 ||github.com/go-telegram-bot-api/telegram-bot-api|Telegram 机器人应用程序接口的 Golang 绑定|<br>
 ||github.com/go-sql-driver/mysql|Go MySQL 驱动程序是 Go (golang) 数据库/sql 软件包的 MySQL 驱动程序。|<br>
 ||github.com/lunny/html2md|将 html 转换为 markdown 的 Go 库，已移至 https://gitea.com/lunny/html2md|<br>
+||github.com/sundy-li/html2article|基于文本密度的html2article实现[golang]|<br>
