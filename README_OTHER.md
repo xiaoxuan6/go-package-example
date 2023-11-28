@@ -18,3 +18,4 @@
 |github.com/douyasi/identity-card|Chinese Identity Card package （中国大陆）公民身份证类|<br>
 |github.com/lithammer/dedent|删除多行字符串中任何常见的前导空白|<br>
 |github.com/kopoli/go-terminal-size|在 Linux 和 Windows 上获取终端大小|<br>
+|github.com/MichaelMure/go-term-markdown|用于终端的标记符渲染器软件包|<br>
