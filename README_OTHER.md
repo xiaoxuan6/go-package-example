@@ -22,3 +22,4 @@
 |github.com/evanw/esbuild|用于网络的极速捆绑程序|<br>
 |github.com/star-history/star-history|缺失的 GitHub 仓库星形历史图 - https://star-history.com|<br>
 |github.com/eddycjy/fake-useragent|各种随机用户设备|<br>
+|github.com/golandscape/sat|高性能简繁体转换|<br>
