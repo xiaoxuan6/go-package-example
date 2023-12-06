@@ -308,3 +308,4 @@
 ||github.com/dgrijalva/jwt-go|ARCHIVE - JSON Web 标记（JWT）的 Golang 实现。该项目现由|<br>
 ||github.com/xanzy/go-gitlab|GitLab Go SDK|<br>
 ||github.com/JamesHovious/w32|适用于 Go 的 Windows 应用程序接口封装器|<br>
+||github.com/hashicorp/go-multierror|一个 Go (golang) 软件包，用于将错误列表表示为单个错误。|<br>
