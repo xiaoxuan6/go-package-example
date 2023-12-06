@@ -310,3 +310,4 @@
 ||github.com/JamesHovious/w32|适用于 Go 的 Windows 应用程序接口封装器|<br>
 ||github.com/hashicorp/go-multierror|一个 Go (golang) 软件包，用于将错误列表表示为单个错误。|<br>
 ||github.com/godcong/chronos|Chronos是用于Fate起名的日历计算工具，计算（公历，农历，八字，万年历，年柱，日柱，月柱，时柱，四柱）等|<br>
+||github.com/hpcloud/tail|用于读取持续更新文件的 Go 软件包（tail -f）|<br>
