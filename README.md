@@ -307,3 +307,4 @@
 ||github.com/ganlvtech/go-exportable-cookiejar|可导出的 cookiejar|<br>
 ||github.com/dgrijalva/jwt-go|ARCHIVE - JSON Web 标记（JWT）的 Golang 实现。该项目现由|<br>
 ||github.com/xanzy/go-gitlab|GitLab Go SDK|<br>
+||github.com/JamesHovious/w32|适用于 Go 的 Windows 应用程序接口封装器|<br>
