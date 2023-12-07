@@ -315,3 +315,4 @@
 ||github.com/fredbi/uri|符合 RFC 3986 标准的 uri 生成器/解析器|<br>
 ||github.com/muesli/gitcha|与 git 仓库协同工作的 Go 助手|<br>
 ||github.com/howeyc/gopass?tab=readme-ov-file|getpasswd for Go|<br>
+||github.com/briandowns/spinner|Go (golang) 软件包，包含 90 个可配置的终端旋转器/进度指示器。|<br>
