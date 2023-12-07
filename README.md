@@ -314,3 +314,4 @@
 ||github.com/gocarina/gocsv|GoCSV 软件包旨在为 golang 编程语言提供简便的 CSV 序列化和反序列化功能|<br>
 ||github.com/fredbi/uri|符合 RFC 3986 标准的 uri 生成器/解析器|<br>
 ||github.com/muesli/gitcha|与 git 仓库协同工作的 Go 助手|<br>
+||github.com/howeyc/gopass?tab=readme-ov-file|getpasswd for Go|<br>
