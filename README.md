@@ -311,3 +311,4 @@
 ||github.com/hashicorp/go-multierror|一个 Go (golang) 软件包，用于将错误列表表示为单个错误。|<br>
 ||github.com/godcong/chronos|Chronos是用于Fate起名的日历计算工具，计算（公历，农历，八字，万年历，年柱，日柱，月柱，时柱，四柱）等|<br>
 ||github.com/hpcloud/tail|用于读取持续更新文件的 Go 软件包（tail -f）|<br>
+||github.com/gocarina/gocsv|GoCSV 软件包旨在为 golang 编程语言提供简便的 CSV 序列化和反序列化功能|<br>
