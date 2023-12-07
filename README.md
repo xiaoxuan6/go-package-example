@@ -316,3 +316,4 @@
 ||github.com/muesli/gitcha|与 git 仓库协同工作的 Go 助手|<br>
 ||github.com/howeyc/gopass?tab=readme-ov-file|getpasswd for Go|<br>
 ||github.com/briandowns/spinner|Go (golang) 软件包，包含 90 个可配置的终端旋转器/进度指示器。|<br>
+||github.com/badoux/checkmail|用于电子邮件验证的 Golang 软件包|<br>
