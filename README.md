@@ -317,3 +317,4 @@
 ||github.com/howeyc/gopass?tab=readme-ov-file|getpasswd for Go|<br>
 ||github.com/briandowns/spinner|Go (golang) 软件包，包含 90 个可配置的终端旋转器/进度指示器。|<br>
 ||github.com/badoux/checkmail|用于电子邮件验证的 Golang 软件包|<br>
+||codeberg.org/Codeberg/avatars|头像|<br>
