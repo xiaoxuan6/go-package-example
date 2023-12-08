@@ -318,3 +318,4 @@
 ||github.com/briandowns/spinner|Go (golang) 软件包，包含 90 个可配置的终端旋转器/进度指示器。|<br>
 ||github.com/badoux/checkmail|用于电子邮件验证的 Golang 软件包|<br>
 ||codeberg.org/Codeberg/avatars|头像|<br>
+||github.com/apoorvam/goterminal|用于更新终端进度的跨平台 Go 库。|<br>
