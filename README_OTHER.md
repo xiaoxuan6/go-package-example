@@ -25,3 +25,4 @@
 |github.com/golandscape/sat|高性能简繁体转换|<br>
 |github.com/xwjdsh/fy|命令行翻译工具|<br>
 |github.com/muesli/go-app-paths|可让您检索特定平台的路径（如应用程序数据、缓存、配置和日志目录）。|<br>
+|github.com/daviddengcn/go-colortext|更改控制台文本的颜色|<br>
