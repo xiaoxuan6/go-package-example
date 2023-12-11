@@ -320,3 +320,4 @@
 ||codeberg.org/Codeberg/avatars|头像|<br>
 ||github.com/apoorvam/goterminal|用于更新终端进度的跨平台 Go 库。|<br>
 ||github.com/jedib0t/go-pretty?tab=readme-ov-file|Golang 中的 Table-writer 等！|<br>
+||github.com/wadackel/go-gitcmd|Go (golang) 软件包，提供微型 git 命令包装器。|<br>
