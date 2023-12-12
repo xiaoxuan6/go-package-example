@@ -322,3 +322,4 @@
 ||github.com/jedib0t/go-pretty?tab=readme-ov-file|Golang 中的 Table-writer 等！|<br>
 ||github.com/wadackel/go-gitcmd|Go (golang) 软件包，提供微型 git 命令包装器。|<br>
 ||github.com/alecthomas/kingpin|仅有贡献：Go (golang) 命令行和标志解析器|<br>
+||github.com/goccy/go-yaml|为 Go 语言提供 YAML 支持|<br>
