@@ -325,3 +325,4 @@
 ||github.com/goccy/go-yaml|为 Go 语言提供 YAML 支持|<br>
 ||github.com/paulrosania/go-charset|围棋字符集转换|<br>
 ||github.com/TruthHun/html2json|Go语言开发的HTML和Markdown转JSON工具，将HTML和Markdown内容转换为符合各种小程序组件内容渲染所需格式的|<br>
+||github.com/tebeka/selenium|用于 Go 的 Selenium/Webdriver 客户端|<br>
