@@ -327,3 +327,4 @@
 ||github.com/TruthHun/html2json|Go语言开发的HTML和Markdown转JSON工具，将HTML和Markdown内容转换为符合各种小程序组件内容渲染所需格式的|<br>
 ||github.com/tebeka/selenium|用于 Go 的 Selenium/Webdriver 客户端|<br>
 ||github.com/uber-go/automaxprocs|自动设置 GOMAXPROCS 以匹配 Linux 容器 CPU 配额。|<br>
+||github.com/otiai10/gosseract/|使用 Tesseract C 库的 OCR（光学字符识别）Go 软件包|<br>
