@@ -330,3 +330,4 @@
 ||github.com/otiai10/gosseract/|使用 Tesseract C 库的 OCR（光学字符识别）Go 软件包|<br>
 ||github.com/anthonynsimon/bild|纯 Go 语言的图像处理算法|<br>
 ||github.com/martinhoefling/goxkcdpwgen|xkcd 风格密码生成器库和 cli 工具|<br>
+||github.com/muesli/crunchy|查找密码中的常见漏洞。类似于 cracklib，但用 Go 编写。|<br>
