@@ -332,3 +332,4 @@
 ||github.com/martinhoefling/goxkcdpwgen|xkcd 风格密码生成器库和 cli 工具|<br>
 ||github.com/muesli/crunchy|查找密码中的常见漏洞。类似于 cracklib，但用 Go 编写。|<br>
 ||github.com/elastic/go-sysinfo|go-sysinfo 是一个用于收集系统信息的库。|<br>
+||github.com/elastic/go-windows?tab=readme-ov-file|go-windows 为 Windows API 提供 Go 封装。|<br>
