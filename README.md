@@ -331,3 +331,4 @@
 ||github.com/anthonynsimon/bild|纯 Go 语言的图像处理算法|<br>
 ||github.com/martinhoefling/goxkcdpwgen|xkcd 风格密码生成器库和 cli 工具|<br>
 ||github.com/muesli/crunchy|查找密码中的常见漏洞。类似于 cracklib，但用 Go 编写。|<br>
+||github.com/elastic/go-sysinfo|go-sysinfo 是一个用于收集系统信息的库。|<br>
