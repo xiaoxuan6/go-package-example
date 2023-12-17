@@ -335,3 +335,4 @@
 ||github.com/elastic/go-windows?tab=readme-ov-file|go-windows 为 Windows API 提供 Go 封装。|<br>
 ||github.com/OwO-Network/gDeepLX/tree/main|用于无限制翻译的 Go 库 DeepL|<br>
 ||github.com/alexbrainman/sspi/tree/master|视窗 SSPI|<br>
+||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
