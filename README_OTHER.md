@@ -28,3 +28,4 @@
 |github.com/daviddengcn/go-colortext|更改控制台文本的颜色|<br>
 |github.com/Songmu/gitconfig|gitconfig 是一个从 gitconfig 获取配置值的包。|<br>
 |github.com/codnect/chrono|Chrono 是一个调度程序库，可让您定期运行任务和代码|<br>
+|github.com/0xDkd/auxpi|🍭 集合多家 API 的新一代图床|<br>
