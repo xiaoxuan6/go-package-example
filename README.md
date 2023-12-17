@@ -297,7 +297,7 @@
 ||github.com/likexian/host-stat-go|收集主机统计数据的 Go 模块|<br>
 ||github.com/88250/lute|🎼 一款结构化的 Markdown 引擎，支持 Go 和 JavaScript。|<br>
 ||github.com/brianvoe/gofakeit|用 go 编写的随机假数据生成器|<br>
-||github.com/wangbin/jiebago/tree/master|Jieba 分词 Go 语言版|<br>
+||github.com/wangbin/jiebago|Jieba 分词 Go 语言版|<br>
 ||github.com/nikoksr/notify|一个非常简单的 Go 库，用于向各种消息服务发送通知。|<br>
 ||github.com/go-telegram-bot-api/telegram-bot-api|Telegram 机器人应用程序接口的 Golang 绑定|<br>
 ||github.com/go-sql-driver/mysql|Go MySQL 驱动程序是 Go (golang) 数据库/sql 软件包的 MySQL 驱动程序。|<br>
@@ -333,6 +333,6 @@
 ||github.com/muesli/crunchy|查找密码中的常见漏洞。类似于 cracklib，但用 Go 编写。|<br>
 ||github.com/elastic/go-sysinfo|go-sysinfo 是一个用于收集系统信息的库。|<br>
 ||github.com/elastic/go-windows?tab=readme-ov-file|go-windows 为 Windows API 提供 Go 封装。|<br>
-||github.com/OwO-Network/gDeepLX/tree/main|用于无限制翻译的 Go 库 DeepL|<br>
+||github.com/OwO-Network/gDeepLX|用于无限制翻译的 Go 库 DeepL|<br>
 ||github.com/alexbrainman/sspi/tree/master|视窗 SSPI|<br>
 ||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
