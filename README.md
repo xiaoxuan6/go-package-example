@@ -336,3 +336,4 @@
 ||github.com/OwO-Network/gDeepLX|用于无限制翻译的 Go 库 DeepL|<br>
 ||github.com/alexbrainman/sspi/tree/master|视窗 SSPI|<br>
 ||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
+||github.com/prashantgupta24/mac-sleep-notifier|用 golang 生成 macOS 睡眠/唤醒通知|<br>
