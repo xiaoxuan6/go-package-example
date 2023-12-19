@@ -338,3 +338,4 @@
 ||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
 ||github.com/prashantgupta24/mac-sleep-notifier|用 golang 生成 macOS 睡眠/唤醒通知|<br>
 ||github.com/emirpasic/gods|GoDS（Go 数据结构）--集合、列表、栈、地图、树、队列等等|<br>
+||github.com/mum4k/termdash|基于终端的仪表板。|<br>
