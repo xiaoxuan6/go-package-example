@@ -340,3 +340,4 @@
 ||github.com/emirpasic/gods|GoDS（Go 数据结构）--集合、列表、栈、地图、树、队列等等|<br>
 ||github.com/mum4k/termdash|基于终端的仪表板。|<br>
 ||github.com/antonmedv/clipboard|围棋剪贴板|<br>
+||github.com/anjia0532/gcr.io_mirror|所有的 gcr.io docker 镜像|<br>
