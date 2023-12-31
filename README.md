@@ -342,3 +342,4 @@
 ||github.com/antonmedv/clipboard|围棋剪贴板|<br>
 ||github.com/anjia0532/gcr.io_mirror|所有的 gcr.io docker 镜像|<br>
 ||github.com/gedex/inflector|将英语名词复数化和单数化的 Go 图书馆。|<br>
+||github.com/jmoiron/sqlx|Golang 数据库/SQL 的通用扩展|<br>
