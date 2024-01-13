@@ -343,3 +343,4 @@
 ||github.com/anjia0532/gcr.io_mirror|所有的 gcr.io docker 镜像|<br>
 ||github.com/gedex/inflector|将英语名词复数化和单数化的 Go 图书馆。|<br>
 ||github.com/jmoiron/sqlx|Golang 数据库/SQL 的通用扩展|<br>
+||github.com/fatih/structtag|解析和修改 Go 结构字段标记|<br>
