@@ -345,3 +345,4 @@
 ||github.com/jmoiron/sqlx|Golang 数据库/SQL 的通用扩展|<br>
 ||github.com/fatih/structtag|解析和修改 Go 结构字段标记|<br>
 ||github.com/jeremywohl/flatten|将嵌套地图或 JSON 结构扁平化为一维标量集。|<br>
+||github.com/creack/pty|围棋的 PTY 界面|<br>
