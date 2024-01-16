@@ -347,3 +347,4 @@
 ||github.com/jeremywohl/flatten|将嵌套地图或 JSON 结构扁平化为一维标量集。|<br>
 ||github.com/creack/pty|围棋的 PTY 界面|<br>
 ||github.com/klauspost/compress|优化围棋压缩包|<br>
+||github.com/drone/envsubst|Go 软件包模拟 bash 环境变量替换|<br>
