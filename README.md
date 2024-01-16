@@ -348,3 +348,4 @@
 ||github.com/creack/pty|围棋的 PTY 界面|<br>
 ||github.com/klauspost/compress|优化围棋压缩包|<br>
 ||github.com/drone/envsubst|Go 软件包模拟 bash 环境变量替换|<br>
+||github.com/cesanta/docker_auth|Docker Registry 2 的验证服务器|<br>
