@@ -352,3 +352,4 @@
 ||github.com/pingcap/br|用于分布式备份和恢复 TiDB 集群数据的命令行工具|<br>
 ||github.com/cheynewallace/tabby|超简单 Golang 表格的小型库|<br>
 ||github.com/joho/sqltocsv|将任意数据库/sql 查询结果轻松转换为 CSV 文件的 Go 软件包|<br>
+||github.com/gofri/go-github-ratelimit|能处理 GitHub API 二级速率限制的 GoLang HTTP RoundTripper|<br>
