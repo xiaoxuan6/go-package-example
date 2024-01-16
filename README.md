@@ -350,3 +350,4 @@
 ||github.com/drone/envsubst|Go 软件包模拟 bash 环境变量替换|<br>
 ||github.com/cesanta/docker_auth|Docker Registry 2 的验证服务器|<br>
 ||github.com/pingcap/br|用于分布式备份和恢复 TiDB 集群数据的命令行工具|<br>
+||github.com/cheynewallace/tabby|超简单 Golang 表格的小型库|<br>
