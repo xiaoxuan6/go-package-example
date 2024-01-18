@@ -354,3 +354,4 @@
 ||github.com/joho/sqltocsv|将任意数据库/sql 查询结果轻松转换为 CSV 文件的 Go 软件包|<br>
 ||github.com/gofri/go-github-ratelimit|能处理 GitHub API 二级速率限制的 GoLang HTTP RoundTripper|<br>
 ||github.com/cespare/xxhash|64 位 xxHash 算法 (XXH64) 的 Go 实现|<br>
+||github.com/go-enry/go-enry|更快的文件编程语言检测器|<br>
