@@ -356,3 +356,4 @@
 ||github.com/cespare/xxhash|64 位 xxHash 算法 (XXH64) 的 Go 实现|<br>
 ||github.com/go-enry/go-enry|更快的文件编程语言检测器|<br>
 ||github.com/karrick/godirwalk|Golang 快速目录遍历|<br>
+||github.com/matoous/go-nanoid|Golang 随机 ID 生成器。|<br>
