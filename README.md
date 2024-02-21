@@ -360,3 +360,4 @@
 ||github.com/Songmu/prompter|用于轻松提示的 golang 实用程序|<br>
 ||github.com/speps/go-hashids|http://www.hashids.org 的 Go (golang) 实现|<br>
 ||github.com/aymerick/douceur|Go 中的简单 CSS 解析器和内联程序|<br>
+||github.com/dablelv/cyan|一个现代、全面、高效的围棋实用程序库。|<br>
