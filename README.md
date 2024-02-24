@@ -363,3 +363,4 @@
 ||github.com/dablelv/cyan|一个现代、全面、高效的围棋实用程序库。|<br>
 ||github.com/deatil/go-hash|go 常用摘要算法库 (MD2/MD4/MD5/Hmac/Ripemd160/SHA1/SHA3/SHA256/SM3/xxhash/Siphash)|<br>
 ||github.com/zhaoyunxing92/dingtalk?tab=readme-ov-file|go版本的钉钉开发api|<br>
+||github.com/tidwall/pretty|适用于 Go 的高效 JSON 美化器和压缩器|<br>
