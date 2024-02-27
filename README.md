@@ -366,3 +366,4 @@
 ||github.com/tidwall/pretty|适用于 Go 的高效 JSON 美化器和压缩器|<br>
 ||github.com/xen0n/go-workwx|适用于 Go 的合理的 WeCom（企业微信、Wechat Work、Work Weixin）SDK|<br>
 ||github.com/aviddiviner/gin-limit|Gin 中间件限制同时请求。|<br>
+||github.com/lib-x/deepl|free deepl translate api in go|<br>
