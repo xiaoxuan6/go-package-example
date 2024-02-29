@@ -368,3 +368,4 @@
 ||github.com/aviddiviner/gin-limit|Gin 中间件限制同时请求。|<br>
 ||github.com/lib-x/deepl|free deepl translate api in go|<br>
 ||github.com/buger/goterm|Go 中的高级终端输出|<br>
+||github.com/alicebob/miniredis|用于 Go unittests 的纯 Go Redis 服务器|<br>
