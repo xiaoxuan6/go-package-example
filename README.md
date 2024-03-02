@@ -369,3 +369,4 @@
 ||github.com/lib-x/deepl|free deepl translate api in go|<br>
 ||github.com/buger/goterm|Go 中的高级终端输出|<br>
 ||github.com/alicebob/miniredis|用于 Go unittests 的纯 Go Redis 服务器|<br>
+||github.com/smartwalle/alipay|支付宝 AliPay SDK for Go, 集成简单，功能完善，持续更新，支持公钥证书和普通公钥进行签名和验签，支持文件上传和接口内容加密。|<br>
