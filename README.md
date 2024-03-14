@@ -372,3 +372,4 @@
 ||github.com/smartwalle/alipay|支付宝 AliPay SDK for Go, 集成简单，功能完善，持续更新，支持公钥证书和普通公钥进行签名和验签，支持文件上传和接口内容加密。|<br>
 ||github.com/variadico/noti|监控进程并触发通知。|<br>
 ||github.com/thlib/go-timezone-local|获取本地时区的全称|<br>
+||github.com/vimsucks/wxwork-bot-go|企业微信群机器人接口 Golang 封装|<br>
