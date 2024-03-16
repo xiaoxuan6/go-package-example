@@ -374,3 +374,4 @@
 ||github.com/thlib/go-timezone-local|获取本地时区的全称|<br>
 ||github.com/vimsucks/wxwork-bot-go|企业微信群机器人接口 Golang 封装|<br>
 ||github.com/go-telegram-bot-api/telegram-bot-api/|Telegram 机器人应用程序接口的 Golang 绑定|<br>
+||github.com/PaesslerAG/gval|golang 中的表达式评估|<br>
