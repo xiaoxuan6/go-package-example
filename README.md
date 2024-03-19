@@ -376,3 +376,4 @@
 ||github.com/go-telegram-bot-api/telegram-bot-api/|Telegram 机器人应用程序接口的 Golang 绑定|<br>
 ||github.com/PaesslerAG/gval|golang 中的表达式评估|<br>
 ||github.com/fsnotify/fsnotify|Go 的跨平台文件系统通知。|<br>
+||github.com/syyongx/php2go|使用 Golang 实现 PHP 的常用内置函数。|<br>
