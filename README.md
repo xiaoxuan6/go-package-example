@@ -378,3 +378,4 @@
 ||github.com/fsnotify/fsnotify|Go 的跨平台文件系统通知。|<br>
 ||github.com/syyongx/php2go|使用 Golang 实现 PHP 的常用内置函数。|<br>
 ||github.com/cockroachai/auditlimit|内容审核及速率限制服务|<br>
+||github.com/ProudMuBai/GoFilm|多播放源自动采集在线影视网站 golang vue|<br>
