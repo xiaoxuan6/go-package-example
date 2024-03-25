@@ -381,3 +381,4 @@
 ||github.com/ProudMuBai/GoFilm|多播放源自动采集在线影视网站 golang vue|<br>
 ||github.com/tcnksm/ghr|将多个工件并行上传到 GitHub Release|<br>
 ||github.com/Songmu/goxz|只需按常规进行交叉构建和归档即可|<br>
+||github.com/mattn/go-scan|json 获取指定元素|<br>
