@@ -383,3 +383,4 @@
 ||github.com/Songmu/goxz|只需按常规进行交叉构建和归档即可|<br>
 ||github.com/mattn/go-scan|json 获取指定元素|<br>
 ||github.com/daviddengcn/go-colortext|更改控制台文本的颜色|<br>
+||github.com/MichaelMure/mdr|终端的 MarkDown 渲染器|<br>
