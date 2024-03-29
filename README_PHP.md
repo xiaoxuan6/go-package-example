@@ -14,3 +14,4 @@
 |github.com/serbanghita/Mobile-Detect|Mobile_Detect 是一个用于检测移动设备（包括平板电脑）的轻量级 PHP 类。它使用 User-Agent 字符串和特定 HTTP 标头来检测移动环境。|<br>
 |github.com/spatie/array-to-xml|将数组转换为 xml 的简单类|<br>
 |github.com/defstudio/telegraph|Telegraph 是一款用于与 Telegram 机器人流畅交互的 Laravel 软件包|<br>
+|github.com/jolicode/php-os-helper|提供帮助程序来检测运行 PHP 的机器的操作系统。|<br>
