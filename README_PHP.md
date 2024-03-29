@@ -11,3 +11,4 @@
 |github.com/erusev/parsedown|更好的 PHP Markdown 解析器|<br>
 |github.com/vlucas/phpdotenv|自动从  向 、 和  加载环境变量。|<br>
 |github.com/egulias/EmailValidator|PHP 电子邮件地址验证器|<br>
+|github.com/serbanghita/Mobile-Detect|Mobile_Detect 是一个用于检测移动设备（包括平板电脑）的轻量级 PHP 类。它使用 User-Agent 字符串和特定 HTTP 标头来检测移动环境。|<br>
