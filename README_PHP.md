@@ -9,3 +9,4 @@
 |github.com/medz/id-card-of-china|🆔一个基于「公民身份号码」规则获取身份证号码中包含的基础信息组件（PHP）|<br>
 |github.com/kkokk/poster|PHP 海报生成、图片验证、HTML转图片，极速生成方便快捷。快速生成海报、生成签到日、生成二维码、合成二维码、图片添加水印、图片水印、水印|<br>
 |github.com/erusev/parsedown|更好的 PHP Markdown 解析器|<br>
+|github.com/vlucas/phpdotenv|自动从  向 、 和  加载环境变量。|<br>
