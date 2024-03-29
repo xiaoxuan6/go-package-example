@@ -16,3 +16,4 @@
 |github.com/defstudio/telegraph|Telegraph 是一款用于与 Telegram 机器人流畅交互的 Laravel 软件包|<br>
 |github.com/jolicode/php-os-helper|提供帮助程序来检测运行 PHP 的机器的操作系统。|<br>
 |github.com/nunomaduro/laravel-desktop-notifier|通过 Laravel Artisan Commands 向桌面发送通知。用于 Laravel 的 JoliNotif 封装器。|<br>
+|https://github.com/jolicode/JoliNotif|💻 直接从 PHP 脚本向桌面发送通知|<br>
