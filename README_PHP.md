@@ -10,3 +10,4 @@
 |github.com/kkokk/poster|PHP 海报生成、图片验证、HTML转图片，极速生成方便快捷。快速生成海报、生成签到日、生成二维码、合成二维码、图片添加水印、图片水印、水印|<br>
 |github.com/erusev/parsedown|更好的 PHP Markdown 解析器|<br>
 |github.com/vlucas/phpdotenv|自动从  向 、 和  加载环境变量。|<br>
+|github.com/egulias/EmailValidator|PHP 电子邮件地址验证器|<br>
