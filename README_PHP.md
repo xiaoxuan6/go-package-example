@@ -19,3 +19,4 @@
 |https://github.com/jolicode/JoliNotif|💻 直接从 PHP 脚本向桌面发送通知|<br>
 |github.com/laravel/prompts?tab=readme-ov-file|为您的 PHP 命令行应用程序提供美观、用户友好的表单。|<br>
 |github.com/laravel-zero/framework|该版本库包含 Laravel Zero 的核心代码。|<br>
+|github.com/nunomaduro/laravel-console-dusk|Laravel Console Dusk 允许在 Laravel/Laravel Zero 工匠命令中使用 Laravel Dusk。|<br>
