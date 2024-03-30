@@ -18,3 +18,4 @@
 |github.com/nunomaduro/laravel-desktop-notifier|通过 Laravel Artisan Commands 向桌面发送通知。用于 Laravel 的 JoliNotif 封装器。|<br>
 |https://github.com/jolicode/JoliNotif|💻 直接从 PHP 脚本向桌面发送通知|<br>
 |github.com/laravel/prompts?tab=readme-ov-file|为您的 PHP 命令行应用程序提供美观、用户友好的表单。|<br>
+|github.com/laravel-zero/framework|该版本库包含 Laravel Zero 的核心代码。|<br>
