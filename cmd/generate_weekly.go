@@ -67,8 +67,11 @@ func main() {
 	}
 
 	wg.Add(2)
-	ch := make(chan bool, 1)
-	ch1 := make(chan bool, 1)
+	ch := make(chan bool, 1) // 是否是创建文件
+	ch1 := make(chan bool, 1) // 内容写入到文件中中是否成功
+	mkdocs := make(chan bool, 1) // mkdocs 是否修改成功
+	filenameBeta := make(chan string, 1) // 文件修改时的文件名
+
 	fileCount := getFileCount(root)
 	filename := fmt.Sprintf("第%d期（%s）.md", fileCount, time2.NewTime().Date())
 	//filename := fmt.Sprintf("%s.md", time2.NewTime().Date())
@@ -122,13 +125,14 @@ func main() {
 
 			ch <- false
 
-			f, _ := os.OpenFile(newFilename, os.O_APPEND, os.ModePerm)
+			f, _ := os.OpenFile(newFilename, os.O_WRONLY|os.O_APPEND, os.ModePerm)
 			_, _ = f.WriteString(fmt.Sprintf(`
 - 项目地址：[%s](%s)
 - 项目说明：%s
 ---`, repository, baseUrl, description))
 
 			ch1 <- true
+			filenameBeta <- newFilename
 		}
 
 		return
@@ -137,8 +141,8 @@ func main() {
 	go func() {
 		defer wg.Done()
 
-		item := <-ch
-		if item == false {
+		if item := <-ch; item == false {
+			mkdocs <- true
 			return
 		}
 
@@ -197,6 +201,7 @@ func main() {
 		b, _ = yaml.Marshal(jsonMap)
 		_ = os.WriteFile(mkdocsFile, b, os.ModePerm)
 
+		mkdocs <- false
 		return
 	}()
 
@@ -207,7 +212,25 @@ func main() {
 		return
 	}
 
-	if err2 := gitCommit(filename, filepath.Join("docs/", year, filename), "mkdocs.yml"); err2 != nil {
+	var message string
+	commitSlice := make([]string, 2)
+	if ok := <- mkdocs; ok {
+		filenameCh := <- filenameBeta
+		newFilename := strings.ReplaceAll(filenameCh, path, "")
+		newFilename = strings.ReplaceAll(newFilename, "/docs", "docs")
+
+		commitSlice = append(commitSlice, newFilename)
+
+		message = fmt.Sprintf("fix: Update %s", filepath.Base(filenameCh))
+	} else {
+		commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml")
+
+		message = fmt.Sprintf("feat: Add %s", filename)
+	}
+
+	logrus.Info("commitSlice", commitSlice)
+
+	if err2 := gitCommit(message, commitSlice...); err2 != nil {
 		fmt.Println(color.RedString(err2.Error()))
 		return
 	}
@@ -347,7 +370,10 @@ func gitCommit(message string, filename ...string) error {
 		}
 	}
 
-	if _, err := w.Commit(fmt.Sprintf("feat: Add %s", message), &git.CommitOptions{
+	status, _ := w.Status()
+	logrus.Info("git status", status.String())
+
+	if _, err := w.Commit(message, &git.CommitOptions{
 		Author: &object.Signature{
 			Name:  os.Getenv("GITHUB_OWNER"),
 			Email: os.Getenv("GITHUB_EMAIL"),

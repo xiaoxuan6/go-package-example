@@ -14,7 +14,8 @@ require (
 	github.com/gofri/go-github-ratelimit v1.1.0
 	github.com/google/go-github/v48 v48.2.0
 	github.com/joho/godotenv v1.5.1
-	github.com/sahilm/fuzzy v0.1.1 // indirect
+	github.com/kylelemons/godebug v1.1.0 // indirect
+	github.com/sahilm/fuzzy v0.1.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/xiaoxuan6/go-package-db v0.0.0-20231119065132-b01494357492
 	golang.org/x/net v0.22.0
