@@ -284,3 +284,104 @@
 ||github.com/didip/tollbooth|用于限制 HTTP 请求速率的简单中间件。|<br>
 ||github.com/bobesa/go-domain-util|GOlang 软件包，用于检查 url 是否包含子域、子域是什么、url 中的顶级域是什么等。|<br>
 ||github.com/wayneashleyberry/terminal-dimensions|端子尺寸是一个简单的围棋软件包，用于查找您的端子宽度。|<br>
+||github.com/phayes/freeport|获取可随时使用的免费开放 tcp 端口|<br>
+||github.com/miekg/dns|Go 中的 DNS 库|<br>
+||github.com/go-ini/ini|包 ini 在 Go 中提供 INI 文件读写功能|<br>
+||github.com/Baozisoftware/qrcode-terminal-go|用于 golang 的 QRCode 终端。|<br>
+||github.com/fogleman/gg|Go Graphics - 使用简单的 API 在 Go 中进行 2D 渲染。|<br>
+||github.com/lithammer/fuzzysearch|🐷 Go 中小巧而快速的模糊搜索|<br>
+||github.com/kbinani/screenshot|转到库将桌面捕捉为图像|<br>
+||github.com/yosssi/gohtml|围棋的 HTML 格式|<br>
+||github.com/zh-five/xdaemon|用于在 golang 中编写系统守护进程的库。|<br>
+||github.com/kelseyhightower/envconfig|从环境变量管理配置数据的 Golang 库|<br>
+||github.com/likexian/host-stat-go|收集主机统计数据的 Go 模块|<br>
+||github.com/88250/lute|🎼 一款结构化的 Markdown 引擎，支持 Go 和 JavaScript。|<br>
+||github.com/brianvoe/gofakeit|用 go 编写的随机假数据生成器|<br>
+||github.com/wangbin/jiebago|Jieba 分词 Go 语言版|<br>
+||github.com/nikoksr/notify|一个非常简单的 Go 库，用于向各种消息服务发送通知。|<br>
+||github.com/go-telegram-bot-api/telegram-bot-api|Telegram 机器人应用程序接口的 Golang 绑定|<br>
+||github.com/go-sql-driver/mysql|Go MySQL 驱动程序是 Go (golang) 数据库/sql 软件包的 MySQL 驱动程序。|<br>
+||github.com/lunny/html2md|将 html 转换为 markdown 的 Go 库，已移至 https://gitea.com/lunny/html2md|<br>
+||github.com/sundy-li/html2article|基于文本密度的html2article实现[golang]|<br>
+||github.com/sethvargo/go-envconfig|用于从环境变量中解析 struct 标记的 Go 库。|<br>
+||github.com/ganlvtech/go-exportable-cookiejar|可导出的 cookiejar|<br>
+||github.com/dgrijalva/jwt-go|ARCHIVE - JSON Web 标记（JWT）的 Golang 实现。该项目现由|<br>
+||github.com/xanzy/go-gitlab|GitLab Go SDK|<br>
+||github.com/JamesHovious/w32|适用于 Go 的 Windows 应用程序接口封装器|<br>
+||github.com/hashicorp/go-multierror|一个 Go (golang) 软件包，用于将错误列表表示为单个错误。|<br>
+||github.com/godcong/chronos|Chronos是用于Fate起名的日历计算工具，计算（公历，农历，八字，万年历，年柱，日柱，月柱，时柱，四柱）等|<br>
+||github.com/hpcloud/tail|用于读取持续更新文件的 Go 软件包（tail -f）|<br>
+||github.com/gocarina/gocsv|GoCSV 软件包旨在为 golang 编程语言提供简便的 CSV 序列化和反序列化功能|<br>
+||github.com/fredbi/uri|符合 RFC 3986 标准的 uri 生成器/解析器|<br>
+||github.com/muesli/gitcha|与 git 仓库协同工作的 Go 助手|<br>
+||github.com/howeyc/gopass?tab=readme-ov-file|getpasswd for Go|<br>
+||github.com/briandowns/spinner|Go (golang) 软件包，包含 90 个可配置的终端旋转器/进度指示器。|<br>
+||github.com/badoux/checkmail|用于电子邮件验证的 Golang 软件包|<br>
+||codeberg.org/Codeberg/avatars|头像|<br>
+||github.com/apoorvam/goterminal|用于更新终端进度的跨平台 Go 库。|<br>
+||github.com/jedib0t/go-pretty?tab=readme-ov-file|Golang 中的 Table-writer 等！|<br>
+||github.com/wadackel/go-gitcmd|Go (golang) 软件包，提供微型 git 命令包装器。|<br>
+||github.com/alecthomas/kingpin|仅有贡献：Go (golang) 命令行和标志解析器|<br>
+||github.com/goccy/go-yaml|为 Go 语言提供 YAML 支持|<br>
+||github.com/paulrosania/go-charset|围棋字符集转换|<br>
+||github.com/TruthHun/html2json|Go语言开发的HTML和Markdown转JSON工具，将HTML和Markdown内容转换为符合各种小程序组件内容渲染所需格式的|<br>
+||github.com/tebeka/selenium|用于 Go 的 Selenium/Webdriver 客户端|<br>
+||github.com/uber-go/automaxprocs|自动设置 GOMAXPROCS 以匹配 Linux 容器 CPU 配额。|<br>
+||github.com/otiai10/gosseract/|使用 Tesseract C 库的 OCR（光学字符识别）Go 软件包|<br>
+||github.com/anthonynsimon/bild|纯 Go 语言的图像处理算法|<br>
+||github.com/martinhoefling/goxkcdpwgen|xkcd 风格密码生成器库和 cli 工具|<br>
+||github.com/muesli/crunchy|查找密码中的常见漏洞。类似于 cracklib，但用 Go 编写。|<br>
+||github.com/elastic/go-sysinfo|go-sysinfo 是一个用于收集系统信息的库。|<br>
+||github.com/elastic/go-windows?tab=readme-ov-file|go-windows 为 Windows API 提供 Go 封装。|<br>
+||github.com/OwO-Network/gDeepLX|用于无限制翻译的 Go 库 DeepL|<br>
+||github.com/alexbrainman/sspi/tree/master|视窗 SSPI|<br>
+||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
+||github.com/prashantgupta24/mac-sleep-notifier|用 golang 生成 macOS 睡眠/唤醒通知|<br>
+||github.com/emirpasic/gods|GoDS（Go 数据结构）--集合、列表、栈、地图、树、队列等等|<br>
+||github.com/mum4k/termdash|基于终端的仪表板。|<br>
+||github.com/antonmedv/clipboard|围棋剪贴板|<br>
+||github.com/anjia0532/gcr.io_mirror|所有的 gcr.io docker 镜像|<br>
+||github.com/gedex/inflector|将英语名词复数化和单数化的 Go 图书馆。|<br>
+||github.com/jmoiron/sqlx|Golang 数据库/SQL 的通用扩展|<br>
+||github.com/fatih/structtag|解析和修改 Go 结构字段标记|<br>
+||github.com/jeremywohl/flatten|将嵌套地图或 JSON 结构扁平化为一维标量集。|<br>
+||github.com/creack/pty|围棋的 PTY 界面|<br>
+||github.com/klauspost/compress|优化围棋压缩包|<br>
+||github.com/drone/envsubst|Go 软件包模拟 bash 环境变量替换|<br>
+||github.com/cesanta/docker_auth|Docker Registry 2 的验证服务器|<br>
+||github.com/pingcap/br|用于分布式备份和恢复 TiDB 集群数据的命令行工具|<br>
+||github.com/cheynewallace/tabby|超简单 Golang 表格的小型库|<br>
+||github.com/joho/sqltocsv|将任意数据库/sql 查询结果轻松转换为 CSV 文件的 Go 软件包|<br>
+||github.com/gofri/go-github-ratelimit|能处理 GitHub API 二级速率限制的 GoLang HTTP RoundTripper|<br>
+||github.com/cespare/xxhash|64 位 xxHash 算法 (XXH64) 的 Go 实现|<br>
+||github.com/go-enry/go-enry|更快的文件编程语言检测器|<br>
+||github.com/karrick/godirwalk|Golang 快速目录遍历|<br>
+||github.com/matoous/go-nanoid|Golang 随机 ID 生成器。|<br>
+||github.com/Songmu/prompter|用于轻松提示的 golang 实用程序|<br>
+||github.com/speps/go-hashids|http://www.hashids.org 的 Go (golang) 实现|<br>
+||github.com/aymerick/douceur|Go 中的简单 CSS 解析器和内联程序|<br>
+||github.com/dablelv/cyan|一个现代、全面、高效的围棋实用程序库。|<br>
+||github.com/deatil/go-hash|go 常用摘要算法库 (MD2/MD4/MD5/Hmac/Ripemd160/SHA1/SHA3/SHA256/SM3/xxhash/Siphash)|<br>
+||github.com/zhaoyunxing92/dingtalk?tab=readme-ov-file|go版本的钉钉开发api|<br>
+||github.com/tidwall/pretty|适用于 Go 的高效 JSON 美化器和压缩器|<br>
+||github.com/xen0n/go-workwx|适用于 Go 的合理的 WeCom（企业微信、Wechat Work、Work Weixin）SDK|<br>
+||github.com/aviddiviner/gin-limit|Gin 中间件限制同时请求。|<br>
+||github.com/lib-x/deepl|free deepl translate api in go|<br>
+||github.com/buger/goterm|Go 中的高级终端输出|<br>
+||github.com/alicebob/miniredis|用于 Go unittests 的纯 Go Redis 服务器|<br>
+||github.com/smartwalle/alipay|支付宝 AliPay SDK for Go, 集成简单，功能完善，持续更新，支持公钥证书和普通公钥进行签名和验签，支持文件上传和接口内容加密。|<br>
+||github.com/variadico/noti|监控进程并触发通知。|<br>
+||github.com/thlib/go-timezone-local|获取本地时区的全称|<br>
+||github.com/vimsucks/wxwork-bot-go|企业微信群机器人接口 Golang 封装|<br>
+||github.com/go-telegram-bot-api/telegram-bot-api/|Telegram 机器人应用程序接口的 Golang 绑定|<br>
+||github.com/PaesslerAG/gval|golang 中的表达式评估|<br>
+|[demo](https://github.com/mattn/vim-filewatcher/blob/master/filewatcher/filewatcher.go)|github.com/fsnotify/fsnotify|Go 的跨平台文件系统通知。|<br>
+||github.com/syyongx/php2go|使用 Golang 实现 PHP 的常用内置函数。|<br>
+||github.com/cockroachai/auditlimit|内容审核及速率限制服务|<br>
+||github.com/ProudMuBai/GoFilm|多播放源自动采集在线影视网站 golang vue|<br>
+||github.com/tcnksm/ghr|将多个工件并行上传到 GitHub Release|<br>
+||github.com/Songmu/goxz|只需按常规进行交叉构建和归档即可|<br>
+||github.com/mattn/go-scan|json 获取指定元素|<br>
+||github.com/daviddengcn/go-colortext|更改控制台文本的颜色|<br>
+||github.com/MichaelMure/mdr|终端的 MarkDown 渲染器|<br>
+||github.com/mattn/drawcmd|在 Windows 命令提示符下渲染图像|<br>

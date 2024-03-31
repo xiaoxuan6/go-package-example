@@ -5,3 +5,21 @@
 |||<br>
 |github.com/creativeorange/gravatar|Laravel Gravatar 软件包，用于检索 gravatar 图像 URL 或检查图像是否存在。|<br>
 |github.com/Laragear/Clipboard|在应用程序中剪切、复制和粘贴数值|<br>
+|github.com/alicfeng/IdentityCard|中国（大陆）公民身份证工具类🔨用于身份证计算年龄、生日、星座、性别、生肖、政区划代码，同时绘制身份证正反面|<br>
+|github.com/medz/id-card-of-china|🆔一个基于「公民身份号码」规则获取身份证号码中包含的基础信息组件（PHP）|<br>
+|github.com/kkokk/poster|PHP 海报生成、图片验证、HTML转图片，极速生成方便快捷。快速生成海报、生成签到日、生成二维码、合成二维码、图片添加水印、图片水印、水印|<br>
+|github.com/erusev/parsedown|更好的 PHP Markdown 解析器|<br>
+|github.com/vlucas/phpdotenv|自动从  向 、 和  加载环境变量。|<br>
+|github.com/egulias/EmailValidator|PHP 电子邮件地址验证器|<br>
+|github.com/serbanghita/Mobile-Detect|Mobile_Detect 是一个用于检测移动设备（包括平板电脑）的轻量级 PHP 类。它使用 User-Agent 字符串和特定 HTTP 标头来检测移动环境。|<br>
+|github.com/spatie/array-to-xml|将数组转换为 xml 的简单类|<br>
+|github.com/defstudio/telegraph|Telegraph 是一款用于与 Telegram 机器人流畅交互的 Laravel 软件包|<br>
+|github.com/jolicode/php-os-helper|提供帮助程序来检测运行 PHP 的机器的操作系统。|<br>
+|github.com/nunomaduro/laravel-desktop-notifier|通过 Laravel Artisan Commands 向桌面发送通知。用于 Laravel 的 JoliNotif 封装器。|<br>
+|https://github.com/jolicode/JoliNotif|💻 直接从 PHP 脚本向桌面发送通知|<br>
+|github.com/laravel/prompts?tab=readme-ov-file|为您的 PHP 命令行应用程序提供美观、用户友好的表单。|<br>
+|github.com/laravel-zero/framework|该版本库包含 Laravel Zero 的核心代码。|<br>
+|github.com/nunomaduro/laravel-console-dusk|Laravel Console Dusk 允许在 Laravel/Laravel Zero 工匠命令中使用 Laravel Dusk。|<br>
+|github.com/metowolf/Meting|哇，如此强大的音乐 API 框架|<br>
+|github.com/spatie/fork|在 PHP 中并发运行代码的轻量级解决方案|<br>
+|github.com/spatie/image-optimizer|使用 PHP 轻松优化图像|<br>
