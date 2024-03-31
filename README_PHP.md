@@ -22,3 +22,4 @@
 |github.com/nunomaduro/laravel-console-dusk|Laravel Console Dusk 允许在 Laravel/Laravel Zero 工匠命令中使用 Laravel Dusk。|<br>
 |github.com/metowolf/Meting|哇，如此强大的音乐 API 框架|<br>
 |github.com/spatie/fork|在 PHP 中并发运行代码的轻量级解决方案|<br>
+|github.com/spatie/image-optimizer|使用 PHP 轻松优化图像|<br>
