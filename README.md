@@ -385,5 +385,3 @@
 ||github.com/daviddengcn/go-colortext|更改控制台文本的颜色|<br>
 ||github.com/MichaelMure/mdr|终端的 MarkDown 渲染器|<br>
 ||github.com/mattn/drawcmd|在 Windows 命令提示符下渲染图像|<br>
-||github.com/xiaoxuan6/tools|tools - 小工具翻译、OCR 图片识别文字、二维码生成/解析等|<br>
-||github.com/xiaoxuan6/SMSBombing|短信轰炸|<br>
