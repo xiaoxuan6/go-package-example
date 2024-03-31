@@ -16,10 +16,12 @@ import (
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
 	"github.com/google/go-github/v48/github"
 	"github.com/joho/godotenv"
+	"github.com/sahilm/fuzzy"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/html"
 	"golang.org/x/oauth2"
 	"io"
+	"io/fs"
 	"net/http"
 	url2 "net/url"
 	"os"
@@ -67,16 +69,38 @@ func main() {
 	wg.Add(2)
 	ch := make(chan bool, 1)
 	ch1 := make(chan bool, 1)
-	//fileCount := getFileCount(root)
-	//filename := fmt.Sprintf("第%d期（%s）.md", fileCount, time2.NewTime().Date())
-	filename := fmt.Sprintf("%s.md", time2.NewTime().Date())
+	fileCount := getFileCount(root)
+	filename := fmt.Sprintf("第%d期（%s）.md", fileCount, time2.NewTime().Date())
+	//filename := fmt.Sprintf("%s.md", time2.NewTime().Date())
 
 	go func() {
 		defer wg.Done()
 
+		dates := make([]string, 10)
+		_ = filepath.Walk(root, func(path string, info fs.FileInfo, err error) error {
+			if info.IsDir() {
+				return nil
+			}
+
+			if strings.Contains(info.Name(), ".md") {
+				dates = append(dates, info.Name())
+			}
+
+			return nil
+		})
+
+		newFilenameBeta := filename
+		matches := fuzzy.Find(time2.NewTime().Date(), dates)
+		if len(matches) > 0 {
+			for _, match := range matches {
+				filename = match.Str
+				break
+			}
+		}
+
 		newFilename := filepath.Join(root, filename)
 		if _, err := os.Stat(newFilename); err != nil {
-
+			newFilename = filepath.Join(root, newFilenameBeta)
 			f, errs := os.Create(newFilename)
 			if errs != nil {
 				ch <- false
@@ -296,22 +320,22 @@ CLONE:
 	return nil
 }
 
-//func getFileCount(path string) int {
-//	fileCount := 1
-//	_ = filepath.Walk(path, func(path string, info fs.FileInfo, err error) error {
-//		if info.IsDir() {
-//			return nil
-//		}
-//
-//		if strings.Compare(filepath.Ext(info.Name()), ".md") == 0 {
-//			fileCount += 1
-//		}
-//
-//		return nil
-//	})
-//
-//	return fileCount
-//}
+func getFileCount(path string) int {
+	fileCount := 1
+	_ = filepath.Walk(path, func(path string, info fs.FileInfo, err error) error {
+		if info.IsDir() {
+			return nil
+		}
+
+		if strings.Compare(filepath.Ext(info.Name()), ".md") == 0 {
+			fileCount += 1
+		}
+
+		return nil
+	})
+
+	return fileCount
+}
 
 func gitCommit(message string, filename ...string) error {
 	w, _ := gitRepository.Worktree()
