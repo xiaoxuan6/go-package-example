@@ -4,3 +4,4 @@ go.sum
 swagger.zip
 sql.db
 .env
+weekly/
