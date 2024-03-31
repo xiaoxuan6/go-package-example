@@ -20,3 +20,4 @@
 |github.com/laravel/prompts?tab=readme-ov-file|为您的 PHP 命令行应用程序提供美观、用户友好的表单。|<br>
 |github.com/laravel-zero/framework|该版本库包含 Laravel Zero 的核心代码。|<br>
 |github.com/nunomaduro/laravel-console-dusk|Laravel Console Dusk 允许在 Laravel/Laravel Zero 工匠命令中使用 Laravel Dusk。|<br>
+|github.com/metowolf/Meting|哇，如此强大的音乐 API 框架|<br>
