@@ -387,3 +387,4 @@
 ||github.com/mattn/drawcmd|在 Windows 命令提示符下渲染图像|<br>
 ||github.com/xiaoxuan6/SMSBombing|短信轰炸|<br>
 ||github.com/pterm/pterm|✨ #PTerm 是一个现代 Go 模块，可轻松美化控制台输出。它具有图表、进度条、表格、树、文本输入、选择菜单等多种功能 🚀 它完全可配置，100% 跨平台兼容。|<br>
+||github.com/bytedance/godlp|敏感信息保护工具包|<br>
