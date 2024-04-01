@@ -39,6 +39,7 @@ var (
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
 
+	language     = "未知"
 	WeeklyGitUrl = "https://github.com/xiaoxuan6/weekly.git"
 )
 
@@ -67,9 +68,9 @@ func main() {
 	}
 
 	wg.Add(2)
-	ch := make(chan bool, 1) // 是否是创建文件
-	ch1 := make(chan bool, 1) // 内容写入到文件中中是否成功
-	mkdocs := make(chan bool, 1) // mkdocs 是否修改成功
+	ch := make(chan bool, 1)             // 是否是创建文件
+	ch1 := make(chan bool, 1)            // 内容写入到文件中中是否成功
+	mkdocs := make(chan bool, 1)         // mkdocs 是否修改成功
 	filenameBeta := make(chan string, 1) // 文件修改时的文件名
 
 	fileCount := getFileCount(root)
@@ -116,8 +117,9 @@ func main() {
 
 ---
 - 项目地址：[%s](%s)
+- 所属语言：%s
 - 项目说明：%s
----`, strings.ReplaceAll(filename, ".md", ""), repository, baseUrl, description))
+---`, strings.ReplaceAll(filename, ".md", ""), repository, baseUrl, language, description))
 
 			ch1 <- true
 
@@ -128,8 +130,9 @@ func main() {
 			f, _ := os.OpenFile(newFilename, os.O_WRONLY|os.O_APPEND, os.ModePerm)
 			_, _ = f.WriteString(fmt.Sprintf(`
 - 项目地址：[%s](%s)
+- 所属语言：%s
 - 项目说明：%s
----`, repository, baseUrl, description))
+---`, repository, baseUrl, language, description))
 
 			ch1 <- true
 			filenameBeta <- newFilename
@@ -214,8 +217,8 @@ func main() {
 
 	var message string
 	commitSlice := make([]string, 2)
-	if ok := <- mkdocs; ok {
-		filenameCh := <- filenameBeta
+	if ok := <-mkdocs; ok {
+		filenameCh := <-filenameBeta
 		newFilename := strings.ReplaceAll(filenameCh, path, "")
 		newFilename = strings.ReplaceAll(newFilename, "/docs", "docs")
 
@@ -299,6 +302,7 @@ func fetchDescription(owner, repo, uri string) string {
 		client := github.NewClient(rateLimiter)
 		rep, _, _ := client.Repositories.Get(context.Background(), owner, repo)
 		description = *rep.Description
+		language = *rep.Language
 	}
 
 	info := whatlanggo.Detect(description)
