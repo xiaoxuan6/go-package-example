@@ -24,3 +24,4 @@
 |github.com/spatie/fork|在 PHP 中并发运行代码的轻量级解决方案|<br>
 |github.com/spatie/image-optimizer|使用 PHP 轻松优化图像|<br>
 |github.com/laminas/laminas-text|创建 FIGlets 表格和基于文本的表格|<br>
+|github.com/justmd5/deeplx|deeplx 是一个简单、快速的 PHP 免费 deepl 库。|<br>
