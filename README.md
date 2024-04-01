@@ -389,3 +389,4 @@
 ||github.com/pterm/pterm|✨ #PTerm 是一个现代 Go 模块，可轻松美化控制台输出。它具有图表、进度条、表格、树、文本输入、选择菜单等多种功能 🚀 它完全可配置，100% 跨平台兼容。|<br>
 ||github.com/bytedance/godlp|敏感信息保护工具包|<br>
 ||github.com/matsuyoshi30/germanium|从源代码生成图像|<br>
+||github.com/signintech/gopdf|用 Go 语言编写的用于生成 PDF 的简单库|<br>
