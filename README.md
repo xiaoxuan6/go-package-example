@@ -390,3 +390,4 @@
 ||github.com/bytedance/godlp|敏感信息保护工具包|<br>
 ||github.com/matsuyoshi30/germanium|从源代码生成图像|<br>
 ||github.com/signintech/gopdf|用 Go 语言编写的用于生成 PDF 的简单库|<br>
+||github.com/charmbracelet/freeze|生成代码和终端输出的图像 📸|<br>
