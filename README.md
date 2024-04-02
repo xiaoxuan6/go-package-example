@@ -391,3 +391,4 @@
 ||github.com/matsuyoshi30/germanium|从源代码生成图像|<br>
 ||github.com/signintech/gopdf|用 Go 语言编写的用于生成 PDF 的简单库|<br>
 ||github.com/charmbracelet/freeze|生成代码和终端输出的图像 📸|<br>
+||github.com/ggwhite/go-masker|为敏感信息创建掩码的简单实用工具|<br>
