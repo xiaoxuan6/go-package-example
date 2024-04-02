@@ -31,3 +31,4 @@
 |github.com/0xDkd/auxpi|🍭 集合多家 API 的新一代图床|<br>
 |github.com/0-RTT/telegraph|基于telegraph的图床，图片大于5MB自动压缩|<br>
 |github.com/mattn/godown|将 HTML 转换为 Markdown|<br>
+|github.com/wearerequired/git-mirror-action|通过 SSH 将 git 仓库镜像到另一个位置的 GitHub 操作。|<br>
