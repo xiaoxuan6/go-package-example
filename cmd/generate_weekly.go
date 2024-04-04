@@ -12,6 +12,7 @@ import (
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
 	ghttp "github.com/go-git/go-git/v5/plumbing/transport/http"
+	"github.com/go-rod/rod"
 	"github.com/goccy/go-yaml"
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
 	"github.com/google/go-github/v48/github"
@@ -27,14 +28,17 @@ import (
 	"os"
 	time2 "package-example/pkg/time"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
 )
 
 var (
-	path string
-	uri  string
+	path     string
+	uri      string
+	homepage string
+	img      string
 
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
@@ -102,6 +106,8 @@ func main() {
 			}
 		}
 
+		downloadImage()
+
 		newFilename := filepath.Join(root, filename)
 		if _, err := os.Stat(newFilename); err != nil {
 			newFilename = filepath.Join(root, newFilenameBeta)
@@ -115,11 +121,7 @@ func main() {
 			ch <- true
 			_, _ = f.WriteString(fmt.Sprintf(`# %s
 
----
-- 项目地址：[%s](%s)
-- 所属语言：%s
-- 项目说明：%s
----`, strings.ReplaceAll(filename, ".md", ""), repository, baseUrl, language, description))
+---%s`, strings.ReplaceAll(filename, ".md", ""), fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description)))
 
 			ch1 <- true
 
@@ -128,11 +130,7 @@ func main() {
 			ch <- false
 
 			f, _ := os.OpenFile(newFilename, os.O_WRONLY|os.O_APPEND, os.ModePerm)
-			_, _ = f.WriteString(fmt.Sprintf(`
-- 项目地址：[%s](%s)
-- 所属语言：%s
-- 项目说明：%s
----`, repository, baseUrl, language, description))
+			_, _ = f.WriteString(fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description))
 
 			ch1 <- true
 			filenameBeta <- newFilename
@@ -303,6 +301,7 @@ func fetchDescription(owner, repo, uri string) string {
 		rep, _, _ := client.Repositories.Get(context.Background(), owner, repo)
 		description = *rep.Description
 		language = *rep.Language
+		homepage = *rep.Homepage
 	}
 
 	info := whatlanggo.Detect(description)
@@ -362,6 +361,38 @@ func getFileCount(path string) int {
 	})
 
 	return fileCount
+}
+
+func downloadImage() {
+	if len(homepage) < 0 {
+		return
+	}
+
+	filePath := filepath.Join(path, "/docs/static/images/", time2.NewTime().Year())
+	if _, err := os.Stat(filePath); err != nil {
+		_ = os.MkdirAll(filePath, os.ModePerm)
+	}
+
+	img = fmt.Sprintf("%s/%s.png", filePath, strconv.Itoa(int(time.Now().Unix())))
+
+	page := rod.New().MustConnect().MustPage(homepage).MustWaitLoad()
+	page.MustWaitStable().MustScreenshot(img)
+}
+
+func contentTemplate() (template string) {
+	templateBase := `
+- 项目地址：[%s](%s)
+- 所属语言：%s
+- 项目说明：%s
+`
+
+	if len(homepage) > 0 {
+		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s)\n- 官网地址: [%s](%s)\n", templateBase, time2.NewTime().Year(), filepath.Base(img), homepage, homepage)
+	}
+
+	template = fmt.Sprintf("%s---", templateBase)
+
+	return
 }
 
 func gitCommit(message string, filename ...string) error {

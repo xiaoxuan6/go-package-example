@@ -10,6 +10,7 @@ require (
 	github.com/fatih/color v1.16.0
 	github.com/go-git/go-git/v5 v5.11.0
 	github.com/go-playground/validator/v10 v10.19.0 // indirect
+	github.com/go-rod/rod v0.0.0-20240401082821-6a4d1da0712a
 	github.com/goccy/go-yaml v1.11.3
 	github.com/gofri/go-github-ratelimit v1.1.0
 	github.com/google/go-github/v48 v48.2.0
