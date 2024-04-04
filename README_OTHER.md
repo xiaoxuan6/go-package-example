@@ -38,3 +38,4 @@
 |github.com/fredericojordan/progress-bar|用于 SVG 进度徽章的 Flask API|<br>
 |github.com/XPoet/picx|🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。|<br>
 |github.com/pomber/git-history|快速浏览任何 git 仓库中文件的历史记录|<br>
+|github.com/songquanpeng/go-file|基于 Go 的文件分享工具，仅单可执行文件，开箱即用，内置图床和视频播放页面. File sharing tool based on Go.|<br>
