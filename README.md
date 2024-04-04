@@ -394,3 +394,4 @@
 ||github.com/ggwhite/go-masker|为敏感信息创建掩码的简单实用工具|<br>
 ||github.com/noelyahan/mergi|go 图像编程库（合并、裁剪、调整大小、水印、动画、缓和、转运）|<br>
 ||github.com/caarlos0/starcharts|绘制存储库星级随时间变化的曲线图。|<br>
+||github.com/long2ice/longurl|自我托管的短网址服务|<br>
