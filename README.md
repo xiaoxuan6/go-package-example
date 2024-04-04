@@ -396,3 +396,4 @@
 ||github.com/caarlos0/starcharts|绘制存储库星级随时间变化的曲线图。|<br>
 ||github.com/long2ice/longurl|自我托管的短网址服务|<br>
 ||github.com/TruthHun/html2md|html2markdown，将 html 转换为 markdown|<br>
+||github.com/nguyenthenguyen/docx|用于替换 Microsoft Word (.docx) 文件中文本的简单 Google Go (Golang) 库|<br>
