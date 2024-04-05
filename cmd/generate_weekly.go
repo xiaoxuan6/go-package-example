@@ -368,7 +368,7 @@ func downloadImage() {
 		return
 	}
 
-	filePath := filepath.Join(path, "/docs/static/images/", time2.NewTime().Year())
+	filePath := filepath.Join(path, "/docs/static/images/", time2.NewTime().Date())
 	if _, err := os.Stat(filePath); err != nil {
 		_ = os.MkdirAll(filePath, os.ModePerm)
 	}
@@ -387,7 +387,7 @@ func contentTemplate() (template string) {
 `
 
 	if len(homepage) > 0 {
-		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s)\n- 官网地址: [%s](%s)\n", templateBase, time2.NewTime().Year(), filepath.Base(img), homepage, homepage)
+		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s)\n- 官网地址: [%s](%s)\n", templateBase, time2.NewTime().Date(), filepath.Base(img), homepage, homepage)
 	}
 
 	template = fmt.Sprintf("%s---", templateBase)
