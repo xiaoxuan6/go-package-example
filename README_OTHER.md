@@ -42,3 +42,4 @@
 |github.com/ritz078/transform|多语言网络转换器|<br>
 |github.com/tw93/MiaoYan|轻灵的 Markdown 笔记本伴你写出妙语连珠的句子。轻灵的 Markdown 笔记本伴你写出妙语|<br>
 |github.com/marktext/marktext|简洁优雅的标记符编辑器，适用于 Linux、macOS 和 Windows。|<br>
+|github.com/cf-pages/Telegraph-Image|图片托管解决方案，Flickr/imgur 替代方案，让用户轻松分享他们的图片。使用 Cloudflare 页面和电报。|<br>
