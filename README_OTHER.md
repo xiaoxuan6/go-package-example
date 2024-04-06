@@ -45,3 +45,4 @@
 |github.com/cf-pages/Telegraph-Image|图片托管解决方案，Flickr/imgur 替代方案，让用户轻松分享他们的图片。使用 Cloudflare 页面和电报。|<br>
 |github.com/xiaopanglian/icefox|Typecho微信朋友圈主题 icefox|<br>
 |github.com/hunter-ji/RedisFish|一个方便、跨平台、以内容为中心的 redis GUI 客户端。也许你会喜欢它。|<br>
+|github.com/simple-icons/simple-icons|流行品牌的 SVG 图标|<br>
