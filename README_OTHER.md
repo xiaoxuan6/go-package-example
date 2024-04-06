@@ -48,3 +48,4 @@
 |github.com/simple-icons/simple-icons|流行品牌的 SVG 图标|<br>
 |github.com/AykutSarac/jsoncrack.com|✨ 创新的开源可视化应用程序，可将 JSON、YAML、XML、CSV 等各种数据格式转换为交互式图形。|<br>
 |github.com/Codennnn/Green-Wall|⬜🟩 GitHub 贡献图生成器。|<br>
+|github.com/x-mirrors/gcr.io|每天定时同步 gcr.io 镜像到 hub.docker.com。将谷歌容器注册表镜像同步到 hub.docker.com。|<br>
