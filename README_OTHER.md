@@ -53,3 +53,4 @@
 |github.com/omgovich/colord|用于高性能色彩处理和转换的小巧而强大的工具|<br>
 |github.com/henripar/scrollbar|简单的在线滚动条编辑器|<br>
 |github.com/danielcranney/profileme-dev|在几分钟内创建出色的 GitHub 简介|<br>
+|github.com/excalidraw/excalidraw|用于绘制手绘图表的虚拟白板|<br>
