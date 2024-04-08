@@ -64,3 +64,4 @@
 |github.com/djyde/Picas|使用 Google 字体生成 Wordmark 徽标|<br>
 |github.com/andrew/first-pr|您在 GitHub 上发出的第一个拉取请求是什么？|<br>
 |github.com/GoogleChromeLabs/squoosh|在浏览器中使用同类最佳的编解码器缩小图像。|<br>
+|github.com/saviomartin/slickr|为您的 hashnode 博客创建封面图片，享受前所未有的乐趣，只需几秒钟即可开始 🎉|<br>
