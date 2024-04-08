@@ -58,3 +58,4 @@
 |github.com/yusanshi/emgithub|像 GitHub Gist 一样从 GitHub 仓库嵌入文件。|<br>
 |github.com/dai-shi/excalidraw-animate|Excalidraw绘图动画工具|<br>
 |github.com/jgraph/drawio|draw.io 是一款 JavaScript 客户端编辑器，用于绘制一般图表。|<br>
+|github.com/steveruizok/perfect-freehand|绘制完美的压敏自由线条|<br>
