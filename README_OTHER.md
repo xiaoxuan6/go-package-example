@@ -62,3 +62,4 @@
 |github.com/idank/explainshell|将命令行参数与其帮助文本匹配|<br>
 |github.com/yuyinws/comm1t|查找版本库的初始提交。|<br>
 |github.com/djyde/Picas|使用 Google 字体生成 Wordmark 徽标|<br>
+|github.com/andrew/first-pr|您在 GitHub 上发出的第一个拉取请求是什么？|<br>
