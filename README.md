@@ -399,3 +399,4 @@
 ||github.com/nguyenthenguyen/docx|用于替换 Microsoft Word (.docx) 文件中文本的简单 Google Go (Golang) 库|<br>
 ||github.com/mtlynch/picoshare|简约、易于托管的图像和其他文件共享服务|<br>
 ||github.com/duke-git/lancet|一个全面、高效、可重用的 Go 函数库。|<br>
+||github.com/johnkerl/lumin|高亮显示文件中匹配项的简单命令行工具--就像带 --color 的 grep，但会在高亮显示匹配项的同时显示所有行|<br>
