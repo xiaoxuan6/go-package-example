@@ -56,3 +56,4 @@
 |github.com/excalidraw/excalidraw|用于绘制手绘图表的虚拟白板|<br>
 |github.com/daveearley/screenshot.rocks|创建漂亮的移动设备|<br>
 |github.com/yusanshi/emgithub|像 GitHub Gist 一样从 GitHub 仓库嵌入文件。|<br>
+|github.com/dai-shi/excalidraw-animate|Excalidraw绘图动画工具|<br>
