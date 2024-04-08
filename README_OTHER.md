@@ -55,3 +55,4 @@
 |github.com/danielcranney/profileme-dev|在几分钟内创建出色的 GitHub 简介|<br>
 |github.com/excalidraw/excalidraw|用于绘制手绘图表的虚拟白板|<br>
 |github.com/daveearley/screenshot.rocks|创建漂亮的移动设备|<br>
+|github.com/yusanshi/emgithub|像 GitHub Gist 一样从 GitHub 仓库嵌入文件。|<br>
