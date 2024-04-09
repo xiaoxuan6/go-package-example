@@ -31,3 +31,4 @@
 |github.com/unicodeveloper/laravel-password|🔐 😈 防止用户在 Laravel 5 应用程序中输入愚蠢的密码|<br>
 |github.com/Vectorface/whip|用于为客户端获取准确 IP 地址信息的 PHP 类。|<br>
 |github.com/skywarth/chaotic-schedule|通过 pRNG 随机确定计划命令的执行时间和日期间隔|<br>
+|github.com/php-collective/decimal-object|将小数处理作为值对象，而不是纯字符串或浮点数。|<br>
