@@ -307,7 +307,10 @@ func fetchDescription(owner, repo, uri string) string {
 		rep, _, _ := client.Repositories.Get(context.Background(), owner, repo)
 		description = *rep.Description
 		language = *rep.Language
-		homepage = *rep.Homepage
+
+		if isDownload == true {
+			homepage = *rep.Homepage
+		}
 	}
 
 	info := whatlanggo.Detect(description)
