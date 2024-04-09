@@ -6,6 +6,10 @@ on:
       uri:
         description: 'github uri'
         required: true
+      is_download:
+        description: '是否下载图片'
+        required: false
+        default: true
 
 env:
   TZ: Asia/Shanghai
@@ -26,4 +30,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           go mod tidy
-          go run cmd/generate_weekly.go --uri="${{ github.event.inputs.uri }}"
+          go run cmd/generate_weekly.go --uri="${{ github.event.inputs.uri }}" --is_download="${{ github.event.inputs.is_download }}"

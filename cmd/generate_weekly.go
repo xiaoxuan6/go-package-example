@@ -35,10 +35,11 @@ import (
 )
 
 var (
-	path     string
-	uri      string
-	homepage string
-	img      string
+	path       string
+	uri        string
+	isDownload bool
+	homepage   string
+	img        string
 
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
@@ -49,6 +50,7 @@ var (
 
 func main() {
 	flag.StringVar(&uri, "uri", "", "")
+	flag.BoolVar(&isDownload, "is_download", true, "")
 	flag.Parse()
 
 	_ = godotenv.Load()
@@ -104,6 +106,10 @@ func main() {
 				filename = match.Str
 				break
 			}
+		}
+
+		if isDownload == false {
+			homepage = ""
 		}
 
 		downloadImage()
