@@ -9,7 +9,7 @@ on:
       is_download:
         description: '是否下载图片'
         required: false
-        default: true
+        default: false
 
 env:
   TZ: Asia/Shanghai
