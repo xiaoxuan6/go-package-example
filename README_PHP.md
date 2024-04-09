@@ -36,3 +36,4 @@
 |github.com/shalvah/clara|为 PHP CLI 应用程序提供简单、漂亮、可测试的控制台输出。|<br>
 |github.com/Stillat/blade-directives|当需要多个参数时，该软件包能让编写 Laravel Blade 指令变得更容易。|<br>
 |github.com/laminas/laminas-feed|使用和生成 Atom 和 RSS 源，并与 Pubsubhubbub 交互。|<br>
+|github.com/KnpLabs/php-github-api|一个简单的 PHP GitHub API 客户端，面向对象，已测试并记录。|<br>
