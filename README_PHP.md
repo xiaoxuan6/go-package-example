@@ -33,3 +33,4 @@
 |github.com/skywarth/chaotic-schedule|通过 pRNG 随机确定计划命令的执行时间和日期间隔|<br>
 |github.com/php-collective/decimal-object|将小数处理作为值对象，而不是纯字符串或浮点数。|<br>
 |github.com/joetannenbaum/terminalia|为 Laravel 提供漂亮的控制台输出|<br>
+|github.com/shalvah/clara|为 PHP CLI 应用程序提供简单、漂亮、可测试的控制台输出。|<br>
