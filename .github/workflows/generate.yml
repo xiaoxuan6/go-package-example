@@ -1,0 +1,29 @@
+name: "generate weekly"
+
+on:
+  workflow_dispatch:
+    inputs:
+      uri:
+        description: 'github uri'
+        required: true
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v2
+        with:
+          go-version: 1.19
+      - name: "generate weekly"
+        env:
+          APP_ENV: "prod"
+          GITHUB_OWNER: "xiaoxuan6"
+          GITHUB_EMAIL: "1527736751@qq.com"
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          go mod tidy
+          go run cmd/generate_weekly.go --uri="${{ github.event.inputs.uri }}"
