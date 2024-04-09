@@ -27,3 +27,4 @@
 |github.com/justmd5/deeplx|deeplx 是一个简单、快速的 PHP 免费 deepl 库。|<br>
 |github.com/nunomaduro/laravel-console-task|✅ Laravel 控制台任务是 Laravel 控制台命令的输出方法。|<br>
 |github.com/cerbero90/command-validator|验证 Laravel 控制台命令输入。|<br>
+|github.com/RahulDey12/laravel-console-spinner|为 Laravel Artisan 控制台定制的加载⌛旋转器。|<br>
