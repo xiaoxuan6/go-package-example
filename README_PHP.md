@@ -35,3 +35,4 @@
 |github.com/joetannenbaum/terminalia|为 Laravel 提供漂亮的控制台输出|<br>
 |github.com/shalvah/clara|为 PHP CLI 应用程序提供简单、漂亮、可测试的控制台输出。|<br>
 |github.com/Stillat/blade-directives|当需要多个参数时，该软件包能让编写 Laravel Blade 指令变得更容易。|<br>
+|github.com/laminas/laminas-feed|使用和生成 Atom 和 RSS 源，并与 Pubsubhubbub 交互。|<br>
