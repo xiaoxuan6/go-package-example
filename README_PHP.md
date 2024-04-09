@@ -28,3 +28,4 @@
 |github.com/nunomaduro/laravel-console-task|✅ Laravel 控制台任务是 Laravel 控制台命令的输出方法。|<br>
 |github.com/cerbero90/command-validator|验证 Laravel 控制台命令输入。|<br>
 |github.com/RahulDey12/laravel-console-spinner|为 Laravel Artisan 控制台定制的加载⌛旋转器。|<br>
+|github.com/unicodeveloper/laravel-password|🔐 😈 防止用户在 Laravel 5 应用程序中输入愚蠢的密码|<br>
