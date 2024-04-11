@@ -8,8 +8,12 @@ on:
         required: true
       is_download:
         description: '是否下载图片'
-        required: false
+        required: true
         default: false
+        type: choice
+        options:
+          - false
+          - true
 
 env:
   TZ: Asia/Shanghai
