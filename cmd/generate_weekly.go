@@ -35,11 +35,12 @@ import (
 )
 
 var (
-	path       string
-	uri        string
-	isDownload bool
-	homepage   string
-	img        string
+	path           string
+	uri            string
+	isDownload     bool
+	homepage       string
+	img            string
+	descriptionVar string
 
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
@@ -51,6 +52,7 @@ var (
 func main() {
 	flag.StringVar(&uri, "uri", "", "")
 	flag.BoolVar(&isDownload, "is_download", true, "")
+	flag.StringVar(&descriptionVar, "description", "", "")
 	flag.Parse()
 
 	_ = godotenv.Load()
@@ -58,9 +60,20 @@ func main() {
 	dir, _ := os.Getwd()
 	path = filepath.Join(dir, "/weekly")
 
-	owner, repository, baseUrl := fetchRepositoryAndUrl()
-
-	description := fetchDescription(owner, repository, baseUrl)
+	var (
+		owner       string
+		baseUrl     string
+		repository  string
+		description string
+	)
+	u, _ := url2.Parse(uri)
+	if strings.Contains(u.Host, "github.com") {
+		owner, repository, baseUrl = fetchRepositoryAndUrl()
+		description = fetchDescription(owner, repository, baseUrl)
+	} else {
+		baseUrl, homepage, repository = uri, uri, uri
+		description = descriptionVar
+	}
 
 	if err := cloneRepository(); err != nil {
 		return
@@ -114,6 +127,13 @@ func main() {
 
 		downloadImage()
 
+		var content string
+		if len(descriptionVar) < 1 {
+			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description)
+		} else {
+			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
+		}
+
 		newFilename := filepath.Join(root, filename)
 		if _, err := os.Stat(newFilename); err != nil {
 			newFilename = filepath.Join(root, newFilenameBeta)
@@ -127,7 +147,7 @@ func main() {
 			ch <- true
 			_, _ = f.WriteString(fmt.Sprintf(`# %s
 
----%s`, strings.ReplaceAll(filename, ".md", ""), fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description)))
+---%s`, strings.ReplaceAll(filename, ".md", ""), content))
 
 			ch1 <- true
 
@@ -136,7 +156,7 @@ func main() {
 			ch <- false
 
 			f, _ := os.OpenFile(newFilename, os.O_WRONLY|os.O_APPEND, os.ModePerm)
-			_, _ = f.WriteString(fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description))
+			_, _ = f.WriteString(content)
 
 			ch1 <- true
 			filenameBeta <- newFilename
@@ -389,14 +409,26 @@ func downloadImage() {
 }
 
 func contentTemplate() (template string) {
-	templateBase := `
+	var templateBase string
+	if len(descriptionVar) < 1 {
+		templateBase = `
 - 项目地址：[%s](%s)
 - 所属语言：%s
 - 项目说明：%s
 `
+	} else {
+		templateBase = `
+- 项目地址：[%s](%s)
+- 项目说明：%s
+`
+	}
 
 	if len(homepage) > 0 {
-		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s)\n- 官网地址: [%s](%s)\n", templateBase, time2.NewTime().Date(), filepath.Base(img), homepage, homepage)
+		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s)\n", templateBase, time2.NewTime().Date(), filepath.Base(img))
+
+		if len(descriptionVar) == 0 {
+			templateBase = fmt.Sprintf("%s- 官网地址: [%s](%s)\n", templateBase, homepage, homepage)
+		}
 	}
 
 	template = fmt.Sprintf("%s---", templateBase)
