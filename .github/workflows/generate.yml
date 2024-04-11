@@ -14,7 +14,8 @@ on:
         options:
           - false
           - true
-      description: '描述'
+      description:
+        description: '描述'
         required: false
         default: ''
 
