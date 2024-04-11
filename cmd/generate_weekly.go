@@ -134,6 +134,11 @@ func main() {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
 
+		fmt.Println("descriptionVar：", descriptionVar)
+		fmt.Println("descriptionVar len：", len(descriptionVar))
+		fmt.Println("description：", description)
+		fmt.Println("content：", content)
+
 		newFilename := filepath.Join(root, filename)
 		if _, err := os.Stat(newFilename); err != nil {
 			newFilename = filepath.Join(root, newFilenameBeta)
