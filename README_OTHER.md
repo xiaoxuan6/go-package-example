@@ -66,3 +66,4 @@
 |github.com/GoogleChromeLabs/squoosh|在浏览器中使用同类最佳的编解码器缩小图像。|<br>
 |github.com/saviomartin/slickr|为您的 hashnode 博客创建封面图片，享受前所未有的乐趣，只需几秒钟即可开始 🎉|<br>
 |github.com/sh-dv/hat.sh|在浏览器中安全加密和解密文件。|<br>
+|github.com/nwtgck/gh-card|适用于任何网站的 GitHub 仓库卡|<br>
