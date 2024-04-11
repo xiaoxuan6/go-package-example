@@ -66,8 +66,8 @@ func main() {
 		repository  string
 		description string
 	)
-	u, _ := url2.Parse(uri)
-	if strings.Contains(u.Host, "github.com") {
+	u, _ := url2.Parse(strings.TrimSpace(uri))
+	if strings.Contains(u.Host, "github.com") == true {
 		owner, repository, baseUrl = fetchRepositoryAndUrl()
 		description = fetchDescription(owner, repository, baseUrl)
 	} else {
