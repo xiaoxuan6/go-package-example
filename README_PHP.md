@@ -39,3 +39,4 @@
 |github.com/KnpLabs/php-github-api|一个简单的 PHP GitHub API 客户端，面向对象，已测试并记录。|<br>
 |github.com/envant/fireable|根据属性变化触发 Laravel 事件的优雅方法。|<br>
 |github.com/Intervention/gif|本地 PHP GIF 编码器/解码器|<br>
+|github.com/Intervention/image|PHP 图像处理|<br>
