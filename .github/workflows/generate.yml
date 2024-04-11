@@ -17,6 +17,7 @@ on:
       description_var:
         description: '描述'
         required: false
+        type: string
 
 env:
   TZ: Asia/Shanghai
@@ -37,4 +38,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           go mod tidy
-          go run cmd/generate_weekly.go --uri="${{ github.event.inputs.uri }}" --is_download="${{ github.event.inputs.is_download }}"
+          go run cmd/generate_weekly.go --uri="${{ inputs.uri }}" --is_download="${{ inputs.is_download }}" --description_var="${{ inputs.description_var }}"
