@@ -52,7 +52,7 @@ var (
 func main() {
 	flag.StringVar(&uri, "uri", "", "")
 	flag.BoolVar(&isDownload, "is_download", true, "")
-	flag.StringVar(&descriptionVar, "description", "", "")
+	flag.StringVar(&descriptionVar, "description_var", "", "")
 	flag.Parse()
 
 	_ = godotenv.Load()

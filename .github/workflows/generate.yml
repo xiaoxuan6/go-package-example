@@ -14,10 +14,9 @@ on:
         options:
           - false
           - true
-      description:
+      description_var:
         description: '描述'
         required: false
-        default: ''
 
 env:
   TZ: Asia/Shanghai
