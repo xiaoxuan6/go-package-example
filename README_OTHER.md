@@ -68,3 +68,4 @@
 |github.com/sh-dv/hat.sh|在浏览器中安全加密和解密文件。|<br>
 |github.com/nwtgck/gh-card|适用于任何网站的 GitHub 仓库卡|<br>
 |github.com/xiaoluoboding/bookmark.style|🪄 将任何链接变成时尚的可视化网络书签，一键复制精美的网络书签图片。|<br>
+|github.com/zws-im/zws|使用隐形空格缩短 URL|<br>
