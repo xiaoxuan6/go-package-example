@@ -31,6 +31,7 @@ jobs:
         with:
           go-version: 1.19
       - name: "generate weekly"
+        timeout-minutes: 3
         env:
           APP_ENV: "prod"
           GITHUB_OWNER: "xiaoxuan6"
