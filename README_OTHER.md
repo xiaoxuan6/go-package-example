@@ -71,3 +71,4 @@
 |github.com/zws-im/zws|使用隐形空格缩短 URL|<br>
 |github.com/tldraw/tldraw|无限画布|<br>
 |github.com/bestony/logoly|Pornhub 味道标志生成器|<br>
+|github.com/dai-shi/excalidraw-claymate|这是一款基于 Excalidraw 的工具，用于制作定格动画和幻灯片。|<br>
