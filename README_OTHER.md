@@ -70,3 +70,4 @@
 |github.com/xiaoluoboding/bookmark.style|🪄 将任何链接变成时尚的可视化网络书签，一键复制精美的网络书签图片。|<br>
 |github.com/zws-im/zws|使用隐形空格缩短 URL|<br>
 |github.com/tldraw/tldraw|无限画布|<br>
+|github.com/bestony/logoly|Pornhub 味道标志生成器|<br>
