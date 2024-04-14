@@ -72,3 +72,4 @@
 |github.com/tldraw/tldraw|无限画布|<br>
 |github.com/bestony/logoly|Pornhub 味道标志生成器|<br>
 |github.com/dai-shi/excalidraw-claymate|这是一款基于 Excalidraw 的工具，用于制作定格动画和幻灯片。|<br>
+|github.com/Yikun/hub-mirror-action|一个 Github Action，用于在 Github 和 Gitee 之间同步代码。Action 用于在 Hub（如 Github 和 Gitee）之间镜像 repos。|<br>
