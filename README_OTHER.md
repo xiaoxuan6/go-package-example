@@ -73,3 +73,4 @@
 |github.com/bestony/logoly|Pornhub 味道标志生成器|<br>
 |github.com/dai-shi/excalidraw-claymate|这是一款基于 Excalidraw 的工具，用于制作定格动画和幻灯片。|<br>
 |github.com/Yikun/hub-mirror-action|一个 Github Action，用于在 Github 和 Gitee 之间同步代码。Action 用于在 Hub（如 Github 和 Gitee）之间镜像 repos。|<br>
+|github.com/jaywcjlove/linux-command|Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux|<br>
