@@ -409,8 +409,22 @@ func downloadImage() {
 
 	img = fmt.Sprintf("%s/%s.png", filePath, strconv.Itoa(int(time.Now().Unix())))
 
-	page := rod.New().MustConnect().MustPage(homepage).MustWaitLoad()
-	page.MustWaitStable().MustScreenshot(img)
+	//page := rod.New().MustConnect().MustPage(homepage).MustWaitLoad()
+	//page.MustWaitStable().MustScreenshot(img)
+
+	// 创建浏览器实例
+	browser := rod.New().MustConnect()
+	defer browser.MustClose()
+
+	// 新建一个页面并访问指定网址
+	page := browser.MustPage(homepage).MustWaitLoad()
+
+	// 修改页面的字符编码为UTF-8
+	page.Eval(`document.charset = "UTF-8"`)
+
+	// 等待页面加载完成后进行截图
+	page.MustScreenshot(img)
+
 }
 
 func contentTemplate() (template string) {
