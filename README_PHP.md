@@ -43,3 +43,4 @@
 |github.com/sirn-se/websocket-php|[php-lib] PHP 中的 WebSocket 客户端和服务器|<br>
 |github.com/chrome-php/chrome|从 PHP 安装无头 Chrome/chromium 实例|<br>
 |github.com/tempestphp/highlight|🎨 适用于网络和终端的快速、可扩展的服务器端代码高亮功能|<br>
+|github.com/tempestphp/tempest-console|🎮 使用 PHP 的命令行界面|<br>
