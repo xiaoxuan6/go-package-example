@@ -41,3 +41,4 @@
 |github.com/Intervention/gif|本地 PHP GIF 编码器/解码器|<br>
 |github.com/Intervention/image|PHP 图像处理|<br>
 |github.com/sirn-se/websocket-php|[php-lib] PHP 中的 WebSocket 客户端和服务器|<br>
+|github.com/chrome-php/chrome|从 PHP 安装无头 Chrome/chromium 实例|<br>
