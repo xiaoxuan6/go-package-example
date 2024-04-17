@@ -18,6 +18,10 @@ on:
         description: '描述'
         required: false
         type: string
+      demo_url:
+        description: 'demo 地址'
+        required: false
+        type: string
 
 env:
   TZ: Asia/Shanghai
@@ -41,4 +45,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           go mod tidy
-          go run cmd/generate_weekly.go --uri="${{ inputs.uri }}" --is_download="${{ inputs.is_download }}" --description_var="${{ inputs.description_var }}"
+          go run cmd/generate_weekly.go --uri="${{ inputs.uri }}" --is_download="${{ inputs.is_download }}" --description_var="${{ inputs.description_var }}" --demo_url="${{ inputs.demo_url }}"

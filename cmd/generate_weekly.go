@@ -41,6 +41,7 @@ var (
 	homepage       string
 	img            string
 	descriptionVar string
+	demoUrl        string
 
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
@@ -53,6 +54,7 @@ func main() {
 	flag.StringVar(&uri, "uri", "", "")
 	flag.BoolVar(&isDownload, "is_download", true, "")
 	flag.StringVar(&descriptionVar, "description_var", "", "")
+	flag.StringVar(&demoUrl, "demo_url", "", "")
 	flag.Parse()
 
 	_ = godotenv.Load()
@@ -448,6 +450,10 @@ func contentTemplate() (template string) {
 		if len(descriptionVar) == 0 {
 			templateBase = fmt.Sprintf("%s- 官网地址: [%s](%s)\n", templateBase, homepage, homepage)
 		}
+	}
+
+	if len(demoUrl) > 0 {
+		templateBase = fmt.Sprintf("%s- 相关链接: [Demo](%s)\n", templateBase, demoUrl)
 	}
 
 	template = fmt.Sprintf("%s---", templateBase)
