@@ -74,3 +74,4 @@
 |github.com/dai-shi/excalidraw-claymate|这是一款基于 Excalidraw 的工具，用于制作定格动画和幻灯片。|<br>
 |github.com/Yikun/hub-mirror-action|一个 Github Action，用于在 Github 和 Gitee 之间同步代码。Action 用于在 Hub（如 Github 和 Gitee）之间镜像 repos。|<br>
 |github.com/jaywcjlove/linux-command|Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux|<br>
+|github.com/unilei/image-watermark-tool|一个能够在本地设备上为图片添加水印，并且图片不会被发送到任何服务器，所有操作都在本地浏览器完成的工具。非常适合保护您敏感证件（如身份证、驾照、护照等）|<br>
