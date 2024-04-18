@@ -6,3 +6,4 @@ sql.db
 .env
 weekly/
 demo.go
+download.go

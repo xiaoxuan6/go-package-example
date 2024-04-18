@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"context"
 	"flag"
 	"fmt"
@@ -82,6 +83,34 @@ func main() {
 		description = descriptionVar
 	}
 
+	// --------------------- 去重 ---------------------
+	urls := make([]string, 100)
+	f, _ := os.ReadFile(filepath.Join(path, "links.txt"))
+	br := bufio.NewReader(strings.NewReader(string(f)))
+	for {
+		a, _, errs := br.ReadLine()
+		if errs == io.EOF {
+			break
+		}
+
+		urls = append(urls, string(a))
+	}
+
+	var matchStr string
+	urlMatches := fuzzy.Find(baseUrl, urls)
+	if len(urlMatches) > 0 {
+		for _, match := range urlMatches {
+			matchStr = match.Str
+			break
+		}
+	}
+
+	if len(matchStr) > 0 {
+		logrus.Warning(color.RedString("url [%s] exists", matchStr))
+		return
+	}
+	// --------------------- 去重 ---------------------
+
 	if err := cloneRepository(); err != nil {
 		return
 	}
@@ -140,11 +169,6 @@ func main() {
 		} else {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
-
-		fmt.Println("descriptionVar：", descriptionVar)
-		fmt.Println("descriptionVar len：", len(descriptionVar))
-		fmt.Println("description：", description)
-		fmt.Println("content：", content)
 
 		newFilename := filepath.Join(root, filename)
 		if _, err := os.Stat(newFilename); err != nil {
