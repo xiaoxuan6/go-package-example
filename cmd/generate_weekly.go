@@ -83,10 +83,11 @@ func main() {
 		description = descriptionVar
 	}
 
-	// --------------------- 去重 ---------------------
-	urls := make([]string, 100)
-	f, _ := os.ReadFile(filepath.Join(path, "links.txt"))
+	// --------------------- 去重 START ---------------------
+	links := filepath.Join(path, "links.txt")
+	f, _ := os.ReadFile(links)
 	br := bufio.NewReader(strings.NewReader(string(f)))
+	urls := make([]string, 100)
 	for {
 		a, _, errs := br.ReadLine()
 		if errs == io.EOF {
@@ -109,7 +110,7 @@ func main() {
 		logrus.Warning(color.RedString("url [%s] exists", matchStr))
 		return
 	}
-	// --------------------- 去重 ---------------------
+	// --------------------- 去重 END ---------------------
 
 	if err := cloneRepository(); err != nil {
 		return
@@ -198,6 +199,14 @@ func main() {
 			filenameBeta <- newFilename
 		}
 
+		// ---------------- write links ------------------------
+		content = fmt.Sprintf("%s\n", uri)
+		if len(homepage) > 0 {
+			content = fmt.Sprintf("%s%s\n", content, homepage)
+		}
+		f, _ := os.OpenFile(links, os.O_WRONLY|os.O_APPEND, os.ModePerm)
+		_, _ = f.WriteString(content)
+
 		return
 	}()
 
@@ -282,11 +291,11 @@ func main() {
 		newFilename := strings.ReplaceAll(filenameCh, path, "")
 		newFilename = strings.ReplaceAll(newFilename, "/docs", "docs")
 
-		commitSlice = append(commitSlice, newFilename)
+		commitSlice = append(commitSlice, newFilename, links)
 
 		message = fmt.Sprintf("fix: Update %s", filepath.Base(filenameCh))
 	} else {
-		commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml")
+		commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml", links)
 
 		message = fmt.Sprintf("feat: Add %s", filename)
 	}
