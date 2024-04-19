@@ -169,7 +169,9 @@ func main() {
 		var content string
 		if len(descriptionVar) < 1 {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description)
-		} else {
+		} else if strings.Compare(label, "article") == 0 {
+			content = fmt.Sprintf(contentTemplate(), description, baseUrl)
+		}else {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
 
@@ -471,17 +473,14 @@ func contentTemplate() (template string) {
 - 所属语言：%s
 - 项目说明：%s
 `
+	} else if strings.Compare(label, "article") == 0 {
+		templateBase = `
+- 文章简介：[%s](%s)
+`
 	} else {
 		templateBase = `
 - 项目地址：[%s](%s)
 - 项目说明：%s
-`
-	}
-
-	if strings.Compare(label, "article") == 0 {
-		templateBase = `
-- 文章地址：[%s](%s)
-- 文字简介：%s
 `
 	}
 

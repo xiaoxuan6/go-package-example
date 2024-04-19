@@ -51,5 +51,6 @@ jobs:
           GITHUB_EMAIL: "1527736751@qq.com"
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          sudo apt install -y fonts-liberation fonts-noto-color-emoji fonts-noto-cjk
           go mod tidy
           go run cmd/generate_weekly.go --uri="${{ inputs.uri }}" --is_download="${{ inputs.is_download }}" --description_var="${{ inputs.description_var }}" --demo_url="${{ inputs.demo_url }}" --label="${{ inputs.label }}"
