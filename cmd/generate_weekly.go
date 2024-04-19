@@ -18,10 +18,13 @@ import (
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
 	"github.com/google/go-github/v48/github"
 	"github.com/joho/godotenv"
+	"github.com/noelyahan/impexp"
+	"github.com/noelyahan/mergi"
 	"github.com/sahilm/fuzzy"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/html"
 	"golang.org/x/oauth2"
+	"image"
 	"io"
 	"io/fs"
 	"net/http"
@@ -88,23 +91,7 @@ func main() {
 
 	// --------------------- 去重 START ---------------------
 	links := filepath.Join(path, "links.txt")
-
-	result := false
-	r, _ := os.ReadFile(links)
-	br := bufio.NewReader(strings.NewReader(string(r)))
-	for {
-		a, _, errs := br.ReadLine()
-		if errs == io.EOF {
-			break
-		}
-
-		if strings.Compare(string(a), uri) == 0 {
-			result = true
-			break
-		}
-	}
-
-	if result == true {
+	if distinct(links) == true {
 		logrus.Warning(color.RedString("url [%s] exists", uri))
 		return
 	}
@@ -167,7 +154,7 @@ func main() {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description)
 		} else if strings.Compare(label, "article") == 0 {
 			content = fmt.Sprintf(contentTemplate(), description, baseUrl)
-		}else {
+		} else {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
 
@@ -391,6 +378,25 @@ func fetchDescription(owner, repo, uri string) string {
 	return description
 }
 
+func distinct(path string) bool {
+	result := false
+	r, _ := os.ReadFile(path)
+	br := bufio.NewReader(strings.NewReader(string(r)))
+	for {
+		a, _, errs := br.ReadLine()
+		if errs == io.EOF {
+			break
+		}
+
+		if strings.Compare(string(a), uri) == 0 {
+			result = true
+			break
+		}
+	}
+
+	return result
+}
+
 func cloneRepository() error {
 	cloneNum := 0
 CLONE:
@@ -459,6 +465,31 @@ func downloadImage() {
 	page.Eval(`document.charset = "UTF-8"`)
 	page.MustWaitStable().MustScreenshot(img)
 
+	time.Sleep(3)
+
+	watermark(img)
+}
+
+func watermark(img string) {
+	i, err := mergi.Import(impexp.NewFileImporter(img))
+	if err != nil {
+		logrus.Error("watermark: ", err.Error())
+		return
+	}
+
+	watermarkImage, err := mergi.Import(impexp.NewFileImporter("watermark.png"))
+	if err != nil {
+		logrus.Error("watermark: ", err.Error())
+		return
+	}
+
+	res, err := mergi.Watermark(watermarkImage, i, image.Pt(0, 0))
+	if err != nil {
+		logrus.Error("watermark: ", err.Error())
+		return
+	}
+
+	_ = mergi.Export(impexp.NewFileExporter(res, img))
 }
 
 func contentTemplate() (template string) {
