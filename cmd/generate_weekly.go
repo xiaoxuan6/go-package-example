@@ -485,7 +485,7 @@ func contentTemplate() (template string) {
 	}
 
 	if len(homepage) > 0 {
-		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s)\n", templateBase, time2.NewTime().Date(), filepath.Base(img))
+		templateBase = fmt.Sprintf("%s![img](/weekly/static/images/%s/%s){.img-fluid tag=1}\n", templateBase, time2.NewTime().Date(), filepath.Base(img))
 
 		if len(descriptionVar) == 0 {
 			templateBase = fmt.Sprintf("%s- 官网地址: [%s](%s)\n", templateBase, homepage, homepage)
