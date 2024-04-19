@@ -43,6 +43,7 @@ var (
 	img            string
 	descriptionVar string
 	demoUrl        string
+	label          string
 
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
@@ -56,6 +57,7 @@ func main() {
 	flag.BoolVar(&isDownload, "is_download", true, "")
 	flag.StringVar(&descriptionVar, "description_var", "", "")
 	flag.StringVar(&demoUrl, "demo_url", "", "")
+	flag.StringVar(&label, "label", "pkg", "")
 	flag.Parse()
 
 	_ = godotenv.Load()
@@ -85,8 +87,8 @@ func main() {
 
 	// --------------------- 去重 START ---------------------
 	links := filepath.Join(path, "links.txt")
-	f, _ := os.ReadFile(links)
-	br := bufio.NewReader(strings.NewReader(string(f)))
+	r, _ := os.ReadFile(links)
+	br := bufio.NewReader(strings.NewReader(string(r)))
 	urls := make([]string, 100)
 	for {
 		a, _, errs := br.ReadLine()
@@ -200,12 +202,12 @@ func main() {
 		}
 
 		// ---------------- write links ------------------------
-		content = fmt.Sprintf("%s\n", uri)
+		linkContent := fmt.Sprintf("%s\n", uri)
 		if len(homepage) > 0 {
-			content = fmt.Sprintf("%s%s\n", content, homepage)
+			linkContent = fmt.Sprintf("%s%s\n", linkContent, homepage)
 		}
 		f, _ := os.OpenFile(links, os.O_WRONLY|os.O_APPEND, os.ModePerm)
-		_, _ = f.WriteString(content)
+		_, _ = f.WriteString(linkContent)
 
 		return
 	}()
@@ -291,11 +293,11 @@ func main() {
 		newFilename := strings.ReplaceAll(filenameCh, path, "")
 		newFilename = strings.ReplaceAll(newFilename, "/docs", "docs")
 
-		commitSlice = append(commitSlice, newFilename, links)
+		commitSlice = append(commitSlice, newFilename, "links.txt")
 
 		message = fmt.Sprintf("fix: Update %s", filepath.Base(filenameCh))
 	} else {
-		commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml", links)
+		commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml", "links.txt")
 
 		message = fmt.Sprintf("feat: Add %s", filename)
 	}
@@ -452,18 +454,12 @@ func downloadImage() {
 	//page := rod.New().MustConnect().MustPage(homepage).MustWaitLoad()
 	//page.MustWaitStable().MustScreenshot(img)
 
-	// 创建浏览器实例
 	browser := rod.New().MustConnect()
 	defer browser.MustClose()
 
-	// 新建一个页面并访问指定网址
 	page := browser.MustPage(homepage).MustWaitLoad()
-
-	// 修改页面的字符编码为UTF-8
 	page.Eval(`document.charset = "UTF-8"`)
-
-	// 等待页面加载完成后进行截图
-	page.MustScreenshot(img)
+	page.MustWaitStable().MustScreenshot(img)
 
 }
 
@@ -479,6 +475,13 @@ func contentTemplate() (template string) {
 		templateBase = `
 - 项目地址：[%s](%s)
 - 项目说明：%s
+`
+	}
+
+	if strings.Compare(label, "article") == 0 {
+		templateBase = `
+- 文章地址：[%s](%s)
+- 文字简介：%s
 `
 	}
 
