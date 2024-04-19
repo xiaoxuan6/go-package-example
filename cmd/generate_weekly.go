@@ -64,6 +64,7 @@ func main() {
 
 	dir, _ := os.Getwd()
 	path = filepath.Join(dir, "/weekly")
+	uri = strings.TrimRight(strings.TrimSpace(uri), "/")
 
 	var (
 		owner       string
@@ -71,7 +72,7 @@ func main() {
 		repository  string
 		description string
 	)
-	u, _ := url2.Parse(strings.TrimSpace(uri))
+	u, _ := url2.Parse(uri)
 	if strings.Contains(u.Host, "github.com") == true {
 		owner, repository, baseUrl = fetchRepositoryAndUrl()
 
@@ -87,29 +88,24 @@ func main() {
 
 	// --------------------- 去重 START ---------------------
 	links := filepath.Join(path, "links.txt")
+
+	result := false
 	r, _ := os.ReadFile(links)
 	br := bufio.NewReader(strings.NewReader(string(r)))
-	urls := make([]string, 100)
 	for {
 		a, _, errs := br.ReadLine()
 		if errs == io.EOF {
 			break
 		}
 
-		urls = append(urls, string(a))
-	}
-
-	var matchStr string
-	urlMatches := fuzzy.Find(baseUrl, urls)
-	if len(urlMatches) > 0 {
-		for _, match := range urlMatches {
-			matchStr = match.Str
+		if strings.Compare(string(a), uri) == 0 {
+			result = true
 			break
 		}
 	}
 
-	if len(matchStr) > 0 {
-		logrus.Warning(color.RedString("url [%s] exists", matchStr))
+	if result == true {
+		logrus.Warning(color.RedString("url [%s] exists", uri))
 		return
 	}
 	// --------------------- 去重 END ---------------------
