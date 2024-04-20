@@ -82,3 +82,4 @@
 |github.com/ifyour/cf-image-hosting|🥊 免费|<br>
 |github.com/x-dr/short|一个使用 Cloudflare Pages 创建的 URL 缩短器。A 使用 Cloudflare Pages 创建的 URL Shortener|<br>
 |github.com/Codennnn/vue-color-avatar|An online avatar generator just for fun | 一个纯前端实现的头像生成网站|<br>
+|github.com/soimort/you-get|⏬ 搜索网络的傻瓜下载器|<br>
