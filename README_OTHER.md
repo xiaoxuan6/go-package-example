@@ -78,3 +78,4 @@
 |github.com/hunshcn/gh-proxy|github release、archive以及项目文件的加速项目|<br>
 |github.com/eryajf/Thanks-Mirror?tab=readme-ov-file#docker|整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。 走过路过，如觉不错，麻烦点个赞👆🌟|<br>
 |github.com/kingwrcy/moments?tab=readme-ov-file|极简朋友圈|<br>
+|github.com/missuo/Telegraph-Image-Hosting|使用 Telegraph 建立免费图片托管服务|<br>
