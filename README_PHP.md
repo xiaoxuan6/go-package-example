@@ -44,3 +44,4 @@
 |github.com/chrome-php/chrome|从 PHP 安装无头 Chrome/chromium 实例|<br>
 |github.com/tempestphp/highlight|🎨 适用于网络和终端的快速、可扩展的服务器端代码高亮功能|<br>
 |github.com/tempestphp/tempest-console|🎮 使用 PHP 的命令行界面|<br>
+|github.com/valorin/pwned-validator|超级简单的 Laravel 验证器，用于通过 Have I Been Pwned 的 Pwned Passwords 服务检查密码|<br>
