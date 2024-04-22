@@ -155,6 +155,7 @@ func main() {
 		} else if strings.Compare(label, "article") == 0 {
 			content = fmt.Sprintf(contentTemplate(), description, baseUrl)
 		} else {
+			repository = strings.ReplaceAll(strings.ReplaceAll(repository,"https://", ""), "/", "")
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
 
@@ -496,17 +497,17 @@ func contentTemplate() (template string) {
 	var templateBase string
 	if len(descriptionVar) < 1 {
 		templateBase = `
-- 项目地址：[%s](%s)
+## [%s](%s)
 - 所属语言：%s
 - 项目说明：%s
 `
 	} else if strings.Compare(label, "article") == 0 {
 		templateBase = `
-- 文章简介：[%s](%s)
+## [%s](%s)
 `
 	} else {
 		templateBase = `
-- 项目地址：[%s](%s)
+## [%s](%s)
 - 项目说明：%s
 `
 	}
