@@ -493,8 +493,7 @@ func watermark(img string) {
 	_ = mergi.Export(impexp.NewFileExporter(res, img))
 }
 
-func contentTemplate() (template string) {
-	var templateBase string
+func contentTemplate() (templateBase string) {
 	if len(descriptionVar) < 1 {
 		templateBase = `
 ## [%s](%s)
@@ -517,15 +516,13 @@ func contentTemplate() (template string) {
 		templateBase = fmt.Sprintf("%s![img](%s/static/images/%s/%s){.img-fluid tag=1}\n", templateBase, u, time2.NewTime().Date(), filepath.Base(img))
 
 		if len(descriptionVar) == 0 {
-			templateBase = fmt.Sprintf("%s- 官网地址: [%s](%s)\n", templateBase, homepage, homepage)
+			templateBase = fmt.Sprintf("%s- 官网地址：[%s](%s)\n", templateBase, homepage, homepage)
 		}
 	}
 
 	if len(demoUrl) > 0 {
-		templateBase = fmt.Sprintf("%s- 相关链接: [Demo](%s)\n", templateBase, demoUrl)
+		templateBase = fmt.Sprintf("%s- 相关链接：[Demo](%s)\n", templateBase, demoUrl)
 	}
-
-	template = fmt.Sprintf("%s---", templateBase)
 
 	return
 }
