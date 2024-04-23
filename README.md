@@ -402,3 +402,4 @@
 ||github.com/johnkerl/lumin|高亮显示文件中匹配项的简单命令行工具--就像带 --color 的 grep，但会在高亮显示匹配项的同时显示所有行|<br>
 ||github.com/owenthereal/jqplay|用 Go 编写的 jq 游戏场地|<br>
 ||github.com/yangwenmai/github-trending-backup|Github 趋势备份每日更新。|<br>
+||github.com/sabhiram/go-gitignore|用于 go 的 gitignore 解析器|<br>
