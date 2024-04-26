@@ -49,3 +49,4 @@
 |github.com/christofferok/laravel-emojione|通过 Laravel 软件包，轻松使用 EmojiOne 提供的绚丽表情符号|<br>
 |github.com/getopt-php/getopt-php|用于命令行参数处理的 PHP 库|<br>
 |github.com/composer-unused/composer-unused|通过扫描代码显示未使用的作曲家依赖项|<br>
+|github.com/webmozarts/glob|Ant 的 glob 的 PHP 实现。|<br>
