@@ -47,3 +47,4 @@
 |github.com/valorin/pwned-validator|超级简单的 Laravel 验证器，用于通过 Have I Been Pwned 的 Pwned Passwords 服务检查密码|<br>
 |github.com/webmozarts/assert|断言验证方法的输入/输出，并提供漂亮的错误信息。|<br>
 |github.com/christofferok/laravel-emojione|通过 Laravel 软件包，轻松使用 EmojiOne 提供的绚丽表情符号|<br>
+|github.com/getopt-php/getopt-php|用于命令行参数处理的 PHP 库|<br>
