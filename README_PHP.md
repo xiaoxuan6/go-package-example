@@ -48,3 +48,4 @@
 |github.com/webmozarts/assert|断言验证方法的输入/输出，并提供漂亮的错误信息。|<br>
 |github.com/christofferok/laravel-emojione|通过 Laravel 软件包，轻松使用 EmojiOne 提供的绚丽表情符号|<br>
 |github.com/getopt-php/getopt-php|用于命令行参数处理的 PHP 库|<br>
+|github.com/composer-unused/composer-unused|通过扫描代码显示未使用的作曲家依赖项|<br>
