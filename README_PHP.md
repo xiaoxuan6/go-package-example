@@ -55,3 +55,4 @@
 |github.com/ergebnis/composer-normalize|🎵 提供用于规范化 composer.json 的 composer 插件。|<br>
 |github.com/j13k/yaml-lint|用于验证 YAML 文件的紧凑型命令行内核工具。|<br>
 |github.com/symfony/rate-limiter|提供令牌桶实现，对应用程序中的输入和输出进行速率限制|<br>
+|github.com/symfony/browser-kit|模拟网络浏览器的行为，允许您以编程方式提出请求、点击链接和提交表单|<br>
