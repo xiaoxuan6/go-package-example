@@ -50,3 +50,4 @@
 |github.com/getopt-php/getopt-php|用于命令行参数处理的 PHP 库|<br>
 |github.com/composer-unused/composer-unused|通过扫描代码显示未使用的作曲家依赖项|<br>
 |github.com/webmozarts/glob|Ant 的 glob 的 PHP 实现。|<br>
+|github.com/bamarni/composer-bin-plugin?tab=readme-ov-file#usage-how-does-this-plugin-work|二进制文件依赖关系无冲突|<br>
