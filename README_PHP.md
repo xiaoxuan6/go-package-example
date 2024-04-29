@@ -51,3 +51,4 @@
 |github.com/composer-unused/composer-unused|通过扫描代码显示未使用的作曲家依赖项|<br>
 |github.com/webmozarts/glob|Ant 的 glob 的 PHP 实现。|<br>
 |github.com/bamarni/composer-bin-plugin?tab=readme-ov-file#usage-how-does-this-plugin-work|二进制文件依赖关系无冲突|<br>
+|github.com/symfony/finder|通过直观流畅的界面查找文件和目录|<br>
