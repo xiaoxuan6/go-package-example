@@ -54,3 +54,4 @@
 |github.com/symfony/finder|通过直观流畅的界面查找文件和目录|<br>
 |github.com/ergebnis/composer-normalize|🎵 提供用于规范化 composer.json 的 composer 插件。|<br>
 |github.com/j13k/yaml-lint|用于验证 YAML 文件的紧凑型命令行内核工具。|<br>
+|github.com/symfony/rate-limiter|提供令牌桶实现，对应用程序中的输入和输出进行速率限制|<br>
