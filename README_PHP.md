@@ -53,3 +53,4 @@
 |github.com/bamarni/composer-bin-plugin?tab=readme-ov-file#usage-how-does-this-plugin-work|二进制文件依赖关系无冲突|<br>
 |github.com/symfony/finder|通过直观流畅的界面查找文件和目录|<br>
 |github.com/ergebnis/composer-normalize|🎵 提供用于规范化 composer.json 的 composer 插件。|<br>
+|github.com/j13k/yaml-lint|用于验证 YAML 文件的紧凑型命令行内核工具。|<br>
