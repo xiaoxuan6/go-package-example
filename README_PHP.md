@@ -58,3 +58,4 @@
 |github.com/symfony/browser-kit|模拟网络浏览器的行为，允许您以编程方式提出请求、点击链接和提交表单|<br>
 |github.com/spatie/holidays|计算一下哪些天不用工作！|<br>
 |github.com/symfony/filesystem|为文件系统提供基本实用程序|<br>
+|github.com/code16/carbon-business-days|计算工作日的简单课程|<br>
