@@ -155,7 +155,7 @@ func main() {
 		} else if strings.Compare(label, "article") == 0 {
 			content = fmt.Sprintf(contentTemplate(), description, baseUrl)
 		} else {
-			repository = strings.ReplaceAll(strings.ReplaceAll(repository,"https://", ""), "/", "")
+			repository = strings.TrimRight(strings.ReplaceAll(repository,"https://", ""), "/")
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
 
