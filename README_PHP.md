@@ -59,3 +59,4 @@
 |github.com/spatie/holidays|计算一下哪些天不用工作！|<br>
 |github.com/symfony/filesystem|为文件系统提供基本实用程序|<br>
 |github.com/code16/carbon-business-days|计算工作日的简单课程|<br>
+|github.com/leMaur/php-url-checker|用于检查 URL HTTP 响应状态代码和原因短语的 PHP 软件包。|<br>
