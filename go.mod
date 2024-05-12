@@ -23,6 +23,6 @@ require (
 	github.com/sahilm/fuzzy v0.1.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/xiaoxuan6/go-package-db v0.0.0-20231119065132-b01494357492
-	golang.org/x/net v0.22.0
+	golang.org/x/net v0.23.0
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
 )
