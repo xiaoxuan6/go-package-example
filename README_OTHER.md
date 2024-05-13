@@ -89,3 +89,4 @@
 |github.com/softprops/action-gh-release|📦 用于创建 GitHub 发布的 GitHub 操作|<br>
 |github.com/vercel-community/php?tab=readme-ov-file|用于 ▲ Vercel 无服务器功能的 PHP 运行时（支持 7.4-8.3）|<br>
 |github.com/mlocati/docker-php-extension-installer|在 Docker 容器中轻松安装 PHP 扩展程序|<br>
+|github.com/actions/github-script|用 JavaScript 编写 GitHub API 的工作流程脚本|<br>
