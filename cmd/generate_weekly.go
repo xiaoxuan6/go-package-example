@@ -47,6 +47,7 @@ var (
 	descriptionVar string
 	demoUrl        string
 	label          string
+	banner         string
 
 	wg            sync.WaitGroup
 	gitRepository *git.Repository
@@ -56,11 +57,12 @@ var (
 )
 
 func main() {
-	flag.StringVar(&uri, "uri", "", "")
-	flag.BoolVar(&isDownload, "is_download", true, "")
-	flag.StringVar(&descriptionVar, "description_var", "", "")
-	flag.StringVar(&demoUrl, "demo_url", "", "")
-	flag.StringVar(&label, "label", "pkg", "")
+	flag.StringVar(&uri, "uri", "", "url 链接地址")
+	flag.BoolVar(&isDownload, "is_download", true, "是否下载封面图")
+	flag.StringVar(&descriptionVar, "description_var", "", "描述")
+	flag.StringVar(&demoUrl, "demo_url", "", "demo 地址")
+	flag.StringVar(&label, "label", "pkg", "标签")
+	flag.StringVar(&banner, "banner", "", "封面图地址，默认为 github 库中的地址")
 	flag.Parse()
 
 	_ = godotenv.Load()
@@ -87,6 +89,10 @@ func main() {
 	} else {
 		baseUrl, homepage, repository = uri, uri, uri
 		description = descriptionVar
+
+		if len(banner) > 0 {
+			homepage = banner
+		}
 	}
 
 	// --------------------- 去重 START ---------------------

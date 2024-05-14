@@ -6,6 +6,10 @@ on:
       uri:
         description: 'github uri'
         required: true
+      description_var:
+        description: '描述'
+        required: false
+        type: string
       is_download:
         description: '是否下载图片'
         required: true
@@ -14,8 +18,8 @@ on:
         options:
           - false
           - true
-      description_var:
-        description: '描述'
+      banner:
+        description: '封面图'
         required: false
         type: string
       label:
@@ -53,4 +57,4 @@ jobs:
         run: |
           sudo apt install -y fonts-liberation fonts-noto-color-emoji fonts-noto-cjk
           go mod tidy
-          go run cmd/generate_weekly.go --uri="${{ inputs.uri }}" --is_download="${{ inputs.is_download }}" --description_var="${{ inputs.description_var }}" --demo_url="${{ inputs.demo_url }}" --label="${{ inputs.label }}"
+          go run cmd/generate_weekly.go --uri="${{ inputs.uri }}" --is_download="${{ inputs.is_download }}" --description_var="${{ inputs.description_var }}" --demo_url="${{ inputs.demo_url }}" --label="${{ inputs.label }}" --banner="${{ inputs.banner }}"
