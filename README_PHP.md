@@ -65,3 +65,4 @@
 |github.com/voku/anti-xss|㊙️ AntiXSS | 通过 PHP 防范跨站脚本 (XSS)|<br>
 |github.com/nikolaposa/rate-limit|🚔 实现通用速率限制器。|<br>
 |github.com/beberlei/assert|用于图书馆和业务模型的瘦断言库|<br>
+|github.com/crazywhalecc/static-php-cli|在 Linux、macOS、FreeBSD、Windows 上与 PHP 项目一起构建独立的 PHP 二进制文件，并包含常用扩展。|<br>
