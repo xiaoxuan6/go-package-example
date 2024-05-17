@@ -64,3 +64,4 @@
 |github.com/lorisleiva/cron-translator|⏰️ 使 CRON 表达式具有人性化可读性|<br>
 |github.com/voku/anti-xss|㊙️ AntiXSS | 通过 PHP 防范跨站脚本 (XSS)|<br>
 |github.com/nikolaposa/rate-limit|🚔 实现通用速率限制器。|<br>
+|github.com/beberlei/assert|用于图书馆和业务模型的瘦断言库|<br>
