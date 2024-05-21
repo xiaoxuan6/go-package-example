@@ -407,3 +407,4 @@
 ||github.com/tidwall/match|Go 的简单字符串模式匹配器|<br>
 ||github.com/uniplaces/carbon|Golang 的 Carbon，Time 的扩展|<br>
 ||github.com/pkumza/numcn|中文数字之间的相互转换|<br>
+||github.com/jmz331/gpinyin|golang 汉字转拼音工具类|<br>
