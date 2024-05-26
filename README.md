@@ -411,3 +411,4 @@
 ||github.com/wujunwei928/parse-video|Golang短视频去水印：抖音,皮皮虾,火山,微视,最右,快手,全民小视频,皮皮搞笑,西瓜视频,虎牙,梨视频,acfun,好看视频...|<br>
 ||github.com/ghodss/yaml|在 Golang 中调用和取消调用 YAML 的更好方法|<br>
 ||github.com/tomasen/realip|一个能从 http 请求头中获取客户端真实公共 IP 地址的 golang 库|<br>
+||github.com/ryszard/goskiplist|Go 中的跳过列表实现|<br>
