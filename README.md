@@ -413,3 +413,4 @@
 ||github.com/tomasen/realip|一个能从 http 请求头中获取客户端真实公共 IP 地址的 golang 库|<br>
 ||github.com/ryszard/goskiplist|Go 中的跳过列表实现|<br>
 ||github.com/spf13/afero|Go 的文件系统抽象系统|<br>
+||github.com/mritd/chinaid|China ID card and other information generation library(中国大陆身份证号等信息生成库)|<br>
