@@ -412,3 +412,4 @@
 ||github.com/ghodss/yaml|在 Golang 中调用和取消调用 YAML 的更好方法|<br>
 ||github.com/tomasen/realip|一个能从 http 请求头中获取客户端真实公共 IP 地址的 golang 库|<br>
 ||github.com/ryszard/goskiplist|Go 中的跳过列表实现|<br>
+||github.com/spf13/afero|Go 的文件系统抽象系统|<br>
