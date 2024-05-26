@@ -409,3 +409,4 @@
 ||github.com/pkumza/numcn|中文数字之间的相互转换|<br>
 ||github.com/jmz331/gpinyin|golang 汉字转拼音工具类|<br>
 ||github.com/wujunwei928/parse-video|Golang短视频去水印：抖音,皮皮虾,火山,微视,最右,快手,全民小视频,皮皮搞笑,西瓜视频,虎牙,梨视频,acfun,好看视频...|<br>
+||github.com/ghodss/yaml|在 Golang 中调用和取消调用 YAML 的更好方法|<br>
