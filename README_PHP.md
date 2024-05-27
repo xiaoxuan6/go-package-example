@@ -66,3 +66,4 @@
 |github.com/nikolaposa/rate-limit|🚔 实现通用速率限制器。|<br>
 |github.com/beberlei/assert|用于图书馆和业务模型的瘦断言库|<br>
 |github.com/crazywhalecc/static-php-cli|在 Linux、macOS、FreeBSD、Windows 上与 PHP 项目一起构建独立的 PHP 二进制文件，并包含常用扩展。|<br>
+|github.com/ryangjchandler/laravel-cloudflare-turnstile|帮助集成 Cloudflare Turnstile 的简单软件包。|<br>
