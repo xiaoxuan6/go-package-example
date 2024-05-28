@@ -367,7 +367,7 @@ func fetchDescription(owner, repo, uri string) string {
 		description = *rep.Description
 		language = *rep.Language
 
-		if isDownload == true {
+		if isDownload == true && rep.Homepage != nil {
 			homepage = *rep.Homepage
 		}
 	}
