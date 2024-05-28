@@ -416,3 +416,4 @@
 ||github.com/mritd/chinaid|China ID card and other information generation library(中国大陆身份证号等信息生成库)|<br>
 ||github.com/cdfmlr/ellipsis|在 go 中用省略号截断 UTF-8 长字符串|<br>
 ||github.com/snabb/sitemap|Go XML 网站地图和网站地图索引软件包（golang）|<br>
+||github.com/Delta456/box-cli-maker|为 CLI 制作高度定制的盒子|<br>
