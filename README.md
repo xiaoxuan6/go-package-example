@@ -418,3 +418,4 @@
 ||github.com/snabb/sitemap|Go XML 网站地图和网站地图索引软件包（golang）|<br>
 ||github.com/Delta456/box-cli-maker|为 CLI 制作高度定制的盒子|<br>
 ||github.com/facette/natsort|Go 中的自然字符串排序|<br>
+||github.com/bitfield/script|在 Go 中轻松编写类 shell 脚本|<br>
