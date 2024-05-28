@@ -419,3 +419,4 @@
 ||github.com/Delta456/box-cli-maker|为 CLI 制作高度定制的盒子|<br>
 ||github.com/facette/natsort|Go 中的自然字符串排序|<br>
 ||github.com/bitfield/script|在 Go 中轻松编写类 shell 脚本|<br>
+||github.com/lascape/sat|高性能简繁体转换|<br>
