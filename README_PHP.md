@@ -68,3 +68,4 @@
 |github.com/crazywhalecc/static-php-cli|在 Linux、macOS、FreeBSD、Windows 上与 PHP 项目一起构建独立的 PHP 二进制文件，并包含常用扩展。|<br>
 |github.com/ryangjchandler/laravel-cloudflare-turnstile|帮助集成 Cloudflare Turnstile 的简单软件包。|<br>
 |github.com/PerryvanderMeer/laravel-console-validator|轻松验证 Laravel 命令中的参数|<br>
+|github.com/bosnzt/wordscheck|敏感词检测，违禁词过滤，敏感词过滤，敏感词库，一键启动，本地运行，私有化部署，1分钟接入完成，开箱即用，支持docker，支持在线api|<br>
