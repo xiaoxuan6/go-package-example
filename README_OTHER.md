@@ -91,3 +91,4 @@
 |github.com/mlocati/docker-php-extension-installer|在 Docker 容器中轻松安装 PHP 扩展程序|<br>
 |github.com/actions/github-script|用 JavaScript 编写 GitHub API 的工作流程脚本|<br>
 |github.com/naaive/orange|跨平台本地文件搜索引擎|<br>
+|github.com/conwnet/github1s|用 VS Code 一秒钟读取 GitHub 代码。|<br>
