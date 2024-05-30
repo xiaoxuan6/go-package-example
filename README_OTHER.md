@@ -92,3 +92,4 @@
 |github.com/actions/github-script|用 JavaScript 编写 GitHub API 的工作流程脚本|<br>
 |github.com/naaive/orange|跨平台本地文件搜索引擎|<br>
 |github.com/conwnet/github1s|用 VS Code 一秒钟读取 GitHub 代码。|<br>
+|github.com/zenorocha/clipboard.js|✂️ 现代复制到剪贴板。无 Flash。只有 3kb gzipped 📋|<br>
