@@ -420,3 +420,4 @@
 ||github.com/facette/natsort|Go 中的自然字符串排序|<br>
 ||github.com/bitfield/script|在 Go 中轻松编写类 shell 脚本|<br>
 ||github.com/lascape/sat|高性能简繁体转换|<br>
+||github.com/DataHenHQ/useragent|DataHen 用户代理工具是一个 Golang 软件包和独立工具，可生成数百万个用户代理字符串的随机组合。目前在 DataHen 的生产中用于抓取/扫描数十亿个网页。|<br>
