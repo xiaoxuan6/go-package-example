@@ -423,3 +423,4 @@
 ||github.com/DataHenHQ/useragent|DataHen 用户代理工具是一个 Golang 软件包和独立工具，可生成数百万个用户代理字符串的随机组合。目前在 DataHen 的生产中用于抓取/扫描数十亿个网页。|<br>
 ||github.com/adam-hanna/arrayOperations|在 goLang 中对切片执行联合、相交、差分和区分操作的小型库|<br>
 ||github.com/huandu/xstrings?tab=readme-ov-file|实现在其他语言中广泛使用、但在 Go 中缺失的字符串函数。|<br>
+||github.com/codeskyblue/go-sh|就像 python-sh 一样，便于使用 golang 调用 shell。|<br>
