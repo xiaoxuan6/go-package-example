@@ -93,3 +93,4 @@
 |github.com/naaive/orange|跨平台本地文件搜索引擎|<br>
 |github.com/conwnet/github1s|用 VS Code 一秒钟读取 GitHub 代码。|<br>
 |github.com/zenorocha/clipboard.js|✂️ 现代复制到剪贴板。无 Flash。只有 3kb gzipped 📋|<br>
+|github.com/fwwdn/sensitive-stop-words|互联网常用敏感词、停止词词库|<br>
