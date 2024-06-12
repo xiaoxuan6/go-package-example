@@ -95,3 +95,4 @@
 |github.com/zenorocha/clipboard.js|✂️ 现代复制到剪贴板。无 Flash。只有 3kb gzipped 📋|<br>
 |github.com/fwwdn/sensitive-stop-words|互联网常用敏感词、停止词词库|<br>
 |github.com/aormsby/Fork-Sync-With-Upstream-action|用上游版本库中的新提交自动更新分叉的操作|<br>
+|github.com/oldj/SwitchHosts|快速切换主机|<br>
