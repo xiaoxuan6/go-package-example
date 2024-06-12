@@ -425,3 +425,4 @@
 ||github.com/huandu/xstrings?tab=readme-ov-file|实现在其他语言中广泛使用、但在 Go 中缺失的字符串函数。|<br>
 ||github.com/codeskyblue/go-sh|就像 python-sh 一样，便于使用 golang 调用 shell。|<br>
 ||github.com/boilingfrog/etcd-learning|etcd 学习，使用场景，源码解读|<br>
+||github.com/ycvk/deeplx-local|自建deeplx服务|<br>
