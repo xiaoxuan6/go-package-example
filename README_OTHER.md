@@ -96,3 +96,4 @@
 |github.com/fwwdn/sensitive-stop-words|互联网常用敏感词、停止词词库|<br>
 |github.com/aormsby/Fork-Sync-With-Upstream-action|用上游版本库中的新提交自动更新分叉的操作|<br>
 |github.com/oldj/SwitchHosts|快速切换主机|<br>
+|github.com/NickeManarin/ScreenToGif|🎬 ScreenToGif 允许你录制屏幕的选定区域，编辑并保存为 gif 或视频。|<br>
