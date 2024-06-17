@@ -97,3 +97,4 @@
 |github.com/aormsby/Fork-Sync-With-Upstream-action|用上游版本库中的新提交自动更新分叉的操作|<br>
 |github.com/oldj/SwitchHosts|快速切换主机|<br>
 |github.com/NickeManarin/ScreenToGif|🎬 ScreenToGif 允许你录制屏幕的选定区域，编辑并保存为 gif 或视频。|<br>
+|github.com/Platane/snk|🟩⬜ 根据 github 用户贡献图生成蛇形游戏，并以 svg 或 gif 动画形式输出屏幕截图|<br>
