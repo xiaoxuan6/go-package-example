@@ -426,3 +426,4 @@
 ||github.com/codeskyblue/go-sh|就像 python-sh 一样，便于使用 golang 调用 shell。|<br>
 ||github.com/boilingfrog/etcd-learning|etcd 学习，使用场景，源码解读|<br>
 ||github.com/ycvk/deeplx-local|自建deeplx服务|<br>
+||github.com/rogpeppe/fastuuid|快速生成 192 位 UUID|<br>
