@@ -427,3 +427,4 @@
 ||github.com/boilingfrog/etcd-learning|etcd 学习，使用场景，源码解读|<br>
 ||github.com/ycvk/deeplx-local|自建deeplx服务|<br>
 ||github.com/rogpeppe/fastuuid|快速生成 192 位 UUID|<br>
+||github.com/go-pay/unzip|支持远程指定文件解压缩的高性能库|<br>
