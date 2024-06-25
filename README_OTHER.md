@@ -100,3 +100,4 @@
 |github.com/Platane/snk|🟩⬜ 根据 github 用户贡献图生成蛇形游戏，并以 svg 或 gif 动画形式输出屏幕截图|<br>
 |github.com/niklasvh/html2canvas|使用 JavaScript 截图|<br>
 |github.com/validatorjs/validator.js|字符串验证|<br>
+|github.com/soundasleep/html2text|将 HTML 转换为纯文本格式的 PHP 组件|<br>
