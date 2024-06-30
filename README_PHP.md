@@ -70,3 +70,4 @@
 |github.com/PerryvanderMeer/laravel-console-validator|轻松验证 Laravel 命令中的参数|<br>
 |github.com/bosnzt/wordscheck|敏感词检测，违禁词过滤，敏感词过滤，敏感词库，一键启动，本地运行，私有化部署，1分钟接入完成，开箱即用，支持docker，支持在线api|<br>
 |github.com/reactphp/event-loop|ReactPHP 的核心反应堆事件循环，库可将其用于事件 I/O。|<br>
+|github.com/multiavatar/multiavatar-php|PHP 中的多文化头像生成器|<br>
