@@ -102,3 +102,4 @@
 |github.com/validatorjs/validator.js|字符串验证|<br>
 |github.com/soundasleep/html2text|将 HTML 转换为纯文本格式的 PHP 组件|<br>
 |github.com/qishibo/AnotherRedisDesktopManager|更快、更好、更稳定的 Redis 桌面管理器 [GUI 客户端]，兼容 Linux、Windows 和 Mac。|<br>
+|github.com/dromara/issues-translate-action|将非英语问题内容翻译成英语的行动。|<br>
