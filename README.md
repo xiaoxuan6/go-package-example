@@ -429,3 +429,4 @@
 ||github.com/rogpeppe/fastuuid|快速生成 192 位 UUID|<br>
 ||github.com/go-pay/unzip|支持远程指定文件解压缩的高性能库|<br>
 ||github.com/redis/go-redis|Redis Go 客户端|<br>
+||github.com/fzdwx/infinite|帮助你用 Go 创建交互式命令行应用程序。|<br>
