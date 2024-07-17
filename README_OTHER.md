@@ -104,3 +104,4 @@
 |github.com/qishibo/AnotherRedisDesktopManager|更快、更好、更稳定的 Redis 桌面管理器 [GUI 客户端]，兼容 Linux、Windows 和 Mac。|<br>
 |github.com/dromara/issues-translate-action|将非英语问题内容翻译成英语的行动。|<br>
 |github.com/Cl0udG0d/Fofa-hack|非付费会员，fofa数据采集工具|<br>
+|github.com/VaultVulp/gp-docker-action|通过 GitHub 操作来构建 Docker 映像并将其发布到 GitHub 容器注册中心|<br>
