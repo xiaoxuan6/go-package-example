@@ -72,3 +72,4 @@
 |github.com/reactphp/event-loop|ReactPHP 的核心反应堆事件循环，库可将其用于事件 I/O。|<br>
 |github.com/multiavatar/multiavatar-php|PHP 中的多文化头像生成器|<br>
 |github.com/symfony/console|轻松创建美观、可测试的命令行界面|<br>
+|github.com/JakubOnderka/PHP-Console-Highlighter|在终端中突出显示 PHP 代码|<br>
