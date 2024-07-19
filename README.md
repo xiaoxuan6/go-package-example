@@ -430,3 +430,4 @@
 ||github.com/go-pay/unzip|支持远程指定文件解压缩的高性能库|<br>
 ||github.com/redis/go-redis|Redis Go 客户端|<br>
 ||github.com/fzdwx/infinite|帮助你用 Go 创建交互式命令行应用程序。|<br>
+||github.com/gin-gonic/gin|Gin 是一个用 Go (Golang) 编写的 HTTP 网络框架。它的 API 类似于 Martini，但性能更强，最高可快 40 倍。如果你需要惊人的性能，那就来试试 Gin吧。|<br>
