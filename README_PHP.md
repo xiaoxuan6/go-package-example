@@ -74,3 +74,4 @@
 |github.com/symfony/console|轻松创建美观、可测试的命令行界面|<br>
 |github.com/JakubOnderka/PHP-Console-Highlighter|在终端中突出显示 PHP 代码|<br>
 |github.com/coduo/php-humanizer|将只有开发人员才能读取的值人性化。|<br>
+|github.com/spatie/pdf-to-image|将 pdf 转换为图像|<br>
