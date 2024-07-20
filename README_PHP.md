@@ -75,3 +75,4 @@
 |github.com/JakubOnderka/PHP-Console-Highlighter|在终端中突出显示 PHP 代码|<br>
 |github.com/coduo/php-humanizer|将只有开发人员才能读取的值人性化。|<br>
 |github.com/spatie/pdf-to-image|将 pdf 转换为图像|<br>
+|github.com/dantsec/rand-ua|这是一个纯 PHP 库，可为不同的浏览器和设备生成随机的用户代理，让您更轻松地在应用程序中模拟各种用户环境！|<br>
