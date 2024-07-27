@@ -434,3 +434,4 @@
 ||github.com/bastengao/chinese-holidays-go|提供具有中国特色的休假安排或者工作日查询|<br>
 ||github.com/gorilla/mux|软件包 gorilla/mux 是一款功能强大的 HTTP 路由器和 URL 匹配器，用于使用 🦍 构建 Go 网络服务器。|<br>
 ||github.com/libdns/alidns/tree/master|用于 libdns 的阿里巴巴云 DNS（AliDNS）提供商|<br>
+||github.com/containrrr/watchtower|自动更新 Docker 容器基础镜像的流程。|<br>
