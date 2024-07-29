@@ -110,3 +110,4 @@
 |github.com/distributhor/workflow-webhook|一个 Github 工作流操作，用于调用带有事件有效载荷数据的 webhook。支持 JSON 或 URL 编码端点。|<br>
 |github.com/sindresorhus/github-markdown-css?tab=readme-ov-file|复制 GitHub Markdown 风格所需的最少 CSS 内容|<br>
 |github.com/anmol098/waka-readme-stats|此 GitHub 操作可帮助您在 Github 配置文件中添加炫酷的开发指标 阅读说明|<br>
+|github.com/peter-evans/create-issue-from-file|使用文件内容创建问题的 GitHub 操作|<br>
