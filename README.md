@@ -436,3 +436,4 @@
 ||github.com/libdns/alidns/tree/master|用于 libdns 的阿里巴巴云 DNS（AliDNS）提供商|<br>
 ||github.com/containrrr/watchtower|自动更新 Docker 容器基础镜像的流程。|<br>
 ||github.com/goware/emailx|用于 golang 的电子邮件验证/规范化|<br>
+||github.com/Xuanwo/go-locale|Golang 的跨平台本地检测|<br>
