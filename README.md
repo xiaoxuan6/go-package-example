@@ -437,3 +437,4 @@
 ||github.com/containrrr/watchtower|自动更新 Docker 容器基础镜像的流程。|<br>
 ||github.com/goware/emailx|用于 golang 的电子邮件验证/规范化|<br>
 ||github.com/Xuanwo/go-locale|Golang 的跨平台本地检测|<br>
+||github.com/Starainrt/astro|自用天文算法，公历农历转换、八大行星位置、日出日落月出月落时间、节气物候时间等|<br>
