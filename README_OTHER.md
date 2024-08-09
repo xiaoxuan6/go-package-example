@@ -112,3 +112,4 @@
 |github.com/anmol098/waka-readme-stats|此 GitHub 操作可帮助您在 Github 配置文件中添加炫酷的开发指标 阅读说明|<br>
 |github.com/peter-evans/create-issue-from-file|使用文件内容创建问题的 GitHub 操作|<br>
 |github.com/elgohr/Publish-Docker-Github-Action|用于构建和发布 Docker 映像的 Github 操作|<br>
+|github.com/NateScarlet/holiday-cn|📅🇨🇳中国法定节假日数据 自动每日抓取国务院公告|<br>
