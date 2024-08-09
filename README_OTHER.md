@@ -114,3 +114,4 @@
 |github.com/elgohr/Publish-Docker-Github-Action|用于构建和发布 Docker 映像的 Github 操作|<br>
 |github.com/NateScarlet/holiday-cn|📅🇨🇳中国法定节假日数据 自动每日抓取国务院公告|<br>
 |github.com/moul/http2curl|将 Golang 的 http.Request 转换为 CURL 命令行|<br>
+|github.com/chason777777/mgck|温馨提示：仅限用于合法的、积极向上的敏感词过滤使用，严禁用于从事违反法律法规、危害国家、危害人民、不道德的活动！！！|<br>
