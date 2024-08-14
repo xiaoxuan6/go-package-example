@@ -118,3 +118,4 @@
 |github.com/catdad/canvas-confetti|在浏览器中播放彩纸动画|<br>
 |github.com/sandoche/Darkmode.js|🌓 在几秒钟内为您的网站添加黑暗模式/夜间模式|<br>
 |github.com/x-dr/nsfwjs-api|使用 tensorflow nsfwjs express 的 nsfw 检测器 api|<br>
+|github.com/bytedance/sonic|快速的 JSON 序列化|<br>
