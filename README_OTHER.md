@@ -119,3 +119,4 @@
 |github.com/sandoche/Darkmode.js|🌓 在几秒钟内为您的网站添加黑暗模式/夜间模式|<br>
 |github.com/x-dr/nsfwjs-api|使用 tensorflow nsfwjs express 的 nsfw 检测器 api|<br>
 |github.com/bytedance/sonic|快速的 JSON 序列化|<br>
+|github.com/wxpusher/wxpusher-sdk-java/|微信消息实时推送服务[WxPusher]的Java版本sdk，可以通过API实时给个人微信推送消息。wechat pusher.|<br>
