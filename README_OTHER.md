@@ -123,3 +123,4 @@
 |github.com/highlightjs/highlight.js|JavaScript 语法高亮工具，具有语言自动检测功能和零依赖性。|<br>
 |github.com/select2/select2|Select2 是一款基于 jQuery 的选择框替代工具。它支持搜索、远程数据集和结果无限滚动。|<br>
 |github.com/dropzone/dropzone|Dropzone 是一个易于使用的拖放库。它支持图像预览并显示漂亮的进度条。|<br>
+|github.com/sweetalert2/sweetalert2|✨ 美观、反应灵敏、高度可定制且可访问（WAI-ARIA）的 JavaScript 弹出框替代品。零依赖性。🇺🇦|<br>
