@@ -121,3 +121,4 @@
 |github.com/bytedance/sonic|快速的 JSON 序列化|<br>
 |github.com/wxpusher/wxpusher-sdk-java/|微信消息实时推送服务[WxPusher]的Java版本sdk，可以通过API实时给个人微信推送消息。wechat pusher.|<br>
 |github.com/highlightjs/highlight.js|JavaScript 语法高亮工具，具有语言自动检测功能和零依赖性。|<br>
+|github.com/select2/select2|Select2 是一款基于 jQuery 的选择框替代工具。它支持搜索、远程数据集和结果无限滚动。|<br>
