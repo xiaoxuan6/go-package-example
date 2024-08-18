@@ -127,3 +127,4 @@
 |github.com/markedjs/marked|标记符解析器和编译器。为速度而生。|<br>
 |github.com/jashkenas/underscore|JavaScript 的实用工具 _ 皮带|<br>
 |github.com/metafizzy/flickity|🍃 触摸式、响应式、可滑动的旋转木马|<br>
+|github.com/lokesh/lightbox2|原始的 Lightbox 脚本 (v2)。|<br>
