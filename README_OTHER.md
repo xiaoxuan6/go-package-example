@@ -131,3 +131,4 @@
 |github.com/nolimits4web/swiper|最先进的移动触摸滑块，具有硬件加速过渡功能|<br>
 |github.com/aFarkas/lazysizes|适用于图片（响应式和普通）、iframe 等的高性能、搜索引擎友好型懒加载器，无需配置即可检测通过用户交互、CSS 或 JavaScript 触发的任何可见性变化。|<br>
 |github.com/uiwjs/copy-to-clipboard|在现代浏览器中将文本复制到剪贴板|<br>
+|github.com/moment/moment/|用 javascript 解析、验证、处理和显示日期。|<br>
