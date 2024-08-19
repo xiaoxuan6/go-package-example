@@ -132,3 +132,4 @@
 |github.com/aFarkas/lazysizes|适用于图片（响应式和普通）、iframe 等的高性能、搜索引擎友好型懒加载器，无需配置即可检测通过用户交互、CSS 或 JavaScript 触发的任何可见性变化。|<br>
 |github.com/uiwjs/copy-to-clipboard|在现代浏览器中将文本复制到剪贴板|<br>
 |github.com/moment/moment/|用 javascript 解析、验证、处理和显示日期。|<br>
+|github.com/SharzyL/pastebin-worker|基于 Cloudflare Worker 的 Pastebin，CLI 使用友好，功能丰富|<br>
