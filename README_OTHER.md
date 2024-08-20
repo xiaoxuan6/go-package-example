@@ -134,3 +134,4 @@
 |github.com/moment/moment/|用 javascript 解析、验证、处理和显示日期。|<br>
 |github.com/SharzyL/pastebin-worker|基于 Cloudflare Worker 的 Pastebin，CLI 使用友好，功能丰富|<br>
 |github.com/iamkun/dayjs/|⏰ Day.js 2kB 不可变日期时间库，可替代 Moment.js，具有相同的现代应用程序接口|<br>
+|github.com/javve/list.js|为表格、列表和各种 HTML 元素添加搜索、排序、过滤器和灵活性的完美库。该库可在现有的 HTML 上隐形运行。|<br>
