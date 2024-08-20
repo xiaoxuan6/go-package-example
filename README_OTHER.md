@@ -133,3 +133,4 @@
 |github.com/uiwjs/copy-to-clipboard|在现代浏览器中将文本复制到剪贴板|<br>
 |github.com/moment/moment/|用 javascript 解析、验证、处理和显示日期。|<br>
 |github.com/SharzyL/pastebin-worker|基于 Cloudflare Worker 的 Pastebin，CLI 使用友好，功能丰富|<br>
+|github.com/iamkun/dayjs/|⏰ Day.js 2kB 不可变日期时间库，可替代 Moment.js，具有相同的现代应用程序接口|<br>
