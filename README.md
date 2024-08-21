@@ -441,3 +441,4 @@
 ||github.com/fvbock/endless|go 服务器零停机重启（可直接替换 http.ListenAndServe）|<br>
 ||github.com/wxpusher/wxpusher-sdk-go|微信消息实时推送服务[WxPusher]的go版本sdk，可以通过API实时给个人微信推送消息。wechat pusher.|<br>
 ||github.com/fukata/golang-stats-api-handler|Golang CPU、内存、GC 等信息 api 处理程序。|<br>
+||github.com/rifflock/lfshook|golang logrus 日志记录器的本地文件系统钩子|<br>
