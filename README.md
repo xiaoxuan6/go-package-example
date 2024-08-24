@@ -444,3 +444,4 @@
 ||github.com/rifflock/lfshook|golang logrus 日志记录器的本地文件系统钩子|<br>
 ||github.com/irevenko/octostats|附加的 GitHub API 方法|<br>
 ||github.com/irevenko/octotui/tree/main|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
+||github.com/irevenko/octotui/tree/main?tab=readme-ov-file|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
