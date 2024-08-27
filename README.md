@@ -446,3 +446,4 @@
 ||github.com/irevenko/octotui/tree/main|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
 ||github.com/irevenko/octotui/tree/main?tab=readme-ov-file|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
 ||github.com/goodsign/monday|Monday 是一个简约的 l10n、i18n 软件包，用于翻译 time.Date 对象中的月份和星期名称。|<br>
+||github.com/d-tsuji/clipboard|(实验）用于多平台剪贴板的 Go 库。|<br>
