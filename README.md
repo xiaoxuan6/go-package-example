@@ -448,3 +448,4 @@
 ||github.com/goodsign/monday|Monday 是一个简约的 l10n、i18n 软件包，用于翻译 time.Date 对象中的月份和星期名称。|<br>
 ||github.com/d-tsuji/clipboard|(实验）用于多平台剪贴板的 Go 库。|<br>
 ||github.com/getlantern/systray|在通知区域放置图标和菜单的跨平台 Go 库|<br>
+||github.com/cratonica/2goarray|将文件（或任何其他数据）编码为 Go 字节数组的简单实用程序。|<br>
