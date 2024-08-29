@@ -451,3 +451,4 @@
 ||github.com/cratonica/2goarray|将文件（或任何其他数据）编码为 Go 字节数组的简单实用程序。|<br>
 ||github.com/skratchdot/open-golang/|使用操作系统针对该对象类型的默认应用程序打开文件、目录或 URI。您还可以指定要使用的应用程序。|<br>
 ||github.com/akavel/rsrc|嵌入 .ico 的工具|<br>
+||github.com/lxn/walk?tab=readme-ov-file|适用于 Go 编程语言的 Windows 图形用户界面工具包|<br>
