@@ -453,3 +453,4 @@
 ||github.com/akavel/rsrc|嵌入 .ico 的工具|<br>
 ||github.com/lxn/walk?tab=readme-ov-file|适用于 Go 编程语言的 Windows 图形用户界面工具包|<br>
 ||github.com/maypok86/otter|Go 的高性能缓存|<br>
+||github.com/rs/cors|Go net/http 可配置处理程序，用于处理 CORS 请求|<br>
