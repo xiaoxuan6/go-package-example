@@ -457,3 +457,4 @@
 ||github.com/JGLTechnologies/gin-rate-limit|吟唱网络框架的速率限制器|<br>
 ||github.com/oliamb/cutter|在 Golang 中裁剪图像|<br>
 ||github.com/araddon/dateparse|GoLang 在不预先知道格式的情况下解析许多日期字符串。|<br>
+||github.com/inancgumus/screen|跨平台使用纯 Go 清理屏幕的小帮手|<br>
