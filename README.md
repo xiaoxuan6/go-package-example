@@ -466,3 +466,4 @@
 ||github.com/importcjj/sensitive|敏感词查找、验证、过滤和替换 🤓 FindAll、验证、过滤和替换词。|<br>
 ||github.com/grafov/m3u8|用于 Apple HLS 的 M3U8 播放列表的解析器和生成器。Go 语言库。🎦|<br>
 ||github.com/olekukonko/ts|简单申请获取终端尺寸|<br>
+||github.com/goproxyio/goproxy|Go 模块的全局代理。|<br>
