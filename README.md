@@ -463,3 +463,4 @@
 ||github.com/afex/hystrix-go|用于 Go 的 Netflix Hystrix 延迟和容错库|<br>
 ||github.com/simon-whitehead/num-id|Go 的数字到字母数字转换库，类似于 tinyurl 等 URL 缩短服务。|<br>
 ||github.com/yoda-of-soda/map2xml|Golang 中的编码/xml 封装器，使其能够对接口映射进行编译|<br>
+||github.com/importcjj/sensitive|敏感词查找、验证、过滤和替换 🤓 FindAll、验证、过滤和替换词。|<br>
