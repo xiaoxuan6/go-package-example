@@ -464,3 +464,4 @@
 ||github.com/simon-whitehead/num-id|Go 的数字到字母数字转换库，类似于 tinyurl 等 URL 缩短服务。|<br>
 ||github.com/yoda-of-soda/map2xml|Golang 中的编码/xml 封装器，使其能够对接口映射进行编译|<br>
 ||github.com/importcjj/sensitive|敏感词查找、验证、过滤和替换 🤓 FindAll、验证、过滤和替换词。|<br>
+||github.com/grafov/m3u8|用于 Apple HLS 的 M3U8 播放列表的解析器和生成器。Go 语言库。🎦|<br>
