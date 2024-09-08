@@ -467,3 +467,4 @@
 ||github.com/grafov/m3u8|用于 Apple HLS 的 M3U8 播放列表的解析器和生成器。Go 语言库。🎦|<br>
 ||github.com/olekukonko/ts|简单申请获取终端尺寸|<br>
 ||github.com/goproxyio/goproxy|Go 模块的全局代理。|<br>
+||github.com/rubenfonseca/fastimage|在给定远程图片 uri 的情况下，尽可能少地获取图片，从而找到图片的类型和/或大小。|<br>
