@@ -470,3 +470,4 @@
 ||github.com/rubenfonseca/fastimage|在给定远程图片 uri 的情况下，尽可能少地获取图片，从而找到图片的类型和/或大小。|<br>
 ||github.com/hibiken/asynq|Go 中简单、可靠、高效的分布式任务队列|<br>
 ||github.com/thoas/bokchoy|由 Redis 支持的 Go 简单作业队列|<br>
+||github.com/matryer/try|Go 的简单惯用重试包|<br>
