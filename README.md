@@ -473,3 +473,4 @@
 ||github.com/matryer/try|Go 的简单惯用重试包|<br>
 ||github.com/go-redsync/redsync|使用 Redis for Go 的分布式互斥锁|<br>
 ||github.com/artfoxe6/cron_expression|用于 golang 的 cron 表达式，计算下一次时间|<br>
+||github.com/HDT3213/delayqueue|Go 中简单、可靠、免安装的分布式延时投递消息队列简单、可靠、免安装的分布式延时投递消息队列|<br>
