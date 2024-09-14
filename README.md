@@ -472,3 +472,4 @@
 ||github.com/thoas/bokchoy|由 Redis 支持的 Go 简单作业队列|<br>
 ||github.com/matryer/try|Go 的简单惯用重试包|<br>
 ||github.com/go-redsync/redsync|使用 Redis for Go 的分布式互斥锁|<br>
+||github.com/artfoxe6/cron_expression|用于 golang 的 cron 表达式，计算下一次时间|<br>
