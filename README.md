@@ -479,3 +479,4 @@
 ||github.com/thedevsaddam/govalidator|使用简单规则验证 Golang 请求数据。受到 Laravel 请求验证的高度启发。|<br>
 ||github.com/sundowndev/dorkgen?tab=readme-ov-file|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>
 ||github.com/yhat/scrape|用于 Go 网络搜索的简单、高级界面。|<br>
+||github.com/oxffaa/gopher-parse-sitemap/tree/master|高效的 golang 库，用于解析大型网站地图并避免高内存占用。网站地图解析器是在 golang 上编写的，没有外部依赖性。|<br>
