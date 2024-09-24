@@ -477,3 +477,4 @@
 ||github.com/peco/peco|简单的交互式筛选工具|<br>
 ||github.com/Nagill/m3u8-to-mp4|m3u8转换mp4|<br>
 ||github.com/thedevsaddam/govalidator|使用简单规则验证 Golang 请求数据。受到 Laravel 请求验证的高度启发。|<br>
+||github.com/sundowndev/dorkgen?tab=readme-ov-file|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>
