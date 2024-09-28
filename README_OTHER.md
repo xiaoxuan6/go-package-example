@@ -137,3 +137,4 @@
 |github.com/javve/list.js|为表格、列表和各种 HTML 元素添加搜索、排序、过滤器和灵活性的完美库。该库可在现有的 HTML 上隐形运行。|<br>
 |github.com/tholman/intense-images?tab=readme-ov-file|通过简单的鼠标交互和全屏，即可近距离查看大型图像的简单库。|<br>
 |github.com/vercel/avatar|作为微服务的漂亮头像|<br>
+|github.com/fancyapps/ui|JavaScript UI 组件库，包括最佳灯箱 - Fancybox5|<br>
