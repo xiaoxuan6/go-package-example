@@ -482,3 +482,4 @@
 ||github.com/oxffaa/gopher-parse-sitemap/tree/master|高效的 golang 库，用于解析大型网站地图并避免高内存占用。网站地图解析器是在 golang 上编写的，没有外部依赖性。|<br>
 ||github.com/raviqqe/muffet|Go 中的快速网站链接检查器|<br>
 ||github.com/sethgrid/multibar|在 Go (golang) 中显示多个进度条。|<br>
+||github.com/caddyserver/cache-handler|用于 Caddy 的分布式 HTTP 缓存模块|<br>
