@@ -139,3 +139,4 @@
 |github.com/vercel/avatar|作为微服务的漂亮头像|<br>
 |github.com/fancyapps/ui|JavaScript UI 组件库，包括最佳灯箱 - Fancybox5|<br>
 |github.com/Werneror/Poetry|非常全的古诗词数据，收录了从先秦到现代的共计85万余首古诗词。|<br>
+|github.com/WJQSERVER-STUDIO/caddy|Caddy-Action 附带常用插件并编译Caddy的Docker镜像|<br>
