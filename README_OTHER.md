@@ -138,3 +138,4 @@
 |github.com/tholman/intense-images?tab=readme-ov-file|通过简单的鼠标交互和全屏，即可近距离查看大型图像的简单库。|<br>
 |github.com/vercel/avatar|作为微服务的漂亮头像|<br>
 |github.com/fancyapps/ui|JavaScript UI 组件库，包括最佳灯箱 - Fancybox5|<br>
+|github.com/Werneror/Poetry|非常全的古诗词数据，收录了从先秦到现代的共计85万余首古诗词。|<br>
