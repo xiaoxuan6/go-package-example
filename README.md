@@ -483,3 +483,4 @@
 ||github.com/raviqqe/muffet|Go 中的快速网站链接检查器|<br>
 ||github.com/sethgrid/multibar|在 Go (golang) 中显示多个进度条。|<br>
 ||github.com/caddyserver/cache-handler|用于 Caddy 的分布式 HTTP 缓存模块|<br>
+||github.com/Masterminds/sprig|Go 模板的实用模板功能。|<br>
