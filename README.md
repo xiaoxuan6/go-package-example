@@ -314,12 +314,12 @@
 ||github.com/gocarina/gocsv|GoCSV 软件包旨在为 golang 编程语言提供简便的 CSV 序列化和反序列化功能|<br>
 ||github.com/fredbi/uri|符合 RFC 3986 标准的 uri 生成器/解析器|<br>
 ||github.com/muesli/gitcha|与 git 仓库协同工作的 Go 助手|<br>
-||github.com/howeyc/gopass?tab=readme-ov-file|getpasswd for Go|<br>
+||github.com/howeyc/gopass|getpasswd for Go|<br>
 ||github.com/briandowns/spinner|Go (golang) 软件包，包含 90 个可配置的终端旋转器/进度指示器。|<br>
 ||github.com/badoux/checkmail|用于电子邮件验证的 Golang 软件包|<br>
 ||codeberg.org/Codeberg/avatars|头像|<br>
 ||github.com/apoorvam/goterminal|用于更新终端进度的跨平台 Go 库。|<br>
-||github.com/jedib0t/go-pretty?tab=readme-ov-file|Golang 中的 Table-writer 等！|<br>
+||github.com/jedib0t/go-pretty|Golang 中的 Table-writer 等！|<br>
 ||github.com/wadackel/go-gitcmd|Go (golang) 软件包，提供微型 git 命令包装器。|<br>
 ||github.com/alecthomas/kingpin|仅有贡献：Go (golang) 命令行和标志解析器|<br>
 ||github.com/goccy/go-yaml|为 Go 语言提供 YAML 支持|<br>
@@ -332,7 +332,7 @@
 ||github.com/martinhoefling/goxkcdpwgen|xkcd 风格密码生成器库和 cli 工具|<br>
 ||github.com/muesli/crunchy|查找密码中的常见漏洞。类似于 cracklib，但用 Go 编写。|<br>
 ||github.com/elastic/go-sysinfo|go-sysinfo 是一个用于收集系统信息的库。|<br>
-||github.com/elastic/go-windows?tab=readme-ov-file|go-windows 为 Windows API 提供 Go 封装。|<br>
+||github.com/elastic/go-windows|go-windows 为 Windows API 提供 Go 封装。|<br>
 ||github.com/OwO-Network/gDeepLX|用于无限制翻译的 Go 库 DeepL|<br>
 ||github.com/alexbrainman/sspi/tree/master|视窗 SSPI|<br>
 ||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
@@ -362,7 +362,7 @@
 ||github.com/aymerick/douceur|Go 中的简单 CSS 解析器和内联程序|<br>
 ||github.com/dablelv/cyan|一个现代、全面、高效的围棋实用程序库。|<br>
 ||github.com/deatil/go-hash|go 常用摘要算法库 (MD2/MD4/MD5/Hmac/Ripemd160/SHA1/SHA3/SHA256/SM3/xxhash/Siphash)|<br>
-||github.com/zhaoyunxing92/dingtalk?tab=readme-ov-file|go版本的钉钉开发api|<br>
+||github.com/zhaoyunxing92/dingtalk|go版本的钉钉开发api|<br>
 ||github.com/tidwall/pretty|适用于 Go 的高效 JSON 美化器和压缩器|<br>
 ||github.com/xen0n/go-workwx|适用于 Go 的合理的 WeCom（企业微信、Wechat Work、Work Weixin）SDK|<br>
 ||github.com/aviddiviner/gin-limit|Gin 中间件限制同时请求。|<br>
@@ -422,7 +422,7 @@
 ||github.com/lascape/sat|高性能简繁体转换|<br>
 ||github.com/DataHenHQ/useragent|DataHen 用户代理工具是一个 Golang 软件包和独立工具，可生成数百万个用户代理字符串的随机组合。目前在 DataHen 的生产中用于抓取/扫描数十亿个网页。|<br>
 ||github.com/adam-hanna/arrayOperations|在 goLang 中对切片执行联合、相交、差分和区分操作的小型库|<br>
-||github.com/huandu/xstrings?tab=readme-ov-file|实现在其他语言中广泛使用、但在 Go 中缺失的字符串函数。|<br>
+||github.com/huandu/xstrings|实现在其他语言中广泛使用、但在 Go 中缺失的字符串函数。|<br>
 ||github.com/codeskyblue/go-sh|就像 python-sh 一样，便于使用 golang 调用 shell。|<br>
 ||github.com/boilingfrog/etcd-learning|etcd 学习，使用场景，源码解读|<br>
 ||github.com/ycvk/deeplx-local|自建deeplx服务|<br>
@@ -443,15 +443,14 @@
 ||github.com/fukata/golang-stats-api-handler|Golang CPU、内存、GC 等信息 api 处理程序。|<br>
 ||github.com/rifflock/lfshook|golang logrus 日志记录器的本地文件系统钩子|<br>
 ||github.com/irevenko/octostats|附加的 GitHub API 方法|<br>
-||github.com/irevenko/octotui/tree/main|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
-||github.com/irevenko/octotui/tree/main?tab=readme-ov-file|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
+||github.com/irevenko/octotui|🐙🐱🖥️ 终端中的 GitHub 统计信息|<br>
 ||github.com/goodsign/monday|Monday 是一个简约的 l10n、i18n 软件包，用于翻译 time.Date 对象中的月份和星期名称。|<br>
 ||github.com/d-tsuji/clipboard|(实验）用于多平台剪贴板的 Go 库。|<br>
 ||github.com/getlantern/systray|在通知区域放置图标和菜单的跨平台 Go 库|<br>
 ||github.com/cratonica/2goarray|将文件（或任何其他数据）编码为 Go 字节数组的简单实用程序。|<br>
 ||github.com/skratchdot/open-golang/|使用操作系统针对该对象类型的默认应用程序打开文件、目录或 URI。您还可以指定要使用的应用程序。|<br>
 ||github.com/akavel/rsrc|嵌入 .ico 的工具|<br>
-||github.com/lxn/walk?tab=readme-ov-file|适用于 Go 编程语言的 Windows 图形用户界面工具包|<br>
+||github.com/lxn/walk|适用于 Go 编程语言的 Windows 图形用户界面工具包|<br>
 ||github.com/maypok86/otter|Go 的高性能缓存|<br>
 ||github.com/rs/cors|Go net/http 可配置处理程序，用于处理 CORS 请求|<br>
 ||github.com/JGLTechnologies/gin-rate-limit|吟唱网络框架的速率限制器|<br>
@@ -477,12 +476,12 @@
 ||github.com/peco/peco|简单的交互式筛选工具|<br>
 ||github.com/Nagill/m3u8-to-mp4|m3u8转换mp4|<br>
 ||github.com/thedevsaddam/govalidator|使用简单规则验证 Golang 请求数据。受到 Laravel 请求验证的高度启发。|<br>
-||github.com/sundowndev/dorkgen?tab=readme-ov-file|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>
+||github.com/sundowndev/dorkgen|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>
 ||github.com/yhat/scrape|用于 Go 网络搜索的简单、高级界面。|<br>
 ||github.com/oxffaa/gopher-parse-sitemap/tree/master|高效的 golang 库，用于解析大型网站地图并避免高内存占用。网站地图解析器是在 golang 上编写的，没有外部依赖性。|<br>
 ||github.com/raviqqe/muffet|Go 中的快速网站链接检查器|<br>
 ||github.com/sethgrid/multibar|在 Go (golang) 中显示多个进度条。|<br>
 ||github.com/caddyserver/cache-handler|用于 Caddy 的分布式 HTTP 缓存模块|<br>
-||github.com/Masterminds/sprig|Go 模板的实用模板功能。|<br>
+|[demo1](https://github.com/bonaysoft/notion-md-gen/blob/247e79a9b6a00a6a462cc7283d93cd10d527e225/pkg/tomarkdown/tomarkdown.go#L171C2-L179C1)、[demo2](https://github.com/kyverno/chainsaw/blob/fb9f55f9dfe399b4b85efcb28e3673eb98dcdcab/pkg/commands/build/docs/command.go#L24-L25)|github.com/Masterminds/sprig|Go 模板的实用模板功能。|<br>
 ||github.com/fatih/camelcase|在围棋中将驼峰词分割成单词片段|<br>
 ||github.com/jmespath-community/go-jmespath|JMESPath 的 Golang 实现。|<br>
