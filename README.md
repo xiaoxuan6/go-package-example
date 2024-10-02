@@ -485,3 +485,4 @@
 ||github.com/caddyserver/cache-handler|用于 Caddy 的分布式 HTTP 缓存模块|<br>
 ||github.com/Masterminds/sprig|Go 模板的实用模板功能。|<br>
 ||github.com/fatih/camelcase|在围棋中将驼峰词分割成单词片段|<br>
+||github.com/jmespath-community/go-jmespath|JMESPath 的 Golang 实现。|<br>
