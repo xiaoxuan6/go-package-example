@@ -486,3 +486,4 @@
 ||github.com/fatih/camelcase|在围棋中将驼峰词分割成单词片段|<br>
 ||github.com/jmespath-community/go-jmespath|JMESPath 的 Golang 实现。|<br>
 ||github.com/orestonce/m3u8d|m3u8视频下载工具, 提供windows/macos图形界面, 下载后自动将ts文件合并、转换格式为mp4|<br>
+||github.com/yapingcat/gomedia|用于 rtmp、mpeg-ts、mpeg-ps、flv、mp4、ogg、rtsp 的 golang 库|<br>
