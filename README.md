@@ -485,3 +485,4 @@
 |[demo1](https://github.com/bonaysoft/notion-md-gen/blob/247e79a9b6a00a6a462cc7283d93cd10d527e225/pkg/tomarkdown/tomarkdown.go#L171C2-L179C1)、[demo2](https://github.com/kyverno/chainsaw/blob/fb9f55f9dfe399b4b85efcb28e3673eb98dcdcab/pkg/commands/build/docs/command.go#L24-L25)|github.com/Masterminds/sprig|Go 模板的实用模板功能。|<br>
 ||github.com/fatih/camelcase|在围棋中将驼峰词分割成单词片段|<br>
 ||github.com/jmespath-community/go-jmespath|JMESPath 的 Golang 实现。|<br>
+||github.com/orestonce/m3u8d|m3u8视频下载工具, 提供windows/macos图形界面, 下载后自动将ts文件合并、转换格式为mp4|<br>
