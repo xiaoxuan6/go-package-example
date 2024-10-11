@@ -488,3 +488,4 @@
 ||github.com/orestonce/m3u8d|m3u8视频下载工具, 提供windows/macos图形界面, 下载后自动将ts文件合并、转换格式为mp4|<br>
 ||github.com/yapingcat/gomedia|用于 rtmp、mpeg-ts、mpeg-ps、flv、mp4、ogg、rtsp 的 golang 库|<br>
 ||github.com/gin-contrib/sessions|用于会话管理的 Gin 中间件|<br>
+||github.com/gookit/validate|⚔ Go package for data validation and filtering. support Map, Struct, Form data. Go通用的数据验证与过滤库，使用简单，内置大部分常用验证、过滤器，支持自定义验证器、自定义消息、字段翻译。|<br>
