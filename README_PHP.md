@@ -78,3 +78,4 @@
 |github.com/dantsec/rand-ua|这是一个纯 PHP 库，可为不同的浏览器和设备生成随机的用户代理，让您更轻松地在应用程序中模拟各种用户环境！|<br>
 |github.com/jae-jae/QueryList|🕷️ 渐进式 PHP 抓取框架！优雅的渐进式 PHP 采集框架。|<br>
 |github.com/glhd/linen|适用于 Laravel 的轻量级电子表格|<br>
+|github.com/stevebauman/purify|HTMLPurifier 的 Laravel 封装器，作者 ezyang|<br>
