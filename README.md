@@ -489,3 +489,4 @@
 ||github.com/yapingcat/gomedia|用于 rtmp、mpeg-ts、mpeg-ps、flv、mp4、ogg、rtsp 的 golang 库|<br>
 ||github.com/gin-contrib/sessions|用于会话管理的 Gin 中间件|<br>
 ||github.com/gookit/validate|⚔ Go package for data validation and filtering. support Map, Struct, Form data. Go通用的数据验证与过滤库，使用简单，内置大部分常用验证、过滤器，支持自定义验证器、自定义消息、字段翻译。|<br>
+||github.com/ip2location/ip2location-go|使用 IP2Location 地理位置数据库和 IP2Location Go Package 查找地理位置信息。它可用于确定任何 IP 地址的国家、地区、城市、坐标、邮编、时区、ISP、域名、连接类型、区号、天气、MCC、MNC、移动品牌名称、海拔、使用类型、地址类型和 IAB 类别。|<br>
