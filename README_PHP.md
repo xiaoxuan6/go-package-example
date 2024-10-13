@@ -79,3 +79,4 @@
 |github.com/jae-jae/QueryList|🕷️ 渐进式 PHP 抓取框架！优雅的渐进式 PHP 采集框架。|<br>
 |github.com/glhd/linen|适用于 Laravel 的轻量级电子表格|<br>
 |github.com/stevebauman/purify|HTMLPurifier 的 Laravel 封装器，作者 ezyang|<br>
+|github.com/realrashid/sweet-alert|一个美观的、响应式的、可定制的、可访问的 (wai-aria) 拉威尔 JavaScript 弹出框替代品|<br>
