@@ -492,3 +492,4 @@
 ||github.com/ip2location/ip2location-go|使用 IP2Location 地理位置数据库和 IP2Location Go Package 查找地理位置信息。它可用于确定任何 IP 地址的国家、地区、城市、坐标、邮编、时区、ISP、域名、连接类型、区号、天气、MCC、MNC、移动品牌名称、海拔、使用类型、地址类型和 IAB 类别。|<br>
 ||github.com/elithrar/simple-scrypt|在 Go 中使用 scrypt KDF 生成、比较和检查密码哈希值的便捷库 🔑|<br>
 ||github.com/peterbourgon/unixtransport|在 Go HTTP 客户端中支持 Unix 域套接字|<br>
+||github.com/medama-io/go-useragent|Go 中基于三元组的快速用户代理解析器|<br>
