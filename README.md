@@ -493,3 +493,4 @@
 ||github.com/elithrar/simple-scrypt|在 Go 中使用 scrypt KDF 生成、比较和检查密码哈希值的便捷库 🔑|<br>
 ||github.com/peterbourgon/unixtransport|在 Go HTTP 客户端中支持 Unix 域套接字|<br>
 ||github.com/medama-io/go-useragent|Go 中基于三元组的快速用户代理解析器|<br>
+||github.com/asaskevich/govalidator|[Go] 用于字符串、数值、片段和结构体的验证器和消毒器软件包|<br>
