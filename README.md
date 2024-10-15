@@ -494,3 +494,4 @@
 ||github.com/peterbourgon/unixtransport|在 Go HTTP 客户端中支持 Unix 域套接字|<br>
 ||github.com/medama-io/go-useragent|Go 中基于三元组的快速用户代理解析器|<br>
 ||github.com/asaskevich/govalidator|[Go] 用于字符串、数值、片段和结构体的验证器和消毒器软件包|<br>
+||github.com/radovskyb/watcher|watcher 是一个 Go 软件包，用于在不使用文件系统事件的情况下观察文件或目录的变化。|<br>
