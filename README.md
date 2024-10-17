@@ -497,3 +497,4 @@
 ||github.com/radovskyb/watcher|watcher 是一个 Go 软件包，用于在不使用文件系统事件的情况下观察文件或目录的变化。|<br>
 ||github.com/klauspost/cpuid/|围棋 CPU 功能识别|<br>
 ||github.com/unrolled/secure|适用于 Go 的 HTTP 中间件，可快速提高安全性。|<br>
+||github.com/kingparks/jetbra-activate|idea激活，2024最新IDEA激活方式，超级稳定|<br>
