@@ -499,3 +499,4 @@
 ||github.com/unrolled/secure|适用于 Go 的 HTTP 中间件，可快速提高安全性。|<br>
 ||github.com/kingparks/jetbra-activate|idea激活，2024最新IDEA激活方式，超级稳定|<br>
 ||github.com/andybalholm/cascadia|Go 中的 CSS 选择器库|<br>
+||github.com/montanaflynn/stats|测试良好、功能全面的 Golang 统计库软件包，无依赖关系。|<br>
