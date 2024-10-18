@@ -502,3 +502,4 @@
 ||github.com/montanaflynn/stats|测试良好、功能全面的 Golang 统计库软件包，无依赖关系。|<br>
 ||github.com/alessio/shellescape|将任意字符串转义为命令行参数|<br>
 ||github.com/elazarl/goproxy|Go 的 HTTP 代理库|<br>
+||github.com/keith-turner/ecoji|将数据编码（和解码）为表情符号|<br>
