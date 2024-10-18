@@ -500,3 +500,4 @@
 ||github.com/kingparks/jetbra-activate|idea激活，2024最新IDEA激活方式，超级稳定|<br>
 ||github.com/andybalholm/cascadia|Go 中的 CSS 选择器库|<br>
 ||github.com/montanaflynn/stats|测试良好、功能全面的 Golang 统计库软件包，无依赖关系。|<br>
+||github.com/alessio/shellescape|将任意字符串转义为命令行参数|<br>
