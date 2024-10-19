@@ -144,3 +144,4 @@
 |github.com/itorr/patina|🤢「电子包浆」 图片做旧工具，赛博包浆虚拟器|<br>
 |github.com/HeDefine/PHP.ini-for-Chinese|PHP配置文件的中文翻译|<br>
 |github.com/coocy/emoji|在网页中显示emoji表情符号|<br>
+|github.com/kyechan99/capsule-render|动态彩色图像渲染|<br>
