@@ -76,8 +76,8 @@
 |github.com/jaywcjlove/linux-command|Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux|<br>
 |github.com/unilei/image-watermark-tool|一个能够在本地设备上为图片添加水印，并且图片不会被发送到任何服务器，所有操作都在本地浏览器完成的工具。非常适合保护您敏感证件（如身份证、驾照、护照等）|<br>
 |github.com/hunshcn/gh-proxy|github release、archive以及项目文件的加速项目|<br>
-|github.com/eryajf/Thanks-Mirror?tab=readme-ov-file#docker|整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。 走过路过，如觉不错，麻烦点个赞👆🌟|<br>
-|github.com/kingwrcy/moments?tab=readme-ov-file|极简朋友圈|<br>
+|github.com/eryajf/Thanks-Mirror#docker|整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。 走过路过，如觉不错，麻烦点个赞👆🌟|<br>
+|github.com/kingwrcy/moments|极简朋友圈|<br>
 |github.com/missuo/Telegraph-Image-Hosting|使用 Telegraph 建立免费图片托管服务|<br>
 |github.com/ifyour/cf-image-hosting|🥊 免费|<br>
 |github.com/x-dr/short|一个使用 Cloudflare Pages 创建的 URL 缩短器。A 使用 Cloudflare Pages 创建的 URL Shortener|<br>
@@ -87,7 +87,7 @@
 |github.com/xtyxtyx/sorry|在线制作的gif|<br>
 |github.com/carbon-app/carbon|🖤 创建和共享源代码的精美图片|<br>
 |github.com/softprops/action-gh-release|📦 用于创建 GitHub 发布的 GitHub 操作|<br>
-|github.com/vercel-community/php?tab=readme-ov-file|用于 ▲ Vercel 无服务器功能的 PHP 运行时（支持 7.4-8.3）|<br>
+|github.com/vercel-community/php|用于 ▲ Vercel 无服务器功能的 PHP 运行时（支持 7.4-8.3）|<br>
 |github.com/mlocati/docker-php-extension-installer|在 Docker 容器中轻松安装 PHP 扩展程序|<br>
 |github.com/actions/github-script|用 JavaScript 编写 GitHub API 的工作流程脚本|<br>
 |github.com/naaive/orange|跨平台本地文件搜索引擎|<br>
@@ -105,10 +105,10 @@
 |github.com/dromara/issues-translate-action|将非英语问题内容翻译成英语的行动。|<br>
 |github.com/Cl0udG0d/Fofa-hack|非付费会员，fofa数据采集工具|<br>
 |github.com/VaultVulp/gp-docker-action|通过 GitHub 操作来构建 Docker 映像并将其发布到 GitHub 容器注册中心|<br>
-|github.com/cmliu/CF-Workers-docker.io?tab=readme-ov-file|这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。|<br>
+|github.com/cmliu/CF-Workers-docker.io|这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。|<br>
 |github.com/2016rshah/githubchart-api|📅 将 github 贡献图嵌入为图片|<br>
 |github.com/distributhor/workflow-webhook|一个 Github 工作流操作，用于调用带有事件有效载荷数据的 webhook。支持 JSON 或 URL 编码端点。|<br>
-|github.com/sindresorhus/github-markdown-css?tab=readme-ov-file|复制 GitHub Markdown 风格所需的最少 CSS 内容|<br>
+|github.com/sindresorhus/github-markdown-css|复制 GitHub Markdown 风格所需的最少 CSS 内容|<br>
 |github.com/anmol098/waka-readme-stats|此 GitHub 操作可帮助您在 Github 配置文件中添加炫酷的开发指标 阅读说明|<br>
 |github.com/peter-evans/create-issue-from-file|使用文件内容创建问题的 GitHub 操作|<br>
 |github.com/elgohr/Publish-Docker-Github-Action|用于构建和发布 Docker 映像的 Github 操作|<br>
@@ -135,7 +135,7 @@
 |github.com/SharzyL/pastebin-worker|基于 Cloudflare Worker 的 Pastebin，CLI 使用友好，功能丰富|<br>
 |github.com/iamkun/dayjs/|⏰ Day.js 2kB 不可变日期时间库，可替代 Moment.js，具有相同的现代应用程序接口|<br>
 |github.com/javve/list.js|为表格、列表和各种 HTML 元素添加搜索、排序、过滤器和灵活性的完美库。该库可在现有的 HTML 上隐形运行。|<br>
-|github.com/tholman/intense-images?tab=readme-ov-file|通过简单的鼠标交互和全屏，即可近距离查看大型图像的简单库。|<br>
+|github.com/tholman/intense-images|通过简单的鼠标交互和全屏，即可近距离查看大型图像的简单库。|<br>
 |github.com/vercel/avatar|作为微服务的漂亮头像|<br>
 |github.com/fancyapps/ui|JavaScript UI 组件库，包括最佳灯箱 - Fancybox5|<br>
 |github.com/Werneror/Poetry|非常全的古诗词数据，收录了从先秦到现代的共计85万余首古诗词。|<br>
