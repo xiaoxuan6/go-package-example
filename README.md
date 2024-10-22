@@ -503,3 +503,4 @@
 ||github.com/alessio/shellescape|将任意字符串转义为命令行参数|<br>
 ||github.com/elazarl/goproxy|Go 的 HTTP 代理库|<br>
 ||github.com/keith-turner/ecoji|将数据编码（和解码）为表情符号|<br>
+||github.com/charmbracelet/log|极简、多彩的 Go 日志库 🪵|<br>
