@@ -146,3 +146,4 @@
 |github.com/coocy/emoji|在网页中显示emoji表情符号|<br>
 |github.com/kyechan99/capsule-render|动态彩色图像渲染|<br>
 |github.com/danielroe/firstcommit.is|在 GitHub 上查找您的首次开源提交|<br>
+|github.com/rstacruz/nprogress|用于细长进度条，如 YouTube、Medium 等网站|<br>
