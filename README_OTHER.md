@@ -153,3 +153,4 @@
 |github.com/docsifyjs/docsify|🃏 神奇的文档网站生成器。|<br>
 |github.com/Chechengyi/sweet-storage|给localStorage整合了过期时间的功能|<br>
 |github.com/iam-rohid/code-to-img|代码到图片转换器是一款设计精美的应用程序，可帮助您为代码片段生成漂亮的可定制图片。这是一款由开发者为开发者打造的应用程序。如果你想与任何人或在任何社交媒体上分享你的代码，这就是你需要的应用程序。|<br>
+|github.com/guobao2333/DeepLX-Serverless/tree/main|DeepL Free translate API for Serverless, No TOKEN Required | DeepL 免费翻译API 无服务器函数部署，无需token|<br>
