@@ -506,3 +506,4 @@
 ||github.com/charmbracelet/log|极简、多彩的 Go 日志库 🪵|<br>
 ||github.com/weppos/publicsuffix-go|基于公共后缀列表的 Go 域名解析器。|<br>
 ||github.com/jasonlvhit/gocron|Golang 作业调度软件包|<br>
+||github.com/denisbrodbeck/machineid|获取任何主机的唯一机器 ID（无管理员权限）|<br>
