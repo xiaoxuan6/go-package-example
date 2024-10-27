@@ -505,3 +505,4 @@
 ||github.com/keith-turner/ecoji|将数据编码（和解码）为表情符号|<br>
 ||github.com/charmbracelet/log|极简、多彩的 Go 日志库 🪵|<br>
 ||github.com/weppos/publicsuffix-go|基于公共后缀列表的 Go 域名解析器。|<br>
+||github.com/jasonlvhit/gocron|Golang 作业调度软件包|<br>
