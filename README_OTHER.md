@@ -149,3 +149,4 @@
 |github.com/rstacruz/nprogress|用于细长进度条，如 YouTube、Medium 等网站|<br>
 |github.com/unjs/ungh?tab=readme-ov-file|无限制访问 github API|<br>
 |github.com/kubesre/docker-registry-mirrors?tab=readme-ov-file|多平台容器镜像代理服务,支持 Docker Hub, GitHub, Google, k8s, Quay, Microsoft 等镜像仓库.|<br>
+|github.com/denghongcai/forsaken-mail|自托管一次性邮件服务|<br>
