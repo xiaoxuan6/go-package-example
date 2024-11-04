@@ -22,11 +22,13 @@ import (
 	"github.com/noelyahan/mergi"
 	"github.com/sahilm/fuzzy"
 	"github.com/sirupsen/logrus"
+	"github.com/tidwall/gjson"
 	"golang.org/x/net/html"
 	"golang.org/x/oauth2"
 	"image"
 	"io"
 	"io/fs"
+	"io/ioutil"
 	"net/http"
 	url2 "net/url"
 	"os"
@@ -161,7 +163,7 @@ func main() {
 		} else if strings.Compare(label, "article") == 0 {
 			content = fmt.Sprintf(contentTemplate(), description, baseUrl)
 		} else {
-			repository = strings.TrimRight(strings.ReplaceAll(repository,"https://", ""), "/")
+			repository = strings.TrimRight(strings.ReplaceAll(repository, "https://", ""), "/")
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
 		}
 
@@ -326,6 +328,29 @@ func fetchRepositoryAndUrl() (string, string, string) {
 }
 
 func fetchDescription(owner, repo, uri string) string {
+	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.cc/repos/%s/%s", owner, repo))
+	if err != nil {
+		return ""
+	}
+	defer response.Body.Close()
+
+	b, _ := ioutil.ReadAll(response.Body)
+	description := gjson.GetBytes(b, "repo.description").String()
+
+	info := whatlanggo.Detect(description)
+	lang := info.Lang.String()
+	if lang != "" && lang != "Mandarin" {
+		result, err1 := gdeeplx.Translate(description, "", "zh", 0)
+		if err1 == nil {
+			res := result.(map[string]interface{})
+			description = strings.TrimSpace(res["data"].(string))
+		}
+	}
+
+	return description
+}
+
+func fetchDescriptionBak(owner, repo, uri string) string {
 	var description string
 	if len(owner) < 1 {
 		find := func(doc *html.Node) string {
