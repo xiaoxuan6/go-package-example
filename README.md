@@ -507,3 +507,4 @@
 ||github.com/weppos/publicsuffix-go|基于公共后缀列表的 Go 域名解析器。|<br>
 ||github.com/jasonlvhit/gocron|Golang 作业调度软件包|<br>
 ||github.com/denisbrodbeck/machineid|获取任何主机的唯一机器 ID（无管理员权限）|<br>
+||github.com/llychao/m3u8-downloader|一个M3U8 视频下载(M3U8 downloader)工具。跨平台: 提供windows、linux、mac三大平台可执行文件,方便直接使用。|<br>
