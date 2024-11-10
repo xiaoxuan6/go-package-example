@@ -180,7 +180,9 @@ func main() {
 			ch <- true
 			_, _ = f.WriteString(fmt.Sprintf(`# %s
 
----%s`, strings.ReplaceAll(filename, ".md", ""), content))
+![view-count](https://count.getloli.com/@xiaoxuan6-weekly-%s)
+
+---%s`, strings.ReplaceAll(filename, ".md", ""), time.Now().Format("20060102"), content))
 
 			ch1 <- true
 
