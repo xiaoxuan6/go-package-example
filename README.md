@@ -510,3 +510,4 @@
 ||github.com/llychao/m3u8-downloader|一个M3U8 视频下载(M3U8 downloader)工具。跨平台: 提供windows、linux、mac三大平台可执行文件,方便直接使用。|<br>
 ||github.com/shurcooL/github_flavored_markdown|GitHub Flavored Markdown 渲染器，具有栅栏式代码块高亮显示和可点击的标题锚链接。|<br>
 ||github.com/gin-contrib/timeout|Gin 的超时中间件|<br>
+||github.com/kirinlabs/utils|Golang开发扩展库，包括字符串处理、日期转换、类型转换、切片处理、压缩、加密、AES/ECB加密解密等|<br>
