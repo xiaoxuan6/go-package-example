@@ -156,3 +156,4 @@
 |github.com/guobao2333/DeepLX-Serverless/tree/main|DeepL Free translate API for Serverless, No TOKEN Required | DeepL 免费翻译API 无服务器函数部署，无需token|<br>
 |github.com/mixmark-io/turndown|用 JavaScript 编写的 HTML 到 Markdown 转换器|<br>
 |github.com/staticfile/static|开放静态文件 - 为开源库提供稳定、快速的免费 CDN 服务|<br>
+|github.com/byodian/oneimg|文字转图片应用。适合微信公众号长图推文以及小红书、Instagram 等图片社交媒体贴文制作|<br>
