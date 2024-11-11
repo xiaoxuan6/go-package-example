@@ -80,3 +80,4 @@
 |github.com/glhd/linen|适用于 Laravel 的轻量级电子表格|<br>
 |github.com/stevebauman/purify|HTMLPurifier 的 Laravel 封装器，作者 ezyang|<br>
 |github.com/realrashid/sweet-alert|一个美观的、响应式的、可定制的、可访问的 (wai-aria) 拉威尔 JavaScript 弹出框替代品|<br>
+|github.com/nunomaduro/laravel-console-menu|🔘 漂亮的 PHP CLI 菜单。是 Laravel/Artisan 控制台命令的 php-school/cli-menu 包装器|<br>
