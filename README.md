@@ -511,3 +511,4 @@
 ||github.com/shurcooL/github_flavored_markdown|GitHub Flavored Markdown 渲染器，具有栅栏式代码块高亮显示和可点击的标题锚链接。|<br>
 ||github.com/gin-contrib/timeout|Gin 的超时中间件|<br>
 ||github.com/kirinlabs/utils|Golang开发扩展库，包括字符串处理、日期转换、类型转换、切片处理、压缩、加密、AES/ECB加密解密等|<br>
+||github.com/mikefarah/yq|yq 是一款便携式命令行 YAML、JSON、XML、CSV、TOML 和属性处理器|<br>
