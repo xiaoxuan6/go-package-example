@@ -7,7 +7,6 @@ import (
 	"fmt"
 	"github.com/OwO-Network/gdeeplx"
 	"github.com/abadojack/whatlanggo"
-	"github.com/antchfx/htmlquery"
 	"github.com/avast/retry-go"
 	"github.com/fatih/color"
 	"github.com/go-git/go-git/v5"
@@ -15,16 +14,12 @@ import (
 	ghttp "github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/go-rod/rod"
 	"github.com/goccy/go-yaml"
-	"github.com/gofri/go-github-ratelimit/github_ratelimit"
-	"github.com/google/go-github/v48/github"
 	"github.com/joho/godotenv"
 	"github.com/noelyahan/impexp"
 	"github.com/noelyahan/mergi"
 	"github.com/sahilm/fuzzy"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
-	"golang.org/x/net/html"
-	"golang.org/x/oauth2"
 	"image"
 	"io"
 	"io/fs"
@@ -330,7 +325,7 @@ func fetchRepositoryAndUrl() (string, string, string) {
 }
 
 func fetchDescription(owner, repo, uri string) string {
-	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.cc/repos/%s/%s", owner, repo))
+	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.xiaoxuan6.me/repos/%s/%s", owner, repo))
 	if err != nil {
 		return ""
 	}
@@ -338,66 +333,7 @@ func fetchDescription(owner, repo, uri string) string {
 
 	b, _ := ioutil.ReadAll(response.Body)
 	description := gjson.GetBytes(b, "repo.description").String()
-
-	info := whatlanggo.Detect(description)
-	lang := info.Lang.String()
-	if lang != "" && lang != "Mandarin" {
-		result, err1 := gdeeplx.Translate(description, "", "zh", 0)
-		if err1 == nil {
-			res := result.(map[string]interface{})
-			description = strings.TrimSpace(res["data"].(string))
-		}
-	}
-
-	return description
-}
-
-func fetchDescriptionBak(owner, repo, uri string) string {
-	var description string
-	if len(owner) < 1 {
-		find := func(doc *html.Node) string {
-			a := htmlquery.FindOne(doc, "//*[@id=\"responsive-meta-container\"]/div/p")
-			return strings.TrimSpace(htmlquery.InnerText(a))
-		}
-
-		doc, _ := htmlquery.LoadURL(uri)
-		description = find(doc)
-
-		if len(description) < 1 {
-
-			response, err := get(uri)
-			if err != nil {
-				return ""
-			}
-
-			doc, errs := htmlquery.Parse(strings.NewReader(response))
-			if errs == nil {
-				description = find(doc)
-			}
-		}
-
-		if len(description) < 1 {
-			return ""
-		}
-	} else {
-		ts := oauth2.StaticTokenSource(
-			&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
-		)
-		tc := oauth2.NewClient(context.Background(), ts)
-		rateLimiter, errs := github_ratelimit.NewRateLimitWaiterClient(tc.Transport)
-		if errs != nil {
-			panic(errs.Error())
-		}
-
-		client := github.NewClient(rateLimiter)
-		rep, _, _ := client.Repositories.Get(context.Background(), owner, repo)
-		description = *rep.Description
-		language = *rep.Language
-
-		if isDownload == true && rep.Homepage != nil {
-			homepage = *rep.Homepage
-		}
-	}
+	language = gjson.GetBytes(b, "repo.language").String()
 
 	info := whatlanggo.Detect(description)
 	lang := info.Lang.String()
