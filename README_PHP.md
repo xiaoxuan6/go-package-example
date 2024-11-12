@@ -82,3 +82,4 @@
 |github.com/realrashid/sweet-alert|一个美观的、响应式的、可定制的、可访问的 (wai-aria) 拉威尔 JavaScript 弹出框替代品|<br>
 |github.com/nunomaduro/laravel-console-menu|🔘 漂亮的 PHP CLI 菜单。是 Laravel/Artisan 控制台命令的 php-school/cli-menu 包装器|<br>
 |github.com/spatie/browsershot|将 HTML 转换为图像、PDF 或字符串|<br>
+|github.com/dg/rss-php|用于消费 RSS 和 Atom 订阅的小巧易用的库|<br>
