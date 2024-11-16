@@ -16,8 +16,8 @@
 |github.com/defstudio/telegraph|Telegraph 是一款用于与 Telegram 机器人流畅交互的 Laravel 软件包|<br>
 |github.com/jolicode/php-os-helper|提供帮助程序来检测运行 PHP 的机器的操作系统。|<br>
 |github.com/nunomaduro/laravel-desktop-notifier|通过 Laravel Artisan Commands 向桌面发送通知。用于 Laravel 的 JoliNotif 封装器。|<br>
-|https://github.com/jolicode/JoliNotif|💻 直接从 PHP 脚本向桌面发送通知|<br>
-|github.com/laravel/prompts?tab=readme-ov-file|为您的 PHP 命令行应用程序提供美观、用户友好的表单。|<br>
+|github.com/jolicode/JoliNotif|💻 直接从 PHP 脚本向桌面发送通知|<br>
+|github.com/laravel/prompts|为您的 PHP 命令行应用程序提供美观、用户友好的表单。|<br>
 |github.com/laravel-zero/framework|该版本库包含 Laravel Zero 的核心代码。|<br>
 |github.com/nunomaduro/laravel-console-dusk|Laravel Console Dusk 允许在 Laravel/Laravel Zero 工匠命令中使用 Laravel Dusk。|<br>
 |github.com/metowolf/Meting|哇，如此强大的音乐 API 框架|<br>
@@ -50,7 +50,7 @@
 |github.com/getopt-php/getopt-php|用于命令行参数处理的 PHP 库|<br>
 |github.com/composer-unused/composer-unused|通过扫描代码显示未使用的作曲家依赖项|<br>
 |github.com/webmozarts/glob|Ant 的 glob 的 PHP 实现。|<br>
-|github.com/bamarni/composer-bin-plugin?tab=readme-ov-file#usage-how-does-this-plugin-work|二进制文件依赖关系无冲突|<br>
+|github.com/bamarni/composer-bin-plugin|二进制文件依赖关系无冲突|<br>
 |github.com/symfony/finder|通过直观流畅的界面查找文件和目录|<br>
 |github.com/ergebnis/composer-normalize|🎵 提供用于规范化 composer.json 的 composer 插件。|<br>
 |github.com/j13k/yaml-lint|用于验证 YAML 文件的紧凑型命令行内核工具。|<br>
