@@ -514,3 +514,4 @@
 ||github.com/mikefarah/yq|yq 是一款便携式命令行 YAML、JSON、XML、CSV、TOML 和属性处理器|<br>
 ||github.com/nlnwa/whatwg-url|符合 WHATWG 标准的 Go 语言 url 解析器|<br>
 ||github.com/shabbyrobe/xmlwriter|xmlwriter 是一个纯 Go 库，基于 libxml2 的 xmlwriter 模块提供程序化 XML 生成功能|<br>
+||github.com/c-bata/go-prompt/tree/master|受 python-prompt-toolkit 的启发，在 Go 中构建功能强大的交互式提示。|<br>
