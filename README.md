@@ -516,3 +516,4 @@
 ||github.com/shabbyrobe/xmlwriter|xmlwriter 是一个纯 Go 库，基于 libxml2 的 xmlwriter 模块提供程序化 XML 生成功能|<br>
 ||github.com/c-bata/go-prompt/tree/master|受 python-prompt-toolkit 的启发，在 Go 中构建功能强大的交互式提示。|<br>
 ||github.com/chriswalz/bit|Bit 是一个现代化的 Git CLI|<br>
+||github.com/kardianos/service|在主要平台上以服务形式运行围棋程序。|<br>
