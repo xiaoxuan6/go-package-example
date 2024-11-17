@@ -519,3 +519,4 @@
 ||github.com/kardianos/service|在主要平台上以服务形式运行围棋程序。|<br>
 ||github.com/technosophos/moniker|生成奇特名称的 Go 库|<br>
 ||github.com/hako/durafmt|🕗 改进围棋中的时间长度格式！|<br>
+||github.com/Lengso/iplookup|IP反查域名|<br>
