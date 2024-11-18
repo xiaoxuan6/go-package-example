@@ -520,3 +520,4 @@
 ||github.com/technosophos/moniker|生成奇特名称的 Go 库|<br>
 ||github.com/hako/durafmt|🕗 改进围棋中的时间长度格式！|<br>
 ||github.com/Lengso/iplookup|IP反查域名|<br>
+||github.com/dmgk/faker|一个用于生成姓名、地址和电话号码等虚假数据的库。|<br>
