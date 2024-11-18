@@ -524,3 +524,4 @@
 ||github.com/valyala/fastjson|Go 的快速 JSON 解析器和验证器。无自定义结构、无代码生成、无反射|<br>
 ||github.com/filhodanuvem/gitql|💊 一种 git 查询语言|<br>
 ||github.com/netinternet/remoteaddr|Go http 真实 IP 头解析器|<br>
+||github.com/theyakka/tardy|有条不紊地处理 CLI 提示|<br>
