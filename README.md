@@ -521,3 +521,4 @@
 ||github.com/hako/durafmt|🕗 改进围棋中的时间长度格式！|<br>
 ||github.com/Lengso/iplookup|IP反查域名|<br>
 ||github.com/dmgk/faker|一个用于生成姓名、地址和电话号码等虚假数据的库。|<br>
+||github.com/valyala/fastjson|Go 的快速 JSON 解析器和验证器。无自定义结构、无代码生成、无反射|<br>
