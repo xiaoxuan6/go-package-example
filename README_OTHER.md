@@ -159,3 +159,4 @@
 |github.com/byodian/oneimg|文字转图片应用。适合微信公众号长图推文以及小红书、Instagram 等图片社交媒体贴文制作|<br>
 |github.com/dablelv/dirty-cnwords|收录常见业务安全场景中文脏词，如广告引流、辱骂、暴恐、黄赌毒政类。|<br>
 |github.com/naptha/tesseract.js|适用于 100 多种语言的纯 Javascript OCR 📖🎉🖥|<br>
+|github.com/btmills/geopattern|生成精美的 SVG 图案|<br>
