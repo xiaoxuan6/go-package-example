@@ -526,3 +526,4 @@
 ||github.com/netinternet/remoteaddr|Go http 真实 IP 头解析器|<br>
 ||github.com/theyakka/tardy|有条不紊地处理 CLI 提示|<br>
 ||github.com/zyedidia/eget|从 GitHub 轻松安装预编译二进制文件。|<br>
+||github.com/jessevdk/go-flags|go 命令行选项解析器|<br>
