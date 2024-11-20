@@ -528,3 +528,4 @@
 ||github.com/zyedidia/eget|从 GitHub 轻松安装预编译二进制文件。|<br>
 ||github.com/jessevdk/go-flags|go 命令行选项解析器|<br>
 ||github.com/IGLOU-EU/go-wildcard|🚀 快速、简便的通配符模式匹配。|<br>
+||github.com/jinzhu/inflection|将英语名词复数化和单数化|<br>
