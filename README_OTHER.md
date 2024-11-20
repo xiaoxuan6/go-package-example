@@ -161,3 +161,4 @@
 |github.com/naptha/tesseract.js|适用于 100 多种语言的纯 Javascript OCR 📖🎉🖥|<br>
 |github.com/btmills/geopattern|生成精美的 SVG 图案|<br>
 |github.com/antfu/markdown-it-github-alerts|为 markdown-it 支持 GitHub 风格警报|<br>
+|github.com/bubkoo/html-to-image|✂️ 使用 HTML5 画布和 SVG 从 DOM 节点生成图像。|<br>
