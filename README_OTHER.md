@@ -164,3 +164,4 @@
 |github.com/bubkoo/html-to-image|✂️ 使用 HTML5 画布和 SVG 从 DOM 节点生成图像。|<br>
 |github.com/huangbohang/export-word|一个html导出为word的JS库|<br>
 |github.com/anuraghazra/github-readme-stats|⚡ Dynamically generated stats for your github readmes|<br>
+|github.com/ZhiXuanWang/cf-speed-dns|CloudflareSpeedTest 推送「每5分钟自选优选 IP」https://ip.164746.xyz|<br>
