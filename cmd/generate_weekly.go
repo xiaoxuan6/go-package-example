@@ -5,7 +5,6 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/OwO-Network/gdeeplx"
 	"github.com/abadojack/whatlanggo"
 	"github.com/avast/retry-go"
 	"github.com/fatih/color"
@@ -20,6 +19,7 @@ import (
 	"github.com/sahilm/fuzzy"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
+	"github.com/xiaoxuan6/deeplx"
 	"image"
 	"io"
 	"io/fs"
@@ -335,13 +335,12 @@ func fetchDescription(owner, repo, uri string) string {
 	description := gjson.GetBytes(b, "repo.description").String()
 	language = gjson.GetBytes(b, "repo.language").String()
 
-	info := whatlanggo.Detect(description)
-	lang := info.Lang.String()
-	if lang != "" && lang != "Mandarin" {
-		result, err1 := gdeeplx.Translate(description, "", "zh", 0)
-		if err1 == nil {
-			res := result.(map[string]interface{})
-			description = strings.TrimSpace(res["data"].(string))
+	lang := whatlanggo.DetectLang(description)
+	sourceLang := strings.ToLower(lang.Iso6391())
+	if sourceLang == "so" {
+		res := deeplx.Translate(description, sourceLang, "zh")
+		if res.Code == 200 {
+			description = res.Data
 		}
 	}
 

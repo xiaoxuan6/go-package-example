@@ -3,23 +3,19 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/OwO-Network/gdeeplx"
-	"github.com/abadojack/whatlanggo"
-	"github.com/antchfx/htmlquery"
 	db "github.com/xiaoxuan6/go-package-db"
 	"os"
 	"strings"
 )
 
 var (
-	url      string
-	name     string
-	language string
+	url  string
+	desc string
 )
 
 func main() {
 	flag.StringVar(&url, "url", "", "第三方包地址")
-	flag.StringVar(&name, "name", "", "第三方包名")
+	flag.StringVar(&desc, "desc", "", "第三方包描述")
 	flag.StringVar(&language, "language", "", "第三方包语言")
 	flag.Parse()
 
@@ -40,36 +36,15 @@ func main() {
 	defer db.Close()
 	db.AutoMigrate()
 
-	name = nameDo(url, name)
 	url = strings.ReplaceAll(url, "https://", "")
-	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: name, Language: language}).FirstOrCreate(&db.Collect{}).Error; err != nil {
+	if len(desc) < 1 {
+		split := strings.Split(url, "/")
+		desc = fetchDescription(split[1], split[2], "")
+	}
+
+	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: desc, Language: language}).FirstOrCreate(&db.Collect{}).Error; err != nil {
 		fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
 	}
 
 	fmt.Println("插入成功！")
-}
-
-func nameDo(url, name string) string {
-	if name == "" {
-		if strings.HasPrefix(url, "https://") == false {
-			url = "https://" + url
-		}
-		doc, err := htmlquery.LoadURL(url)
-		if err == nil {
-			a := htmlquery.FindOne(doc, "//*[@id=\"responsive-meta-container\"]/div/p")
-			name = strings.TrimSpace(htmlquery.InnerText(a))
-		}
-	}
-
-	info := whatlanggo.Detect(name)
-	lang := info.Lang.String()
-	if lang != "" && lang != "Mandarin" {
-		result, err := gdeeplx.Translate(name, "", "zh", 0)
-		if err == nil {
-			res := result.(map[string]interface{})
-			name = strings.TrimSpace(res["data"].(string))
-		}
-	}
-
-	return name
 }
