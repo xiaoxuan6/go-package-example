@@ -533,3 +533,4 @@
 ||github.com/alicfeng/mysql_markdown|它能简洁明了地生成 MySQL 的标记符结构文档~。|<br>
 ||github.com/wangjohn/quickselect|Go 实现查找集合中最小的 k 个元素。|<br>
 ||github.com/fsamin/go-repo/tree/master|Go-Repo is just golang wrapper around git commands|<br>
+||github.com/bmatcuk/doublestar|Implements support for double star (**) matches in golang's path.Match and filepath.Glob.|<br>
