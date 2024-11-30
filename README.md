@@ -334,7 +334,7 @@
 ||github.com/elastic/go-sysinfo|go-sysinfo 是一个用于收集系统信息的库。|<br>
 ||github.com/elastic/go-windows|go-windows 为 Windows API 提供 Go 封装。|<br>
 ||github.com/OwO-Network/gDeepLX|用于无限制翻译的 Go 库 DeepL|<br>
-||github.com/alexbrainman/sspi/tree/master|视窗 SSPI|<br>
+||github.com/alexbrainman/sspi|视窗 SSPI|<br>
 ||github.com/pbnjay/memory|报告系统内存总量的 go 功能|<br>
 ||github.com/prashantgupta24/mac-sleep-notifier|用 golang 生成 macOS 睡眠/唤醒通知|<br>
 ||github.com/emirpasic/gods|GoDS（Go 数据结构）--集合、列表、栈、地图、树、队列等等|<br>
@@ -433,7 +433,7 @@
 ||github.com/gin-gonic/gin|Gin 是一个用 Go (Golang) 编写的 HTTP 网络框架。它的 API 类似于 Martini，但性能更强，最高可快 40 倍。如果你需要惊人的性能，那就来试试 Gin吧。|<br>
 ||github.com/bastengao/chinese-holidays-go|提供具有中国特色的休假安排或者工作日查询|<br>
 ||github.com/gorilla/mux|软件包 gorilla/mux 是一款功能强大的 HTTP 路由器和 URL 匹配器，用于使用 🦍 构建 Go 网络服务器。|<br>
-||github.com/libdns/alidns/tree/master|用于 libdns 的阿里巴巴云 DNS（AliDNS）提供商|<br>
+||github.com/libdns/alidns|用于 libdns 的阿里巴巴云 DNS（AliDNS）提供商|<br>
 ||github.com/containrrr/watchtower|自动更新 Docker 容器基础镜像的流程。|<br>
 ||github.com/goware/emailx|用于 golang 的电子邮件验证/规范化|<br>
 ||github.com/Xuanwo/go-locale|Golang 的跨平台本地检测|<br>
@@ -478,7 +478,7 @@
 ||github.com/thedevsaddam/govalidator|使用简单规则验证 Golang 请求数据。受到 Laravel 请求验证的高度启发。|<br>
 ||github.com/sundowndev/dorkgen|为 Google、Yahoo、DuckDuckGo 等搜索引擎提供安全的呆子查询类型|<br>
 ||github.com/yhat/scrape|用于 Go 网络搜索的简单、高级界面。|<br>
-||github.com/oxffaa/gopher-parse-sitemap/tree/master|高效的 golang 库，用于解析大型网站地图并避免高内存占用。网站地图解析器是在 golang 上编写的，没有外部依赖性。|<br>
+||github.com/oxffaa/gopher-parse-sitemap|高效的 golang 库，用于解析大型网站地图并避免高内存占用。网站地图解析器是在 golang 上编写的，没有外部依赖性。|<br>
 ||github.com/raviqqe/muffet|Go 中的快速网站链接检查器|<br>
 ||github.com/sethgrid/multibar|在 Go (golang) 中显示多个进度条。|<br>
 ||github.com/caddyserver/cache-handler|用于 Caddy 的分布式 HTTP 缓存模块|<br>
@@ -514,7 +514,7 @@
 ||github.com/mikefarah/yq|yq 是一款便携式命令行 YAML、JSON、XML、CSV、TOML 和属性处理器|<br>
 ||github.com/nlnwa/whatwg-url|符合 WHATWG 标准的 Go 语言 url 解析器|<br>
 ||github.com/shabbyrobe/xmlwriter|xmlwriter 是一个纯 Go 库，基于 libxml2 的 xmlwriter 模块提供程序化 XML 生成功能|<br>
-||github.com/c-bata/go-prompt/tree/master|受 python-prompt-toolkit 的启发，在 Go 中构建功能强大的交互式提示。|<br>
+||github.com/c-bata/go-prompt|受 python-prompt-toolkit 的启发，在 Go 中构建功能强大的交互式提示。|<br>
 ||github.com/chriswalz/bit|Bit 是一个现代化的 Git CLI|<br>
 ||github.com/kardianos/service|在主要平台上以服务形式运行围棋程序。|<br>
 ||github.com/technosophos/moniker|生成奇特名称的 Go 库|<br>
@@ -532,5 +532,5 @@
 ||github.com/esimov/pigo|纯 Go 语言的快速人脸检测、瞳孔/眼睛定位和面部地标点检测库。|<br>
 ||github.com/alicfeng/mysql_markdown|它能简洁明了地生成 MySQL 的标记符结构文档~。|<br>
 ||github.com/wangjohn/quickselect|Go 实现查找集合中最小的 k 个元素。|<br>
-||github.com/fsamin/go-repo/tree/master|Go-Repo 只是 git 命令的 golang 包装器|<br>
+||github.com/fsamin/go-repo|Go-Repo 只是 git 命令的 golang 包装器|<br>
 ||github.com/bmatcuk/doublestar|在golang的path.Match和filepath.Glob中实现了对双星()匹配的支持。|<br>
