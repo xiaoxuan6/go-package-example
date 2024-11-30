@@ -153,7 +153,7 @@
 |github.com/docsifyjs/docsify|🃏 神奇的文档网站生成器。|<br>
 |github.com/Chechengyi/sweet-storage|给localStorage整合了过期时间的功能|<br>
 |github.com/iam-rohid/code-to-img|代码到图片转换器是一款设计精美的应用程序，可帮助您为代码片段生成漂亮的可定制图片。这是一款由开发者为开发者打造的应用程序。如果你想与任何人或在任何社交媒体上分享你的代码，这就是你需要的应用程序。|<br>
-|github.com/guobao2333/DeepLX-Serverless/tree/main|DeepL Free translate API for Serverless, No TOKEN Required | DeepL 免费翻译API 无服务器函数部署，无需token|<br>
+|github.com/guobao2333/DeepLX-Serverless|DeepL 无服务器免费翻译 API，无需 TOKEN | DeepL 免费翻译API 无服务器函数部署，无需token|<br>
 |github.com/mixmark-io/turndown|用 JavaScript 编写的 HTML 到 Markdown 转换器|<br>
 |github.com/staticfile/static|开放静态文件 - 为开源库提供稳定、快速的免费 CDN 服务|<br>
 |github.com/byodian/oneimg|文字转图片应用。适合微信公众号长图推文以及小红书、Instagram 等图片社交媒体贴文制作|<br>
@@ -163,5 +163,5 @@
 |github.com/antfu/markdown-it-github-alerts|为 markdown-it 支持 GitHub 风格警报|<br>
 |github.com/bubkoo/html-to-image|✂️ 使用 HTML5 画布和 SVG 从 DOM 节点生成图像。|<br>
 |github.com/huangbohang/export-word|一个html导出为word的JS库|<br>
-|github.com/anuraghazra/github-readme-stats|⚡ Dynamically generated stats for your github readmes|<br>
+|github.com/anuraghazra/github-readme-stats|⚡ 为您的 github 自述文件动态生成统计信息|<br>
 |github.com/ZhiXuanWang/cf-speed-dns|CloudflareSpeedTest 推送「每5分钟自选优选 IP」https://ip.164746.xyz|<br>
