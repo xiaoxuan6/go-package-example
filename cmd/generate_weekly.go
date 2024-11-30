@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/abadojack/whatlanggo"
-	"github.com/avast/retry-go"
 	"github.com/fatih/color"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
@@ -337,7 +336,7 @@ func fetchDescription(owner, repo, uri string) string {
 
 	lang := whatlanggo.DetectLang(description)
 	sourceLang := strings.ToLower(lang.Iso6391())
-	if sourceLang == "so" {
+	if sourceLang != "zh" {
 		res := deeplx.Translate(description, sourceLang, "zh")
 		if res.Code == 200 {
 			description = res.Data
@@ -534,33 +533,4 @@ func gitPush() error {
 		return fmt.Errorf("git push fail: %s", err.Error())
 	}
 	return nil
-}
-
-func get(uri string) (string, error) {
-	var result string
-	err := retry.Do(
-		func() error {
-			response, err := http.Get(uri)
-			defer func() {
-				_ = response.Body.Close()
-			}()
-
-			if err != nil {
-				return fmt.Errorf("url get fail: %s", err.Error())
-			}
-
-			b, err := io.ReadAll(response.Body)
-			if err != nil {
-				return fmt.Errorf("read body fail: %s", err.Error())
-			}
-
-			result = string(b)
-			return nil
-		},
-		retry.Attempts(3),
-		retry.LastErrorOnly(true),
-		retry.Delay(time.Second*10),
-	)
-
-	return result, err
 }
