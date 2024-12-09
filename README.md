@@ -534,3 +534,4 @@
 ||github.com/wangjohn/quickselect|Go 实现查找集合中最小的 k 个元素。|<br>
 ||github.com/fsamin/go-repo|Go-Repo 只是 git 命令的 golang 包装器|<br>
 ||github.com/bmatcuk/doublestar|在golang的path.Match和filepath.Glob中实现了对双星()匹配的支持。|<br>
+||github.com/ltaoo/wx_channels_download|微信视频号下载器|<br>
