@@ -52,7 +52,6 @@ func main() {
 
 			b, _ := ioutil.ReadAll(response.Body)
 			desc = gjson.GetBytes(b, "repo.description").String()
-			language = gjson.GetBytes(b, "repo.language").String()
 
 			lang := whatlanggo.DetectLang(desc)
 			sourceLang := strings.ToLower(lang.Iso6391())
