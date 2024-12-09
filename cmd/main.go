@@ -3,20 +3,26 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/abadojack/whatlanggo"
+	"github.com/tidwall/gjson"
+	"github.com/xiaoxuan6/deeplx"
 	db "github.com/xiaoxuan6/go-package-db"
+	"io/ioutil"
+	"net/http"
 	"os"
 	"strings"
 )
 
 var (
-	url  string
-	desc string
+	url       string
+	desc      string
+	languages string
 )
 
 func main() {
 	flag.StringVar(&url, "url", "", "第三方包地址")
 	flag.StringVar(&desc, "desc", "", "第三方包描述")
-	flag.StringVar(&language, "language", "", "第三方包语言")
+	flag.StringVar(&languages, "language", "", "第三方包语言")
 	flag.Parse()
 
 	if url == "" {
@@ -39,10 +45,27 @@ func main() {
 	url = strings.ReplaceAll(url, "https://", "")
 	if len(desc) < 1 {
 		split := strings.Split(url, "/")
-		desc = fetchDescription(split[1], split[2], "")
+
+		response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.xiaoxuan6.me/repos/%s/%s", split[1], split[2]))
+		if err == nil {
+			defer response.Body.Close()
+
+			b, _ := ioutil.ReadAll(response.Body)
+			desc = gjson.GetBytes(b, "repo.description").String()
+			language = gjson.GetBytes(b, "repo.language").String()
+
+			lang := whatlanggo.DetectLang(desc)
+			sourceLang := strings.ToLower(lang.Iso6391())
+			if sourceLang != "zh" {
+				res := deeplx.Translate(desc, sourceLang, "zh")
+				if res.Code == 200 {
+					desc = res.Data
+				}
+			}
+		}
 	}
 
-	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: desc, Language: language}).FirstOrCreate(&db.Collect{}).Error; err != nil {
+	if err := db.DB.Where(db.Collect{Url: url}).Attrs(db.Collect{Name: desc, Language: languages}).FirstOrCreate(&db.Collect{}).Error; err != nil {
 		fmt.Println(fmt.Sprintf("插入数据失败：%s", err.Error()))
 	}
 
