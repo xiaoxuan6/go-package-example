@@ -537,3 +537,4 @@
 ||github.com/ltaoo/wx_channels_download|微信视频号下载器|<br>
 ||github.com/charmbracelet/huh|Build terminal forms and prompts 🤷🏻‍♀️|<br>
 ||github.com/cloudfoundry-attic/jibber_jabber|Cross Platform locale detection for Golang|<br>
+||github.com/yassinebenaid/godump|Dump any GO variable with ease|<br>
