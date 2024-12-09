@@ -535,3 +535,4 @@
 ||github.com/fsamin/go-repo|Go-Repo 只是 git 命令的 golang 包装器|<br>
 ||github.com/bmatcuk/doublestar|在golang的path.Match和filepath.Glob中实现了对双星()匹配的支持。|<br>
 ||github.com/ltaoo/wx_channels_download|微信视频号下载器|<br>
+||github.com/charmbracelet/huh|Build terminal forms and prompts 🤷🏻‍♀️|<br>
