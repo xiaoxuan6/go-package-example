@@ -166,3 +166,4 @@
 |github.com/anuraghazra/github-readme-stats|⚡ 为您的 github 自述文件动态生成统计信息|<br>
 |github.com/ZhiXuanWang/cf-speed-dns|CloudflareSpeedTest 推送「每5分钟自选优选 IP」https://ip.164746.xyz|<br>
 |github.com/tiny-craft/tiny-rdm|Tiny RDM (Tiny Redis Desktop Manager) - A modern, colorful, super lightweight Redis GUI client for Mac, Windows, and Linux.|<br>
+|github.com/LibreTranslate/LibreTranslate|Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.|<br>
