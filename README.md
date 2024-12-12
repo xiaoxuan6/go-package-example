@@ -540,3 +540,4 @@
 ||github.com/yassinebenaid/godump|Dump any GO variable with ease|<br>
 ||github.com/jesseduffield/asciigraph|Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.|<br>
 ||github.com/mcuadros/go-lookup|Small library on top of reflect for make lookups to any Structs or Maps|<br>
+||github.com/Azure/go-ntlmssp|NTLM/Negotiate authentication over HTTP|<br>
