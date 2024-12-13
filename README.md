@@ -542,3 +542,4 @@
 ||github.com/mcuadros/go-lookup|Small library on top of reflect for make lookups to any Structs or Maps|<br>
 ||github.com/Azure/go-ntlmssp|NTLM/Negotiate authentication over HTTP|<br>
 ||github.com/blushft/go-diagrams|Create beautiful system diagrams with Go|<br>
+||github.com/expr-lang/expr|Expression language and expression evaluation for Go|<br>
