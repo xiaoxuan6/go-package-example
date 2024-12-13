@@ -543,3 +543,4 @@
 ||github.com/Azure/go-ntlmssp|NTLM/Negotiate authentication over HTTP|<br>
 ||github.com/blushft/go-diagrams|Create beautiful system diagrams with Go|<br>
 ||github.com/expr-lang/expr|Expression language and expression evaluation for Go|<br>
+||github.com/klauspost/pgzip|Go parallel gzip (de)compression|<br>
