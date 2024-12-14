@@ -545,3 +545,4 @@
 ||github.com/expr-lang/expr|Expression language and expression evaluation for Go|<br>
 ||github.com/klauspost/pgzip|Go parallel gzip (de)compression|<br>
 ||github.com/nao1215/markdown|simple markdown|<br>
+||github.com/ipinfo/cli|Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data)|<br>
