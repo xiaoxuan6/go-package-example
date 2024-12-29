@@ -169,3 +169,4 @@
 |github.com/LibreTranslate/LibreTranslate|Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.|<br>
 |github.com/jaywcjlove/markdown-style|Integrate markdown styles into web components, Markdown CSS styles will not be conflicted.|<br>
 |github.com/jaywcjlove/dark-mode|🌓 Add dark mode/night mode custom elements to your website.|<br>
+|github.com/wei/socialify|💞 Socialify your project. 🌐 Share with the world!|<br>
