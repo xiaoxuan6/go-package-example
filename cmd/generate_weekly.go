@@ -335,6 +335,7 @@ func fetchDescription(owner, repo, uri string) string {
 	b, _ := ioutil.ReadAll(response.Body)
 	description := gjson.GetBytes(b, "repo.description").String()
 	language = gjson.GetBytes(b, "repo.language").String()
+	homepage = gjson.GetBytes(b, "repo.homepage").String()
 
 	lang := whatlanggo.DetectLang(description)
 	sourceLang := strings.ToLower(lang.Iso6391())
