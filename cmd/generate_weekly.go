@@ -149,8 +149,9 @@ func main() {
 			homepage = ""
 		}
 
-		println("homepage", homepage)
-		downloadImage()
+		if len(homepage) > 0 {
+			downloadImage()
+		}
 
 		var content string
 		if len(descriptionVar) < 1 {
