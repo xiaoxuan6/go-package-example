@@ -548,3 +548,4 @@
 ||github.com/ipinfo/cli|Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data)|<br>
 ||github.com/WJQSERVER-STUDIO/ghproxy|由Go编写的Github下载加速项目|<br>
 ||github.com/k0kubun/go-ansi|Windows-portable ANSI escape sequence utility for Go language|<br>
+||github.com/bogdanfinn/tls-client|net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests.|<br>
