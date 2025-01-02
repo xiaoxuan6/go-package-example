@@ -149,6 +149,7 @@ func main() {
 			homepage = ""
 		}
 
+		println("homepage", homepage)
 		downloadImage()
 
 		var content string
