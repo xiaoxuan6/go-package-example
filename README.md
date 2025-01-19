@@ -550,3 +550,4 @@
 ||github.com/k0kubun/go-ansi|Windows-portable ANSI escape sequence utility for Go language|<br>
 ||github.com/bogdanfinn/tls-client|net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests.|<br>
 ||github.com/keybase/go-keychain|Golang keychain package for iOS and macOS|<br>
+||github.com/zalando/go-keyring|Cross-platform keyring interface for Go|<br>
