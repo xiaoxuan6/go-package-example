@@ -535,21 +535,21 @@
 ||github.com/fsamin/go-repo|Go-Repo 只是 git 命令的 golang 包装器|<br>
 ||github.com/bmatcuk/doublestar|在golang的path.Match和filepath.Glob中实现了对双星()匹配的支持。|<br>
 ||github.com/ltaoo/wx_channels_download|微信视频号下载器|<br>
-||github.com/charmbracelet/huh|Build terminal forms and prompts 🤷🏻‍♀️|<br>
+||github.com/charmbracelet/huh|建立终端形式和提示🤷🏻‍♀️|<br>
 ||github.com/cloudfoundry-attic/jibber_jabber|Cross Platform locale detection for Golang|<br>
-||github.com/yassinebenaid/godump|Dump any GO variable with ease|<br>
+||github.com/yassinebenaid/godump|轻松地转储任何GO变量|<br>
 ||github.com/jesseduffield/asciigraph|Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.|<br>
 ||github.com/mcuadros/go-lookup|Small library on top of reflect for make lookups to any Structs or Maps|<br>
 ||github.com/Azure/go-ntlmssp|NTLM/Negotiate authentication over HTTP|<br>
 ||github.com/blushft/go-diagrams|Create beautiful system diagrams with Go|<br>
 ||github.com/expr-lang/expr|Expression language and expression evaluation for Go|<br>
 ||github.com/klauspost/pgzip|Go parallel gzip (de)compression|<br>
-||github.com/nao1215/markdown|simple markdown|<br>
-||github.com/ipinfo/cli|Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data)|<br>
+||github.com/nao1215/markdown|简单的标记markdown|<br>
+||github.com/ipinfo/cli|IPINFO API的官方命令行接口（IP地理位置和其他类型的IP数据）|<br>
 ||github.com/WJQSERVER-STUDIO/ghproxy|由Go编写的Github下载加速项目|<br>
-||github.com/k0kubun/go-ansi|Windows-portable ANSI escape sequence utility for Go language|<br>
-||github.com/bogdanfinn/tls-client|net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests.|<br>
-||github.com/keybase/go-keychain|Golang keychain package for iOS and macOS|<br>
-||github.com/zalando/go-keyring|Cross-platform keyring interface for Go|<br>
-||github.com/byawitz/ggh|Recall your SSH sessions (also search your SSH config file)|<br>
-||github.com/skeema/knownhosts|Go SSH known_hosts wrapper with host key lookup|<br>
+||github.com/k0kubun/go-ansi|Windows-Portable ANSI逃生序列实用程序的GO语言|<br>
+||github.com/bogdanfinn/tls-client|NETHTTP.Client像HTTP客户端一样具有选项，可以选择用于请求的特定客户端TLS指纹。|<br>
+||github.com/keybase/go-keychain|Golang KeyChain套件适用于iOS和MACOS|<br>
+||github.com/zalando/go-keyring|GO的跨平台键环接口|<br>
+||github.com/byawitz/ggh|召回您的SSH会话（还搜索您的SSH配置文件）|<br>
+||github.com/skeema/knownhosts|使用主机钥匙查找go ssh nown_hosts包装器|<br>
