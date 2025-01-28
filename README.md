@@ -552,3 +552,4 @@
 ||github.com/keybase/go-keychain|Golang keychain package for iOS and macOS|<br>
 ||github.com/zalando/go-keyring|Cross-platform keyring interface for Go|<br>
 ||github.com/byawitz/ggh|Recall your SSH sessions (also search your SSH config file)|<br>
+||github.com/skeema/knownhosts|Go SSH known_hosts wrapper with host key lookup|<br>
