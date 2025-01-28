@@ -6,7 +6,7 @@ require (
 	github.com/abadojack/whatlanggo v1.0.1
 	github.com/fatih/color v1.16.0
 	github.com/go-git/go-git/v5 v5.11.0
-	github.com/go-rod/rod v0.0.0-20240401082821-6a4d1da0712a
+	github.com/go-rod/rod v0.116.2
 	github.com/goccy/go-yaml v1.11.3
 	github.com/gofri/go-github-ratelimit v1.1.0
 	github.com/google/go-github/v48 v48.2.0
@@ -63,9 +63,9 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/ysmood/fetchup v0.2.3 // indirect
 	github.com/ysmood/goob v0.4.0 // indirect
-	github.com/ysmood/got v0.34.1 // indirect
+	github.com/ysmood/got v0.40.0 // indirect
 	github.com/ysmood/gson v0.7.3 // indirect
-	github.com/ysmood/leakless v0.8.0 // indirect
+	github.com/ysmood/leakless v0.9.0 // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20241217172543-b2144cdd0a67 // indirect
