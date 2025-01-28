@@ -170,3 +170,5 @@
 |github.com/jaywcjlove/markdown-style|Integrate markdown styles into web components, Markdown CSS styles will not be conflicted.|<br>
 |github.com/jaywcjlove/dark-mode|🌓 Add dark mode/night mode custom elements to your website.|<br>
 |github.com/wei/socialify|💞 Socialify your project. 🌐 Share with the world!|<br>
+|github.com/JaidedAI/EasyOCR|Ready-to-use OCR with 80  supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.|<br>
+|github.com/mountain-loop/yaak|The most intuitive desktop API client. Organize and execute REST, GraphQL, and gRPC requests in a simple and intuitive app.|<br>
