@@ -553,3 +553,4 @@
 ||github.com/zalando/go-keyring|GO的跨平台键环接口|<br>
 ||github.com/byawitz/ggh|召回您的SSH会话（还搜索您的SSH配置文件）|<br>
 ||github.com/skeema/knownhosts|使用主机钥匙查找go ssh nown_hosts包装器|<br>
+||github.com/shirou/gopsutil|psutil for golang|<br>
