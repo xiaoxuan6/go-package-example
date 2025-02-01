@@ -172,3 +172,4 @@
 |github.com/wei/socialify|💞 Socialify your project. 🌐 Share with the world!|<br>
 |github.com/JaidedAI/EasyOCR|Ready-to-use OCR with 80  supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.|<br>
 |github.com/mountain-loop/yaak|The most intuitive desktop API client. Organize and execute REST, GraphQL, and gRPC requests in a simple and intuitive app.|<br>
+|github.com/shawn-bluce/eat|I'm a CPU and memory eating monster. 一个吃 CPU 内存的怪兽。|<br>
