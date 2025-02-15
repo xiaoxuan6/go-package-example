@@ -176,3 +176,4 @@
 |github.com/cilame/v_jstools|模仿着写一个 chrome 插件，用来快速调试前端 js 代码。|<br>
 |github.com/suhaotian/xior|A liteweight fetch wrapper with plugins support and similar API to axios.|<br>
 |github.com/jin10086/copyheaders|方便的从浏览器复制浏览器头|<br>
+|github.com/amueller/word_cloud|A little word cloud generator in Python|<br>
