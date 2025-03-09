@@ -179,3 +179,4 @@
 |github.com/amueller/word_cloud|A little word cloud generator in Python|<br>
 |github.com/pydantic/pydantic|Data validation using Python type hints|<br>
 |github.com/baiy/Ctool|程序开发常用工具 chrome / edge / firefox / utools / windows / linux / mac|<br>
+|github.com/microsoft/markitdown|Python tool for converting files and office documents to Markdown.|<br>
