@@ -175,8 +175,4 @@
 |github.com/shawn-bluce/eat|I'm a CPU and memory eating monster. 一个吃 CPU 内存的怪兽。|<br>
 |github.com/cilame/v_jstools|模仿着写一个 chrome 插件，用来快速调试前端 js 代码。|<br>
 |github.com/suhaotian/xior|A liteweight fetch wrapper with plugins support and similar API to axios.|<br>
-|github.com/jin10086/copyheaders|方便的从浏览器复制浏览器头|<br>
-|github.com/amueller/word_cloud|A little word cloud generator in Python|<br>
-|github.com/pydantic/pydantic|Data validation using Python type hints|<br>
 |github.com/baiy/Ctool|程序开发常用工具 chrome / edge / firefox / utools / windows / linux / mac|<br>
-|github.com/microsoft/markitdown|Python tool for converting files and office documents to Markdown.|<br>

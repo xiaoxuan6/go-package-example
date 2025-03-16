@@ -541,9 +541,9 @@
 ||github.com/jesseduffield/asciigraph|Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.|<br>
 ||github.com/mcuadros/go-lookup|Small library on top of reflect for make lookups to any Structs or Maps|<br>
 ||github.com/Azure/go-ntlmssp|NTLM/Negotiate authentication over HTTP|<br>
-||github.com/blushft/go-diagrams|Create beautiful system diagrams with Go|<br>
+||github.com/blushft/go-diagrams|使用GO创建美丽的系统图|<br>
 ||github.com/expr-lang/expr|Expression language and expression evaluation for Go|<br>
-||github.com/klauspost/pgzip|Go parallel gzip (de)compression|<br>
+||github.com/klauspost/pgzip|进行平行GZIP（DE）压缩|<br>
 ||github.com/nao1215/markdown|简单的标记markdown|<br>
 ||github.com/ipinfo/cli|IPINFO API的官方命令行接口（IP地理位置和其他类型的IP数据）|<br>
 ||github.com/WJQSERVER-STUDIO/ghproxy|由Go编写的Github下载加速项目|<br>
@@ -554,4 +554,4 @@
 ||github.com/byawitz/ggh|召回您的SSH会话（还搜索您的SSH配置文件）|<br>
 ||github.com/skeema/knownhosts|使用主机钥匙查找go ssh nown_hosts包装器|<br>
 ||github.com/shirou/gopsutil|psutil for golang|<br>
-||github.com/Contextualist/acp|Make terminal personal file transfers as simple as |<br>
+||github.com/Contextualist/acp|使终端个人文件转移至关重要|<br>

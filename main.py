@@ -10,6 +10,8 @@ def get_filename(language):
         return os.getcwd() + '/README.md'
     elif 'PHP' == language:
         return os.getcwd() + '/README_PHP.md'
+    elif 'Python' == language:
+        return os.getcwd() + '/README_PYTHON.md'
     else:
         return os.getcwd() + '/README_OTHER.md'
 
