@@ -57,8 +57,19 @@ func main() {
 			sourceLang := strings.ToLower(lang.Iso6391())
 			if sourceLang != "zh" {
 				res := deeplx.Translate(desc, sourceLang, "zh")
+				println("翻译结果：", res)
 				if res.Code == 200 {
 					desc = res.Data
+				} else {
+					response, err = http.DefaultClient.Post("https://xiaoxuan6s-yd-translate.hf.space/api/translate", "application/json", strings.NewReader(`{"text":"`+desc+`"}`))
+					if err != nil {
+						defer response.Body.Close()
+						b, _ = ioutil.ReadAll(response.Body)
+						println("有道翻译结果：", string(b))
+						if 200 == gjson.GetBytes(b, "code").Int() {
+							desc = gjson.GetBytes(b, "data").String()
+						}
+					}
 				}
 			}
 		}
