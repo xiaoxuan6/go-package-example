@@ -176,3 +176,4 @@
 |github.com/cilame/v_jstools|模仿着写一个 chrome 插件，用来快速调试前端 js 代码。|<br>
 |github.com/suhaotian/xior|A liteweight fetch wrapper with plugins support and similar API to axios.|<br>
 |github.com/baiy/Ctool|程序开发常用工具 chrome / edge / firefox / utools / windows / linux / mac|<br>
+|github.com/zxcv0221/netcut|一个简单、安全、高效的在线剪贴板。支持密码保护、阅后即焚、自定义过期时间等功能。|<br>
