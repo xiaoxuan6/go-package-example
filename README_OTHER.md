@@ -177,3 +177,4 @@
 |github.com/suhaotian/xior|A liteweight fetch wrapper with plugins support and similar API to axios.|<br>
 |github.com/baiy/Ctool|程序开发常用工具 chrome / edge / firefox / utools / windows / linux / mac|<br>
 |github.com/zxcv0221/netcut|一个简单、安全、高效的在线剪贴板。支持密码保护、阅后即焚、自定义过期时间等功能。|<br>
+|github.com/xxnuo/serverless-qrcode-hub?tab=readme-ov-file|苦于微信群聊二维码频繁变动，开发这个能生成永久二维码的工具，不需要服务器。也可作为 URL 缩短链接服务使用。|<br>
