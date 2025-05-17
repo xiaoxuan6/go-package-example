@@ -556,3 +556,4 @@
 ||github.com/shirou/gopsutil|psutil for golang|<br>
 ||github.com/Contextualist/acp|使终端个人文件转移至关重要|<br>
 ||github.com/vrischmann/userdir|Go package to get user directories|<br>
+||github.com/segmentio/kafka-go|Kafka library in Go|<br>
