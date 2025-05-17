@@ -10,7 +10,6 @@ import (
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
 	ghttp "github.com/go-git/go-git/v5/plumbing/transport/http"
-	"github.com/go-rod/rod"
 	"github.com/goccy/go-yaml"
 	"github.com/joho/godotenv"
 	"github.com/noelyahan/impexp"
@@ -426,18 +425,22 @@ func downloadImage() {
 
 	img = fmt.Sprintf("%s/%s.png", filePath, strconv.Itoa(int(time.Now().Unix())))
 
-	//page := rod.New().MustConnect().MustPage(homepage).MustWaitLoad()
-	//page.MustWaitStable().MustScreenshot(img)
+	response, err := http.DefaultClient.Get(fmt.Sprintf("https://wr.do/api/v1/scraping/screenshot?url=%s&key=8e4c0fac-5526-4d81-a2f0-e534251ea457", strings.TrimRight(homepage, "/")))
+	defer response.Body.Close()
+	if err != nil {
+		return
+	}
 
-	browser := rod.New().MustConnect()
-	defer browser.MustClose()
+	if response.StatusCode != 200 {
+		return
+	}
 
-	page := browser.MustPage(homepage).MustWaitLoad()
-	page.Eval(`document.charset = "UTF-8"`)
-	page.MustWaitStable().MustScreenshot(img)
+	f, _ := os.OpenFile(img, os.O_CREATE|os.O_WRONLY, os.ModePerm)
+	defer f.Close()
+	b, _ := ioutil.ReadAll(response.Body)
+	_, _ = f.Write(b)
 
 	time.Sleep(3)
-
 	watermark(img)
 }
 
