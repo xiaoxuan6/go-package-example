@@ -180,3 +180,4 @@
 |github.com/xxnuo/serverless-qrcode-hub?tab=readme-ov-file|苦于微信群聊二维码频繁变动，开发这个能生成永久二维码的工具，不需要服务器。也可作为 URL 缩短链接服务使用。|<br>
 |github.com/gaurav-nelson/github-action-markdown-link-check|Check all links in markdown files if they are alive or dead. 🔗✔️|<br>
 |github.com/cdoco/common-regex|🎃 常用正则表达式 - 收集一些在平时项目开发中经常用到的正则表达式。|<br>
+|github.com/bestZwei/ipfsbed|IPFSBED - Decentralized IPFS File Hosting Service|<br>
