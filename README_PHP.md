@@ -87,3 +87,4 @@
 |github.com/soloterm/screen|A terminal renderer written in pure PHP.|<br>
 |github.com/Blaspsoft/onym|📂 🎨 A flexible Laravel package for generating structured, unique, and customizable filenames using various strategies.|<br>
 |github.com/DivineOmega/password_exposed|🔒 Password Exposed Helper Function - Check if a password has been exposed in a data breach.|<br>
+|github.com/juliomotol/laravel-auth-timeout|Authentication Timeout for Laravel|<br>
