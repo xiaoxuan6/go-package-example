@@ -89,3 +89,4 @@
 |github.com/DivineOmega/password_exposed|🔒 Password Exposed Helper Function - Check if a password has been exposed in a data breach.|<br>
 |github.com/juliomotol/laravel-auth-timeout|Authentication Timeout for Laravel|<br>
 |github.com/Laragear/Populate|Populate your database with a supercharged, continuable seeder|<br>
+|github.com/laravolt/avatar|Plug n play avatar, turn name, email, and any other string into beautiful avatar (or gravatar), effortless.|<br>
