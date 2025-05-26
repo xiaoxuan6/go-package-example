@@ -91,3 +91,4 @@
 |github.com/Laragear/Populate|Populate your database with a supercharged, continuable seeder|<br>
 |github.com/laravolt/avatar|Plug n play avatar, turn name, email, and any other string into beautiful avatar (or gravatar), effortless.|<br>
 |github.com/mtownsend5512/read-time|A PHP package to show users how long it takes to read content.|<br>
+|github.com/ryangjchandler/bearer|Minimalistic token-based authorization for Laravel API endpoints.|<br>
