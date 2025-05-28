@@ -93,3 +93,4 @@
 |github.com/mtownsend5512/read-time|A PHP package to show users how long it takes to read content.|<br>
 |github.com/ryangjchandler/bearer|Minimalistic token-based authorization for Laravel API endpoints.|<br>
 |github.com/eramitgupta/laravel-disposable-email|A Laravel package to detect and block disposable email addresses with 100K  known domains.|<br>
+|github.com/willvincent/laravel-unique|Provides a model trait to automatically append a value to model values that should be unique.|<br>
