@@ -182,3 +182,4 @@
 |github.com/cdoco/common-regex|🎃 常用正则表达式 - 收集一些在平时项目开发中经常用到的正则表达式。|<br>
 |github.com/bestZwei/ipfsbed|IPFSBED - Decentralized IPFS File Hosting Service|<br>
 |github.com/Xhofe/imgbed|📒多接口/自定义接口的文件/图片上传|<br>
+|github.com/MarSeventh/CloudFlare-ImgBed|Open-source file hosting solution based on CloudFlare (Image hosting/File storage/Cloud drive) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）|<br>
