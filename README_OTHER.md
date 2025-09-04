@@ -185,3 +185,4 @@
 |github.com/MarSeventh/CloudFlare-ImgBed|Open-source file hosting solution based on CloudFlare (Image hosting/File storage/Cloud drive) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）|<br>
 |github.com/robinkarlberg/transfer.zip-web|Transfer files securely between browsers using WebRTC data channels and more|<br>
 |github.com/uxiaohan/ZYCS-IMG|骤雨重山图床|<br>
+|github.com/konsheng/Sensitive-lexicon|一个持续更新的中文敏感词库，帮助开发者和内容审核者快速识别并过滤不当文本。|<br>
