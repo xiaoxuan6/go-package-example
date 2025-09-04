@@ -558,3 +558,4 @@
 ||github.com/vrischmann/userdir|Go package to get user directories|<br>
 ||github.com/segmentio/kafka-go|Kafka library in Go|<br>
 ||github.com/alperdrsnn/clime|Beautiful Terminal UI for Go|<br>
+||github.com/xpzouying/headless_browser|headless browser, powered by go-rod|<br>
