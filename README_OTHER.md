@@ -190,3 +190,4 @@
 |github.com/0xsdeo/Bypass_Debugger|Bypass无限debugger|<br>
 |github.com/daisixuan/Geetest-AST-|一键反混淆所有版本的极验混淆JS|<br>
 |github.com/jsdom/jsdom|A JavaScript implementation of various web standards, for use with Node.js|<br>
+|github.com/Stuk/jszip|Create, read and edit .zip files with Javascript|<br>
