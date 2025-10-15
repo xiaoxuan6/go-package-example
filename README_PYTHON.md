@@ -12,3 +12,4 @@
 |github.com/chenwei-zhao/captcha-recognizer|滑块验证码识别，基于YOLOv8训练，支持单缺口、多缺口、截图识别，pip安装即可使用，感谢Star|<br>
 |github.com/globocom/m3u8|Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions|<br>
 |github.com/jhao104/proxy_pool|Python ProxyPool for web spider|<br>
+|github.com/aioqzone/pychaosvm|A Python envirionment for Tencent ChaosVM.|<br>
