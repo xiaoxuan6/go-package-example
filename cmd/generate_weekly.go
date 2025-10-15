@@ -485,7 +485,7 @@ func contentTemplate() (templateBase string) {
 	}
 
 	if len(homepage) > 0 {
-		u := "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaoxuan6/weekly/main/docs"
+		u := "https://ghfast.top/https://raw.githubusercontent.com/xiaoxuan6/weekly/main/docs"
 		templateBase = fmt.Sprintf("%s![img](%s/static/images/%s/%s){.img-fluid tag=1}\n", templateBase, u, time2.NewTime().Date(), filepath.Base(img))
 
 		if len(descriptionVar) == 0 {
