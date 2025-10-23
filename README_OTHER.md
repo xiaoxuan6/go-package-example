@@ -192,3 +192,4 @@
 |github.com/jsdom/jsdom|A JavaScript implementation of various web standards, for use with Node.js|<br>
 |github.com/Stuk/jszip|Create, read and edit .zip files with Javascript|<br>
 |github.com/emn178/js-sha3|A simple SHA-3 / Keccak hash function for JavaScript supports UTF-8 encoding.|<br>
+|github.com/xifangczy/cat-catch|猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension|<br>
