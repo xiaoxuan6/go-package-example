@@ -13,3 +13,4 @@
 |github.com/globocom/m3u8|Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions|<br>
 |github.com/jhao104/proxy_pool|Python ProxyPool for web spider|<br>
 |github.com/aioqzone/pychaosvm|A Python envirionment for Tencent ChaosVM.|<br>
+|github.com/JaveleyQAQ/WeChatOpenDevTools-Python|WeChatOpenDevTool 微信小程序强制开启开发者工具|<br>
