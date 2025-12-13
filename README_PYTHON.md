@@ -14,3 +14,4 @@
 |github.com/jhao104/proxy_pool|Python ProxyPool for web spider|<br>
 |github.com/aioqzone/pychaosvm|A Python envirionment for Tencent ChaosVM.|<br>
 |github.com/JaveleyQAQ/WeChatOpenDevTools-Python|WeChatOpenDevTool 微信小程序强制开启开发者工具|<br>
+|github.com/gitpetyr/ppllocr|用于识别图形验证码的轻量级 OCR 库。目标上对标 Ddddocr，部分情况性能与准确度碾压 Ddddocr。|<br>
