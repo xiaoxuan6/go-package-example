@@ -194,3 +194,4 @@
 |github.com/emn178/js-sha3|A simple SHA-3 / Keccak hash function for JavaScript supports UTF-8 encoding.|<br>
 |github.com/xifangczy/cat-catch|猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension|<br>
 |github.com/proxifly/free-proxy-list?tab=readme-ov-file|🚀 Free HTTP, SOCKS4,|<br>
+|github.com/frankiejun/wxpushSkin|这是一个配合 WxPush 项目使用的消息推送皮肤项目|<br>
