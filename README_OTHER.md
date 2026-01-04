@@ -197,3 +197,4 @@
 |github.com/frankiejun/wxpushSkin|这是一个配合 WxPush 项目使用的消息推送皮肤项目|<br>
 |github.com/slightlee/regions_data|省市区县乡镇四级行政区划数据 | 支持 SQLite/JSON 格式 | 在线预览 | 数据同步于 2025年12月|<br>
 |github.com/mg-chao/snow-shot|超好用的截图工具|<br>
+|github.com/vsme/chinese-days|中国法定节假日、调休和工作日、24节气查询，农历阳历互转，提供 JSON 文件，对非开发者，还提供 iCal 日历订阅，可供 Google Calendar、Apple Calendar、Microsoft Outlook 等客户端使用。|<br>
