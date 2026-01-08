@@ -17,3 +17,4 @@
 |github.com/gitpetyr/ppllocr|用于识别图形验证码的轻量级 OCR 库。目标上对标 Ddddocr，部分情况性能与准确度碾压 Ddddocr。|<br>
 |github.com/chenyme/grok2api|基于 FastAPI 重构的 Grok2API，适配最新的Web调用格式，支持流式对话、图像生成、图像编辑、联网搜索、视频生成、深度思考，支持号池并发调用和自动负载均衡。|<br>
 |github.com/zxcvbn001/password_brute_dictionary|口令爆破字典，有键盘组合字典、拼音字典、字母与数字混合这三种类型|<br>
+|github.com/scrapy/parsel|Parsel lets you extract data from XML/HTML documents using XPath or CSS selectors|<br>
