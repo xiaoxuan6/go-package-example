@@ -327,7 +327,7 @@ func fetchRepositoryAndUrl() (string, string, string) {
 }
 
 func fetchDescription(owner, repo, uri string) string {
-	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.xiaoxuan6.nyc.mn/repos/%s/%s", owner, repo))
+	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.cc/repos/%s/%s", owner, repo))
 	if err != nil {
 		return ""
 	}
