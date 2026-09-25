@@ -425,7 +425,7 @@ func downloadImage() {
 
 	img = fmt.Sprintf("%s/%s.png", filePath, strconv.Itoa(int(time.Now().Unix())))
 
-	response, err := http.DefaultClient.Get(fmt.Sprintf("https://wr.do/api/v1/scraping/screenshot?url=%s&key=8e4c0fac-5526-4d81-a2f0-e534251ea457", strings.TrimRight(homepage, "/")))
+	response, err := http.DefaultClient.Get(fmt.Sprintf("https://image.thum.io/get/maxAge/12/width/700/%s", strings.TrimRight(homepage, "/")))
 	defer response.Body.Close()
 	if err != nil {
 		return
