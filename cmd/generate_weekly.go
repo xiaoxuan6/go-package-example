@@ -3,6 +3,8 @@ package main
 import (
 	"bufio"
 	"context"
+	"crypto/md5"
+	"encoding/hex"
 	"flag"
 	"fmt"
 	"github.com/abadojack/whatlanggo"
@@ -425,7 +427,31 @@ func downloadImage() {
 
 	img = fmt.Sprintf("%s/%s.png", filePath, strconv.Itoa(int(time.Now().Unix())))
 
-	response, err := http.DefaultClient.Get(fmt.Sprintf("https://image.thum.io/get/maxAge/12/width/700/%s", strings.TrimRight(homepage, "/")))
+	// usage 1: thum
+	//response, err := http.DefaultClient.Get(fmt.Sprintf("https://image.thum.io/get/maxAge/12/width/700/%s", strings.TrimRight(homepage, "/")))
+
+	// usage 2: url2png
+	Key := "P7FC1E9A0D0E091"
+	Secret := "S_2D799EC4593F0"
+	queryString := fmt.Sprintf(
+		"url=%s&fullpage=%s&viewport=%s&say_cheese=true&delay=2%s",
+		url2.QueryEscape(homepage),
+		"false",
+		"1280x1024",
+		Secret,
+	)
+
+	hash := md5.Sum([]byte(queryString))
+	md5String := hex.EncodeToString(hash[:])
+
+	u := url2.URL{
+		Scheme:   "https",
+		Host:     "api.url2png.com",
+		Path:     fmt.Sprintf("/v6/%s/%s/png/", Key, md5String),
+		RawQuery: queryString,
+	}
+	response, err := http.DefaultClient.Get(u.String())
+
 	defer response.Body.Close()
 	if err != nil {
 		return
