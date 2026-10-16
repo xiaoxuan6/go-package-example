@@ -29,6 +29,7 @@ import (
 	"os"
 	time2 "package-example/pkg/time"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"strings"
 	"sync"
@@ -179,7 +180,7 @@ func main() {
 
 ![view-count](https://count.getloli.com/@xiaoxuan6-weekly-%s)
 
----%s`, strings.ReplaceAll(filename, ".md", ""), time.Now().Format("20060102"), content))
+---%s`, strings.ReplaceAll(filename, ".md", ""), time.Now().Format("20060102"), strings.ReplaceAll(content, `(*)`, `1、`)))
 
 			ch1 <- true
 
@@ -187,8 +188,12 @@ func main() {
 
 			ch <- false
 
+			// 处理文章内容，统计标题数量
+			count := fetchContentTotal(newFilename)
+			count += 1
+
 			f, _ := os.OpenFile(newFilename, os.O_WRONLY|os.O_APPEND, os.ModePerm)
-			_, _ = f.WriteString(content)
+			_, _ = f.WriteString(strings.ReplaceAll(content, `(*)`, fmt.Sprintf("%s、", strconv.Itoa(count))))
 
 			ch1 <- true
 			filenameBeta <- newFilename
@@ -313,6 +318,17 @@ func main() {
 	}
 
 	logrus.Info(color.GreenString("ok"))
+}
+
+func fetchContentTotal(filename string) int {
+	bs, _ := os.ReadFile(filename)
+	content := string(bs)
+	println(content)
+
+	re, _ := regexp.Compile(`(?m)^\s*##\s+(?:\[([^\]]+)\]\(([^)]+)\)|(.+?))\s*$`)
+	find := re.FindAllStringSubmatch(string(bs), -1)
+
+	return len(find)
 }
 
 func fetchRepositoryAndUrl() (string, string, string) {
@@ -495,18 +511,18 @@ func watermark(img string) {
 func contentTemplate() (templateBase string) {
 	if len(descriptionVar) < 1 {
 		templateBase = `
-## [%s](%s)
+## [(*)%s](%s)
 - 所属语言：%s
 - 项目说明：%s
 `
 	} else if strings.Compare(label, "article") == 0 {
 		templateBase = `
-## %s
+## (*)%s
 网站地址：[%s](%s)
 `
 	} else {
 		templateBase = `
-## [%s](%s)
+## [(*)%s](%s)
 - 项目说明：%s
 `
 	}
