@@ -158,7 +158,7 @@ func main() {
 		if len(descriptionVar) < 1 {
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, language, description)
 		} else if strings.Compare(label, "article") == 0 {
-			content = fmt.Sprintf(contentTemplate(), description, baseUrl)
+			content = fmt.Sprintf(contentTemplate(), description, baseUrl, baseUrl)
 		} else {
 			repository = strings.TrimRight(strings.ReplaceAll(repository, "https://", ""), "/")
 			content = fmt.Sprintf(contentTemplate(), repository, baseUrl, description)
@@ -501,7 +501,8 @@ func contentTemplate() (templateBase string) {
 `
 	} else if strings.Compare(label, "article") == 0 {
 		templateBase = `
-## [%s](%s)
+## %s
+网站地址：[%s](%s)
 `
 	} else {
 		templateBase = `
