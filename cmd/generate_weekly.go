@@ -20,6 +20,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 	"github.com/xiaoxuan6/deeplx"
+	db "github.com/xiaoxuan6/go-package-db"
+	"gorm.io/gorm"
 	"image"
 	"io"
 	"io/fs"
@@ -284,39 +286,50 @@ func main() {
 		return
 	}
 
-	var message string
-	commitSlice := make([]string, 2)
-	if ok := <-mkdocs; ok {
-		filenameCh := <-filenameBeta
-		newFilename := strings.ReplaceAll(filenameCh, path, "")
-		newFilename = strings.ReplaceAll(newFilename, "/docs", "docs")
+	wg.Add(2)
 
-		commitSlice = append(commitSlice, newFilename, "links.txt")
+	go func() {
+		defer wg.Done()
+		saveDb(uri, descriptionVar, label)
+	}()
 
-		message = fmt.Sprintf("fix: Update %s", filepath.Base(filenameCh))
-	} else {
-		commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml", "links.txt")
+	go func() {
+		defer wg.Done()
+		if os.Getenv("APP_ENV") == "prod" {
+			var message string
+			commitSlice := make([]string, 2)
+			if ok := <-mkdocs; ok {
+				filenameCh := <-filenameBeta
+				newFilename := strings.ReplaceAll(filenameCh, path, "")
+				newFilename = strings.ReplaceAll(newFilename, "/docs", "docs")
 
-		message = fmt.Sprintf("feat: Add %s", filename)
-	}
+				commitSlice = append(commitSlice, newFilename, "links.txt")
 
-	logrus.Info("commitSlice", commitSlice)
+				message = fmt.Sprintf("fix: Update %s", filepath.Base(filenameCh))
+			} else {
+				commitSlice = append(commitSlice, filepath.Join("docs/", year, filename), "mkdocs.yml", "links.txt")
 
-	if err2 := gitCommit(message, commitSlice...); err2 != nil {
-		fmt.Println(color.RedString(err2.Error()))
-		return
-	}
+				message = fmt.Sprintf("feat: Add %s", filename)
+			}
 
-	if os.Getenv("APP_ENV") == "prod" {
-		logrus.Info(color.GreenString("git push"))
-		if err := gitPush(); err != nil {
-			logrus.Error(color.RedString(err.Error()))
-			return
+			logrus.Info("commitSlice", commitSlice)
+
+			if err2 := gitCommit(message, commitSlice...); err2 != nil {
+				fmt.Println(color.RedString(err2.Error()))
+				return
+			}
+
+			logrus.Info(color.GreenString("git push"))
+			if err := gitPush(); err != nil {
+				logrus.Error(color.RedString(err.Error()))
+				return
+			}
+
+			_ = os.RemoveAll(path)
 		}
+	}()
 
-		_ = os.RemoveAll(path)
-	}
-
+	wg.Wait()
 	logrus.Info(color.GreenString("ok"))
 }
 
@@ -329,6 +342,39 @@ func fetchContentTotal(filename string) int {
 	find := re.FindAllStringSubmatch(string(bs), -1)
 
 	return len(find)
+}
+
+type Data struct {
+	gorm.Model
+	Url         string `json:"url" gorm:"index:url,unique;varchar(125);not null;comment:'地址'"`
+	Description string `json:"description" gorm:"varchar(125);not null;comment:'描述'"`
+	Type        string `json:"type" gorm:"char(20);not ull;comment:'类型';default:'article'"`
+}
+
+func saveDb(url, description, _type string) {
+	db.Init(
+		os.Getenv("DB_HOST"),
+		os.Getenv("DB_PORT"),
+		os.Getenv("DB_USERNAME"),
+		os.Getenv("DB_PASSWORD"),
+		os.Getenv("DB_NAME"),
+	)
+	defer db.Close()
+	db.AutoMigrate()
+
+	data := Data{
+		Url:         url,
+		Description: description,
+		Type:        _type,
+	}
+	res := db.DB.Where(&Data{Url: url, Type: _type}).Attrs(&data).FirstOrCreate(&data)
+	row := res.RowsAffected
+	if row < 1 {
+		logrus.Infof("url: %s 已存在", url)
+		return
+	}
+
+	logrus.Infof("url: %s 保存成功！", url)
 }
 
 func fetchRepositoryAndUrl() (string, string, string) {
