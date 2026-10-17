@@ -290,8 +290,9 @@ func main() {
 
 	go func() {
 		defer wg.Done()
-		_ = godotenv.Load()
-		saveDb(uri, descriptionVar, label)
+		logrus.Info("保存到数据库")
+		//_ = godotenv.Load()
+		//saveDb(uri, descriptionVar, label)
 	}()
 
 	go func() {
@@ -337,10 +338,9 @@ func main() {
 func fetchContentTotal(filename string) int {
 	bs, _ := os.ReadFile(filename)
 	content := string(bs)
-	println(content)
 
 	re, _ := regexp.Compile(`(?m)^\s*##\s+(?:\[([^\]]+)\]\(([^)]+)\)|(.+?))\s*$`)
-	find := re.FindAllStringSubmatch(string(bs), -1)
+	find := re.FindAllStringSubmatch(content, -1)
 
 	return len(find)
 }
