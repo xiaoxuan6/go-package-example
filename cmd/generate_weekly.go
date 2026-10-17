@@ -290,6 +290,7 @@ func main() {
 
 	go func() {
 		defer wg.Done()
+		_ = godotenv.Load()
 		saveDb(uri, descriptionVar, label)
 	}()
 
