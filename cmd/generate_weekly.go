@@ -20,7 +20,6 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 	"github.com/xiaoxuan6/deeplx"
-	db "github.com/xiaoxuan6/go-package-db"
 	"gorm.io/gorm"
 	"image"
 	"io"
@@ -362,29 +361,30 @@ func saveDb(url, description, _type string) {
 	)
 	logrus.Info(dns)
 
-	db.Init(
-		os.Getenv("DB_HOST"),
-		os.Getenv("DB_PORT"),
-		os.Getenv("DB_USERNAME"),
-		os.Getenv("DB_PASSWORD"),
-		os.Getenv("DB_NAME"),
-	)
-	defer db.Close()
-	db.AutoMigrate()
-
+	//db.Init(
+	//	os.Getenv("DB_HOST"),
+	//	os.Getenv("DB_PORT"),
+	//	os.Getenv("DB_USERNAME"),
+	//	os.Getenv("DB_PASSWORD"),
+	//	os.Getenv("DB_NAME"),
+	//)
+	//defer db.Close()
+	//db.AutoMigrate()
+	//
 	data := Data{
 		Url:         url,
 		Description: description,
 		Type:        _type,
 	}
-	res := db.DB.Where(&Data{Url: url, Type: _type}).Attrs(&data).FirstOrCreate(&data)
-	row := res.RowsAffected
-	if row < 1 {
-		logrus.Infof("url: %s 已存在", url)
-		return
-	}
-
-	logrus.Infof("url: %s 保存成功！", url)
+	logrus.Info(data)
+	//res := db.DB.Where(&Data{Url: url, Type: _type}).Attrs(&data).FirstOrCreate(&data)
+	//row := res.RowsAffected
+	//if row < 1 {
+	//	logrus.Infof("url: %s 已存在", url)
+	//	return
+	//}
+	//
+	//logrus.Infof("url: %s 保存成功！", url)
 }
 
 func fetchRepositoryAndUrl() (string, string, string) {
