@@ -7,7 +7,7 @@ on:
         description: 'github uri'
         required: true
       description_var:
-        description: '描述'
+        description: '描述：标签为 label 时，标题和描述用 “|” 分割'
         required: false
         type: string
       is_download:
