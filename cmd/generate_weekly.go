@@ -391,22 +391,26 @@ func fetchRepositoryAndUrl() (string, string, string) {
 }
 
 func fetchDescription(owner, repo string) string {
-	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.cc/repos/%s/%s", owner, repo))
-	defer response.Body.Close()
-	if err != nil {
-		return ""
-	}
+	// https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10#get-a-repository
+	_client := http.DefaultClient
+	re, _ := http.NewRequest("GET", fmt.Sprintf("https://api.github.com/repos/%s/%s", owner, repo), nil)
 
-	b, _ := ioutil.ReadAll(response.Body)
-	repo_ := gjson.GetBytes(b, "repo").String()
-	if len(repo_) < 1 {
-		logrus.Error("description fetch fail")
-		return ""
-	}
+	re.Header.Set("Accept", "application/vnd.github+json")
+	re.Header.Set("Authorization", "Bearer "+os.Getenv("GITHUB_TOKEN"))
+	re.Header.Set("X-GitHub-Api-Version", "2026-03-10")
 
-	description := gjson.GetBytes(b, "repo.description").String()
-	language = gjson.GetBytes(b, "repo.language").String()
-	homepage = gjson.GetBytes(b, "repo.homepage").String()
+	resp, _ := _client.Do(re)
+	bs, _ := ioutil.ReadAll(resp.Body)
+
+	description := gjson.GetBytes(bs, "description").String()
+	_homepage := gjson.GetBytes(bs, "homepage").String()
+	if len(_homepage) > 0 {
+		homepage = _homepage
+	}
+	_language := gjson.GetBytes(bs, "language").String()
+	if len(_language) > 0 {
+		language = _language
+	}
 
 	//description := "Nonograph is a minimalist anonymous publishing tool that allows you to create richly formatted posts and get a shareable link in just a click."
 	lang := whatlanggo.DetectLang(description)
@@ -629,6 +633,7 @@ func contentTemplate() (templateBase string) {
 		templateBase = `
 ## (*)%s
 - 项目说明：%s
+
 网站地址：[%s](%s)
 `
 	} else {
