@@ -4,6 +4,7 @@ go 1.23.3
 
 require (
 	github.com/abadojack/whatlanggo v1.0.1
+	github.com/avast/retry-go v2.7.0+incompatible
 	github.com/fatih/color v1.16.0
 	github.com/go-git/go-git/v5 v5.11.0
 	github.com/goccy/go-yaml v1.11.3
@@ -18,6 +19,7 @@ require (
 	github.com/xiaoxuan6/deeplx v0.2.1
 	github.com/xiaoxuan6/go-package-db v0.0.0-20231119065132-b01494357492
 	golang.org/x/oauth2 v0.24.0
+	gorm.io/gorm v1.25.5
 )
 
 require (
@@ -26,7 +28,6 @@ require (
 	github.com/OwO-Network/DeepLX v1.0.1 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
-	github.com/avast/retry-go v2.7.0+incompatible // indirect
 	github.com/cloudflare/circl v1.5.0 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
@@ -72,5 +73,4 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gorm.io/driver/mysql v1.5.2 // indirect
-	gorm.io/gorm v1.25.5 // indirect
 )

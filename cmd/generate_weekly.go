@@ -8,6 +8,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/abadojack/whatlanggo"
+	"github.com/avast/retry-go"
 	"github.com/fatih/color"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
@@ -19,7 +20,6 @@ import (
 	"github.com/sahilm/fuzzy"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
-	"github.com/xiaoxuan6/deeplx"
 	db "github.com/xiaoxuan6/go-package-db"
 	"gorm.io/gorm"
 	"image"
@@ -82,17 +82,17 @@ func main() {
 		owner, repository, baseUrl = fetchRepositoryAndUrl()
 
 		if len(descriptionVar) < 1 {
-			description = fetchDescription(owner, repository, baseUrl)
+			description = fetchDescription(owner, repository)
 		} else {
 			description = descriptionVar
 		}
 	} else {
 		baseUrl, homepage, repository = uri, uri, uri
 		description = descriptionVar
+	}
 
-		if len(banner) > 0 {
-			homepage = banner
-		}
+	if len(banner) > 0 {
+		homepage = banner
 	}
 
 	// --------------------- 去重 START ---------------------
@@ -390,28 +390,90 @@ func fetchRepositoryAndUrl() (string, string, string) {
 	return result[1], result[2], fmt.Sprintf("%s://%s%s", u.Scheme, u.Host, u.Path)
 }
 
-func fetchDescription(owner, repo, uri string) string {
+func fetchDescription(owner, repo string) string {
 	response, err := http.DefaultClient.Get(fmt.Sprintf("https://ungh.cc/repos/%s/%s", owner, repo))
+	defer response.Body.Close()
 	if err != nil {
 		return ""
 	}
-	defer response.Body.Close()
 
 	b, _ := ioutil.ReadAll(response.Body)
+	repo_ := gjson.GetBytes(b, "repo").String()
+	if len(repo_) < 1 {
+		logrus.Error("description fetch fail")
+		return ""
+	}
+
 	description := gjson.GetBytes(b, "repo.description").String()
 	language = gjson.GetBytes(b, "repo.language").String()
 	homepage = gjson.GetBytes(b, "repo.homepage").String()
 
+	//description := "Nonograph is a minimalist anonymous publishing tool that allows you to create richly formatted posts and get a shareable link in just a click."
 	lang := whatlanggo.DetectLang(description)
 	sourceLang := strings.ToLower(lang.Iso6391())
-	if sourceLang != "zh" {
-		res := deeplx.Translate(description, sourceLang, "zh")
-		if res.Code == 200 {
-			description = res.Data
-		}
+	if sourceLang != "zh" && len(description) > 0 {
+		return translate(description)
 	}
 
 	return description
+}
+
+func translate(description string) string {
+	// t in milliseconds since epoch
+	t := time.Now().UnixMilli() // or: time.Now().UnixNano() / int64(time.Millisecond)
+
+	// compute MD5 of "<t>FOXIT_YEE_TRANSLATE"
+	raw := fmt.Sprintf("%dFOXIT_YEE_TRANSLATE", t)
+	sum := md5.Sum([]byte(raw))
+	sign := hex.EncodeToString(sum[:])
+
+	data := url2.Values{
+		"plateform": {"web"},
+		"orginL":    {"auto"},
+		"targetL":   {"zh-CN"},
+		"text":      {description},
+		"timestamp": {strconv.FormatInt(t, 10)},
+		"sign":      {sign},
+		"userId":    {""},
+	}
+
+	var body []byte
+	err := retry.Do(
+		func() error {
+			re, err := http.NewRequest("POST", "https://fanyi.pdf365.cn/api/wordTranslateResult", strings.NewReader(data.Encode()))
+			if err != nil {
+				body = []byte(`{"code":500, "message": "` + err.Error() + `"}`)
+				return err
+			}
+
+			re.Header.Set("Origin", "https://fanyi.pdf365.cn")
+			re.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+			re.Header.Set("Referer", "https://fanyi.pdf365.cn")
+			re.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+
+			client := http.DefaultClient
+			response, err := client.Do(re)
+			if err != nil {
+				body = []byte(`{"code":500, "message": "` + err.Error() + `"}`)
+				return err
+			}
+
+			defer func() {
+				_ = response.Body.Close()
+			}()
+
+			body, err = io.ReadAll(response.Body)
+			return err
+		},
+		retry.Attempts(3),
+		retry.LastErrorOnly(true),
+	)
+
+	if err != nil || gjson.GetBytes(body, "result").String() == "" {
+		return description
+	}
+
+	return gjson.Get(string(body), "result").String()
 }
 
 func distinct(path string) bool {
